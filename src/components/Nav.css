@@ -1,0 +1,30 @@
+.navbar .dropdown .dropdown-menu {
+
+    background-color: #D1E7DD;
+}
+
+.navbar .nav-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.navbar .nav-item a:hover {
+    background-color: #69b090;
+    color: #000;
+    border-radius: 4px;
+    /* padding: 4px 16px !important ; */
+
+}
+
+
+
+
+.navbar .nav-item a:focus {
+    background-color: #58a783;
+    color: #fff;
+    border-radius: 4px;
+
+}

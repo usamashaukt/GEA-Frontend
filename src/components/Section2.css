@@ -1,0 +1,44 @@
+.global-imgs {
+    background-color: #d1e7dd;
+}
+
+@media (max-width: 992px) {
+
+    /* .global-imgs {
+        max-height: 275px;
+    }
+*/
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+.global-imgs::before {
+    content: "";
+    display: table;
+}
+
+.global-imgs .container .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.global-imgs .container .row .col-lg-6 {
+    max-width: 450px;
+}
+
+@media (max-width: 767px) {
+    /* .global-imgs {
+       
+        
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+}

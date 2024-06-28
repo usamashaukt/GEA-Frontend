@@ -1,0 +1,19 @@
+.margin-20 {
+    margin-top: 20px;
+}
+
+.welcome-line {
+    font-weight: bold;
+    font-size: 30px;
+    color: #004d00;
+}
+
+.container p strong {
+    color: #4f9676;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.welcome-sec {
+    min-height: 111px;
+}

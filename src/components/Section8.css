@@ -1,0 +1,13 @@
+.study-heading h4 {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #555;
+    background-color: #ebebeb;
+    padding: 8px;
+    margin: 0px;
+    padding-right: 32px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
