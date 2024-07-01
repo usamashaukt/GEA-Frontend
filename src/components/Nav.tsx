@@ -1,4 +1,5 @@
 import "./Nav.css";
+import React from "react";
 
 interface Props {}
 
@@ -178,44 +179,7 @@ const Nav = (props: Props) => {
                   </li>
                 </ul>
               </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#">
-                  UK University Profiles
-                </a>
-              </li>{" "} */}
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#">
-                  UK University Study Guide
-                </a>
-              </li> */}
-              {/* <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Prepare IELTS with GEA
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      IELTS Language Centre
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Practice Test in Peshawar
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      What is IELTS?
-                    </a>
-                  </li>
-                </ul>
-              </li> */}
+              
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -248,6 +212,7 @@ const Nav = (props: Props) => {
           </div>
         </div>
       </nav>
+      
     </>
   );
 };
