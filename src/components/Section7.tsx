@@ -5,16 +5,17 @@ type Props = {};
 const Section7 = (props: Props) => {
   return (
     <div>
-      <div className="container-fluid margin-20 news-date">
+      <div className="container margin-20 news-date">
         <div className="row">
           <div className="col-lg-6 col-sm-6 col-xs-12 news_events_row">
             <section id="news_events">
               <h3 className="news-heading mar-t15 d-flex align-items-center">
-              <img
+                <img
                   src="../assets/images/sec7/news.svg"
                   className="blue-color mx-1"
                   alt=""
-                />News
+                />
+                News
               </h3>
               <div id="home-news-events">
                 <div className="blue-box p-4">
@@ -28,7 +29,7 @@ const Section7 = (props: Props) => {
                     <a href="/pakistan/news/four-uk-business-schools-feature-top-15-global-business-school-ranking/">
                       <div className="data mb-2">
                         <h5 className="news-date">9 Mar</h5>
-                        <span>
+                        <span className="text-3xl font-bold">
                           Four UK Business Schools feature in top 15 of global
                           business school ranking
                         </span>
@@ -76,7 +77,8 @@ const Section7 = (props: Props) => {
                   src="../assets/images/sec7/calender.svg"
                   className="blue-color mx-1"
                   alt=""
-                />Events
+                />
+                Events
               </h3>
               <div id="events">
                 <div className="blue-box p-4">

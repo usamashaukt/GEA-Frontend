@@ -27,12 +27,16 @@ const Section6 = (props: Props) => {
                 </strong>{" "}
                 or{" "}
                 <strong>
-                  <a href="/pakistan/study-options/postgraduate-and-masters-degree/">
+                  <a
+                    className=""
+                    href="/pakistan/study-options/postgraduate-and-masters-degree/"
+                  >
                     Postgraduate
                   </a>
                 </strong>
                 .
               </p>
+
               <div className="inner-img d-flex flex-wrap justify-content-center home-img-wrapper clearfix">
                 <div className="col-lg-2 col-sm-6 col-xs-12 text-center p-3 pb-0">
                   <img
