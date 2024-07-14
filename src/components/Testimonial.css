@@ -1,0 +1,36 @@
+#testimonial {
+    background-size: contain !important;
+}
+
+.testimonial-title {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.testimonial-wrapper {
+    background: none repeat scroll 0 0 #edf2ff;
+    width: 100%;
+    padding-top: 15px;
+}
+
+blockquote h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px
+}
+
+blockquote h4 span {
+    font-size: 15px;
+    font-weight: normal;
+    display: block;
+    font-style: italic;
+}
+
+
+
+.leading-unis>h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
