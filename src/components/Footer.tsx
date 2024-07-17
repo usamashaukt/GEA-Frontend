@@ -1,3 +1,5 @@
+import './Footer.css'
+
 interface Props {}
 
 const Footer = (props: Props) => {

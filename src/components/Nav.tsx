@@ -5,7 +5,7 @@ interface Props {}
 const Nav = (props: Props) => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-success-subtle p-0">
+      <nav className="navbar navbar-expand-lg  p-0">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img

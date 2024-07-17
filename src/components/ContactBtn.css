@@ -1,24 +1,24 @@
 .contact-btn a {
     font-size: 16px;
-    background: #004d00;
-    color: #fff;
+    background: #FFF;
+    color: #B40C31;
     padding: 10px 20px;
     text-transform: uppercase;
-    -webkit-transition: 0.8s;
-    -moz-transition: 0.8s;
-    -o-transition: 0.8s;
-    transition: 0.8s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
     cursor: pointer;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    border: 2px solid #004d00;
-    text-decoration: none;
+    /* border: 2px solid #B40C31; */
+    text-decoration: none;   
 }
 
 .contact-btn a:hover {
     /* background-color: #69b090; */
     background: transparent;
-    color: #004d00;
+    color: #fff;
     border-radius: 5px;
-    border: 2px solid #004d00;
+    border: 1px solid #fff;
 }

@@ -10,10 +10,11 @@
 
 .banner-btn {
     /* border-color: #0f387d; */
-    background-color: #d1e7dd !important;
+    background-color: #B40C31 !important;
     padding: 10px;
-    color: #0f387d;
+    /* color: #0f387d; */
     min-width: 96px;
+    color: #fff !important;
     margin-right: 5px;
     min-height: 40px;
     border: none !important;
@@ -21,13 +22,13 @@
 }
 
 .banner-btn:hover {
-    background-color: #69b090 !important;
+    background-color: #2B5FE0 !important;
     /* border-color: #69b090; */
     color: #fff !important;
 }
 
 .banner-btn:focus {
-    background-color: #58a783 !important;
+    background-color: #2B5FE0 !important;
     color: #fff;
     /* outline: none;
     border: none; */

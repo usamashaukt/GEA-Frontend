@@ -5,7 +5,7 @@ import Select from "react-select";
 interface Props {}
 
 const Search = (props: Props) => {
-  const [searchTerm, setSearchTerm] = useState("");
+  // const [searchTerm, setSearchTerm] = useState("");
   const [options] = useState([
     { value: "1", label: "One" },
     { value: "2", label: "Two" },
@@ -76,10 +76,11 @@ const Search = (props: Props) => {
               border: 0,
               borderColor: "none",
               "&:hover": {
-                backgroundColor: "#69b090",
+                backgroundColor: "#2B5FE0",
               },
               ...(state.selectProps.menuIsOpen && {
-                backgroundColor: "#58a783",
+                backgroundColor: "#2B5FE0",
+                color: "#fff",
               }),
             }),
             menu: (provided) => ({
@@ -116,10 +117,10 @@ const Search = (props: Props) => {
               outline: "none",
               border: 0,
               borderColor: "none",
-              "&:hover": { backgroundColor: "#69b090" },
+              "&:hover": { backgroundColor: "#2B5FE0" },
 
               ...(state.selectProps.menuIsOpen && {
-                backgroundColor: "#58a783",
+                backgroundColor: "#2B5FE0",
               }),
             }),
             menu: (provided) => ({
@@ -129,7 +130,6 @@ const Search = (props: Props) => {
               // marginLeft: "5px",
               borderTopLeftRadius: "0",
               borderTopRightRadius: "0",
-
               "&:hover": {},
             }),
             placeholder: (provided) => ({
@@ -142,43 +142,6 @@ const Search = (props: Props) => {
           }}
         />
       </div>
-      {/* <div className="search-wrapper " ref={dropdownRef}>
-      <div className="d-flex flex-column position-relative">
-        <input
-          type="text"
-          className="form-control"
-          placeholder="Choose a subject or enter a keyword"
-          value={searchTerm}
-          onChange={handleSearch}
-          onClick={handleInputClick}
-          readOnly
-        />
-        {showDropdown && (
-          <div className="dropdown-menu show w-100">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Search..."
-              value={searchTerm}
-              onChange={handleSearch}
-            />
-            <div style={{ height: "200px", overflowY: "scroll" }}>
-              {filteredOptions.map((option) => (
-                <div
-                  key={option.value}
-                  className="dropdown-item"
-                  onClick={() => handleOptionClick(option)}
-                >
-                  {option.label}
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-      </div>
-
-      
-    </div> */}
     </div>
   );
 };

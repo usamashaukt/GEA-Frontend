@@ -5,11 +5,11 @@
 .welcome-line {
     font-weight: bold;
     font-size: 30px;
-    color: #004d00;
+    color: #FFF;
 }
 
 .container p strong {
-    color: #4f9676;
+    color: #FFF;
     cursor: pointer;
     font-size: 18px;
 }

@@ -2,19 +2,20 @@ import ContactBtn from "./ContactBtn";
 import "./Section3.css";
 interface Props {
   imgServices: Array<any>;
-  children: any;
+  description: any;
   title: string;
+
   mainStyles?: any;
 }
 
-const Section3 = ({ children, imgServices, title, mainStyles }: Props) => {
+const Section3 = ({ description, imgServices, title, mainStyles }: Props) => {
   return (
     <div style={mainStyles}>
       <div className="introduction">
         <div className="container">
           <div className="row">
             <h2 className="welcome-line text-center mt-4">{title}</h2>
-            {children}
+            {description}
             <div className="inner-img d-flex flex-wrap justify-content-center home-img-wrapper clearfix">
               {imgServices.map((imgService: any, i: number) => (
                 <div
