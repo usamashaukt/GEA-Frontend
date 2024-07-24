@@ -5,15 +5,26 @@
 .welcome-line {
     font-weight: bold;
     font-size: 30px;
-    color: #FFF;
+    /* color: #FFF; */
 }
 
-.container p strong {
-    color: #FFF;
+.welcome-sec p strong {
+    color: #000;
     cursor: pointer;
     font-size: 18px;
+    text-underline-offset: 2px;
+    text-decoration: underline;
 }
 
+.welcome-sec p strong a {}
+
+
+
+
+/* .container .pager-2 p strong {
+    color: #000;
+} */
+
 .welcome-sec {
-    min-height: 111px;
+    min-height: 130px;
 }

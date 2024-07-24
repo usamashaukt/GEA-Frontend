@@ -1,48 +1,28 @@
-/* .carousel-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: transparent;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 2;
-  }
-  
-  .carousel-arrow-next {
-    right: 10px;
-  }
-  
-  .carousel-arrow-prev {
-    left: 10px;
-  }
-  
-  .carousel-control-next-icon,
-  .carousel-control-prev-icon {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: no-repeat 50%/100% 100%;
-  }
-  
-  .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3e%3cpath fill-rule='evenodd' d='M4.293 1.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L9.586 8 4.293 2.707a1 1 0 010-1.414z'/%3e%3c/svg%3e");
-  }
-  
-  .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3e%3cpath fill-rule='evenodd' d='M11.707 14.707a1 1 0 01-1.414 0L4.293 8.707a1 1 0 010-1.414l6-6a1 1 0 111.414 1.414L6.414 8l5.293 5.293a1 1 0 010 1.414z'/%3e%3c/svg%3e");
-  }
-   */
 .slick-arrow .slick-next {
-    display: none !important;
+  display: none !important;
 
 }
 
 .slick-next::before {
-    display: none !important;
-    background-color: none !important;
+  display: none !important;
+  background-color: none !important;
 }
-.slick-prev:before{
-    display: none !important;
-    background-color: none !important;  
+
+.slick-prev:before {
+  display: none !important;
+  background-color: none !important;
+}
+
+.img-fluid {
+  height: 125px !important;
+  border-radius: 10px;
+}
+
+.slick-initialized .slick-slide {
+  width: 250px !important;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: middle;
 }

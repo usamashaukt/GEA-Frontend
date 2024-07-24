@@ -18,7 +18,7 @@
     margin-right: 5px;
     min-height: 40px;
     border: none !important;
-    
+
 }
 
 .banner-btn:hover {
@@ -34,12 +34,14 @@
     border: none; */
     border-color: #69b090;
 }
-.banner-btn:active{
+
+.banner-btn:active {
     border-color: #69b090;
     /* outline: none; 
     border: none; */
 
 }
+
 /* 
 .dropdown .btn {
     background-color: #d1e7dd;

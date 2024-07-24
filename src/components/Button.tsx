@@ -2,7 +2,8 @@ import React from "react";
 import "./Button.css";
 import Search from "./Search";
 
-interface Props {}
+interface Props { 
+}
 
 const Button = (props: Props) => {
   return (

@@ -1,0 +1,403 @@
+
+[
+  {
+    "label": "Bangor University",
+    "campus": "Bangor",
+    "value": "Bangor University"
+  },
+  {
+    "label": "Bath Spa University",
+    "campus": "Bath",
+    "value": "Bath Spa University"
+  },
+  {
+    "label": "Birmingham City University",
+    "campus": "Birmingham",
+    "value": "Birmingham City University"
+  },
+  {
+    "label": "Bloomsbury Institute",
+    "campus": "London",
+    "value": "Bloomsbury Institute"
+  },
+  {
+    "label": "BPP University",
+    "campus": "London, Birmingham, Manchester",
+    "value": "BPP University"
+  },
+  {
+    "label": "Coventry University",
+    "campus": "Coventry, London",
+    "value": "Coventry University"
+  },
+  {
+    "label": "De Montfort University",
+    "campus": "Leicester",
+    "value": "De Montfort University"
+  },
+  {
+    "label": "International Business College Manchester",
+    "campus": "Manchester",
+    "value": "International Business College Manchester"
+  },
+  {
+    "label": "London South Bank University",
+    "campus": "London",
+    "value": "London South Bank University"
+  },
+  {
+    "label": "Liver Pool John Moores University",
+    "campus": "Liverpool",
+    "value": "Liver Pool John Moores University"
+  },
+  {
+    "label": "Newcastle University College Centre",
+    "campus": "Newcastle",
+    "value": "Newcastle University College Centre"
+  },
+  {
+    "label": "Richmond American University London",
+    "campus": "London",
+    "value": "Richmond American University London"
+  },
+  {
+    "label": "University of Bedfordshire",
+    "campus": "Luton, Bedford",
+    "value": "University of Bedfordshire"
+  },
+  {
+    "label": "University of Bradford",
+    "campus": "Bradford",
+    "value": "University of Bradford"
+  },
+  {
+    "label": "University of Bolton",
+    "campus": "Bolton",
+    "value": "University of Bolton"
+  },
+  {
+    "label": "University of Chester",
+    "campus": "Chester, Warrington",
+    "value": "University of Chester"
+  },
+  {
+    "label": "University of Huddersfield",
+    "campus": "Huddersfield",
+    "value": "University of Huddersfield"
+  },
+  {
+    "label": "University of Lincoln",
+    "campus": "Lincoln",
+    "value": "University of Lincoln"
+  },
+  {
+    "label": "University of Middlesex",
+    "campus": "London",
+    "value": "University of Middlesex"
+  },
+  {
+    "label": "University of Stirling",
+    "campus": "Stirling, Scotland",
+    "value": "University of Stirling"
+  },
+  {
+    "label": "University of South Wales",
+    "campus": "South Wales, London",
+    "value": "University of South Wales"
+  },
+  {
+    "label": "University of west of scotland",
+    "campus": "London",
+    "value": "University of west of scotland"
+  },
+  {
+    "label": "University of Bolton",
+    "campus": "Holborn, Great Titchfield Street, Wembley, South Hall",
+    "value": "University of Bolton"
+  },
+  {
+    "label": "Canterburry Christ Church University",
+    "campus": "Cantbury, Kent",
+    "value": "Canterburry Christ Church University"
+  },
+  {
+    "label": "University of Gloucestershire",
+    "campus": "Cheltenham, Gloucester, Cotswolds",
+    "value": "University of Gloucestershire"
+  },
+  {
+    "label": "University of the Creative Arts",
+    "campus": "Canterbury, Epsom, Farnham, Rochester",
+    "value": "University of the Creative Arts"
+  },
+  {
+    "label": "The University of Law",
+    "campus": "London",
+    "value": "The University of Law"
+  },
+  {
+    "label": "Heriot-Watt University",
+    "campus": "Edinburgh",
+    "value": "Heriot-Watt University"
+  },
+  {
+    "label": "Bangor University International College",
+    "campus": "Wales",
+    "value": "Bangor University International College"
+  },
+  {
+    "label": "De Montfort University International College",
+    "campus": "Leicester",
+    "value": "De Montfort University International College"
+  },
+  {
+    "label": "Edinburgh Napier University International College",
+    "campus": "Edinburgh",
+    "value": "Edinburgh Napier University International College"
+  },
+  {
+    "label": "International College Dundee",
+    "campus": "Dundee",
+    "value": "International College Dundee"
+  },
+  {
+    "label": "Oxford International College Pathways London",
+    "campus": "London & Oxford Campus",
+    "value": "Oxford International College Pathways London"
+  },
+  {
+    "label": "University of Bradford International College",
+    "campus": "Bradford",
+    "value": "University of Bradford International College"
+  },
+  {
+    "label": "University of Greenwich International College",
+    "campus": "London",
+    "value": "University of Greenwich International College"
+  },
+  {
+    "label": "University of Kent International College",
+    "campus": "Cantbury, Medway",
+    "value": "University of Kent International College"
+  },
+  {
+    "label": "Ravensbourne University London",
+    "campus": "London",
+    "value": "Ravensbourne University London"
+  },
+  {
+    "label": "University of Roehampton",
+    "campus": "London",
+    "value": "University of Roehampton"
+  },
+  {
+    "label": "Brickbeck University",
+    "campus": "London",
+    "value": "Brickbeck University"
+  },
+  {
+    "label": "Northhumbria University",
+    "campus": "London",
+    "value": "Northhumbria University"
+  },
+  {
+    "label": "Solent University",
+    "campus": "Southhampton",
+    "value": "Solent University"
+  },
+  {
+    "label": "Ulster University",
+    "campus": "London & Birmingham",
+    "value": "Ulster University"
+  },
+  {
+    "label": "University of Roehampton",
+    "campus": "London",
+    "value": "University of Roehampton"
+  },
+  {
+    "label": "University of South Wales",
+    "campus": "Pontypridd, Cardiff",
+    "value": "University of South Wales"
+  },
+  {
+    "label": "Royal Hollway Direct",
+    "campus": "London",
+    "value": "Royal Hollway Direct"
+  },
+  {
+    "label": "Royal Hollway Direct International Study Centre",
+    "campus": "Surrey",
+    "value": "Royal Hollway Direct International Study Centre"
+  },
+  {
+    "label": "Cardiff University International Study Centre",
+    "campus": "Cardiff",
+    "value": "Cardiff University International Study Centre"
+  },
+  {
+    "label": "Durham University International Study Centre",
+    "campus": "Durham",
+    "value": "Durham University International Study Centre"
+  },
+  {
+    "label": "Kingston University International Study Centre",
+    "campus": "London",
+    "value": "Kingston University International Study Centre"
+  },
+  {
+    "label": "Leeds Beckett International Study Centre",
+    "campus": "Leeds",
+    "value": "Leeds Beckett International Study Centre"
+  },
+  {
+    "label": "Liver Pool John Moores University International Study Centre",
+    "campus": "Liverpool",
+    "value": "Liver Pool John Moores University International Study Centre"
+  },
+  {
+    "label": "Teesside University International Study Centre",
+    "campus": "Middlebrough",
+    "value": "Teesside University International Study Centre"
+  },
+  {
+    "label": "The University of Sheffield International Study Centre",
+    "campus": "Sheffield",
+    "value": "The University of Sheffield International Study Centre"
+  },
+  {
+    "label": "Universtiy of Aberdeen International Study Centre",
+    "campus": "Aberdeen",
+    "value": "Universtiy of Aberdeen International Study Centre"
+  },
+  {
+    "label": "Univerasity of Huddersfield International Study Centre",
+    "campus": "Huddersfield",
+    "value": "Univerasity of Huddersfield International Study Centre"
+  },
+  {
+    "label": "Universtiy of Leeds International Study Centre",
+    "campus": "Leeds",
+    "value": "Universtiy of Leeds International Study Centre"
+  },
+  {
+    "label": "University of Strathclyde International Study Centre",
+    "campus": "Glasgow",
+    "value": "University of Strathclyde International Study Centre"
+  },
+  {
+    "label": "University of Surrey International Study Centre",
+    "campus": "London",
+    "value": "University of Surrey International Study Centre"
+  },
+  {
+    "label": "University of Sussex International Study Centre",
+    "campus": "Brighton",
+    "value": "University of Sussex International Study Centre"
+  },
+  {
+    "label": "Bournemouth Universtiy International College",
+    "campus": "Bournemouth",
+    "value": "Bournemouth Universtiy International College"
+  },
+  {
+    "label": "Cranfield University",
+    "campus": "Cranfield",
+    "value": "Cranfield University"
+  },
+  {
+    "label": "Glasgow International College",
+    "campus": "Glasgow",
+    "value": "Glasgow International College"
+  },
+  {
+    "label": "Nottingham Trent International College",
+    "campus": "Nottingham",
+    "value": "Nottingham Trent International College"
+  },
+  {
+    "label": "The University of Birmingham",
+    "campus": "Birmingham",
+    "value": "The University of Birmingham"
+  },
+  {
+    "label": "Universtiy of Bristol",
+    "campus": "Bristol",
+    "value": "Universtiy of Bristol"
+  },
+  {
+    "label": "Universtiy of Brighton International College",
+    "campus": "Brighton",
+    "value": "Universtiy of Brighton International College"
+  },
+  {
+    "label": "University of Nottingham International College",
+    "campus": "Nottingham",
+    "value": "University of Nottingham International College"
+  },
+  {
+    "label": "UWE Bristol",
+    "campus": "Bristol",
+    "value": "UWE Bristol"
+  },
+  {
+    "label": "University of Westminster",
+    "campus": "London",
+    "value": "University of Westminster"
+  },
+  {
+    "label": "University of York International Pathway College",
+    "campus": "York",
+    "value": "University of York International Pathway College"
+  },
+  {
+    "label": "University of Liverpool",
+    "campus": "Liverpool",
+    "value": "University of Liverpool"
+  },
+  {
+    "label": "University of Essex",
+    "campus": "Colchester",
+    "value": "University of Essex"
+  },
+  {
+    "label": "City. University of London",
+    "campus": "London",
+    "value": "City. University of London"
+  },
+  {
+    "label": "Queen Marry University of London",
+    "campus": "London",
+    "value": "Queen Marry University of London"
+  },
+  {
+    "label": "TEDI - London",
+    "campus": "London",
+    "value": "TEDI - London"
+  },
+  {
+    "label": "Henley Business School",
+    "campus": "",
+    "value": "Henley Business School"
+  },
+  {
+    "label": "Loughborough University",
+    "campus": "",
+    "value": "Loughborough University"
+  },
+  {
+    "label": "Royal College of Surgeons, Ireland",
+    "campus": "",
+    "value": "Royal College of Surgeons, Ireland"
+  },
+  {
+    "label": "Georges. University of London",
+    "campus": "",
+    "value": "Georges. University of London"
+  },
+  {
+    "label": "University of Nicosia",
+    "campus": "",
+    "value": "University of Nicosia"
+  }
+]

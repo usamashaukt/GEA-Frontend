@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Nav from "./components/Nav";
 import "./App.css";
 import Banner from "./components/Banner";
@@ -11,8 +10,7 @@ function App() {
   // const [count, setCount] = useState(0);
   const services1 = [
     {
-      mainStyles:{ background: "#B40C31", color: "#fff" },
-
+      mainStyles: { background: "#B40C31", color: "#fff" },
       title: "SI-UK University Application Services",
       images: [
         {
@@ -37,7 +35,7 @@ function App() {
         },
       ],
       description: (
-        <p className="text-center">
+        <p className="text-center text-white-color">
           Our specialist UK university application services can help you receive
           an offer. Receive free application advice with the{" "}
           <strong>
@@ -64,6 +62,8 @@ function App() {
       ),
     },
     {
+      mainStyles: {},
+      btnColor: "#B40C31",
       title: "Popular UK University Courses",
       images: [
         {
@@ -93,7 +93,7 @@ function App() {
         },
       ],
       description: (
-        <p className="text-center">
+        <p className="text-center text-black-color">
           Learn more about the most{" "}
           <strong>
             <a href="/pakistan/popular-courses/">popular courses</a>
@@ -109,6 +109,7 @@ function App() {
       ),
     },
     {
+      mainStyles: { background: "#B40C31", color: "#fff" },
       title: "UK Institution Profiles",
       images: [
         {
@@ -138,7 +139,7 @@ function App() {
         },
       ],
       description: (
-        <p className="text-center">
+        <p className="text-center  ">
           Learn more about courses, rankings, scholarships and accommodation at
           UK{" "}
           <strong>
@@ -175,6 +176,7 @@ function App() {
     },
     {
       title: "Study Options",
+      btnColor: "#B40C31",
       images: [
         {
           src: "https://siuk-europe.s3.eu-west-2.amazonaws.com/assets/images/study-img-4-1-1.png",
@@ -203,7 +205,7 @@ function App() {
         },
       ],
       description: (
-        <p className="text-center">
+        <p className="text-center text-black-color ">
           Learn more about courses, rankings, scholarships and accommodation at
           UK{" "}
           <strong>
@@ -240,7 +242,6 @@ function App() {
     },
   ];
 
-
   return (
     <>
       <div>
@@ -251,6 +252,7 @@ function App() {
         {services1.map((service) => (
           <Section3
             title={service.title}
+            btnColor={service.btnColor}
             imgServices={service.images}
             mainStyles={service.mainStyles}
             description={service.description}

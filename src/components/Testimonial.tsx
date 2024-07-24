@@ -76,7 +76,7 @@ const testimonial = (props: Props) => {
       </div>
 
       <div className="my-4 leading-unis mx-auto container-fluid" style={{paddingLeft:"40px",paddingRight:"40px"}}>
-        <h2 className="mb-4">Leading Universities and GEA Partners</h2>
+        <h2 className="mb-5">Leading Universities and GEA Partners</h2> <div><i className="bi bi-chevron-right"></i></div>
         <CarouselSlider />
       </div>
     </div>
