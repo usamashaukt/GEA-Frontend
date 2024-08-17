@@ -2,23 +2,22 @@ import React, { useState } from "react";
 import Select from "react-select";
 import Unis from "../../src/data/universityNames.json";
 import Campus from "../../src/data/universityCampus.json";
+import "./Search.css";
 
 const Search = () => {
   const [selectedCampus, setSelectedCampus] = useState(null);
   const [filteredUnis, setFilteredUnis] = useState(Unis);
-  const [placeholder, setPlaceholder] = useState("University in UK");
+  const [placeholder, setPlaceholder] = useState("Universities in UK");
 
   const handleCampusChange = (selectedOption: React.SetStateAction<any>) => {
     setSelectedCampus(selectedOption);
     setPlaceholder(`University in ${selectedOption.label}`);
     if (selectedOption) {
-      // Filter universities based on the selected campus
       const filtered = Unis.filter((uni) =>
         uni.campus.includes(selectedOption.label)
       );
       setFilteredUnis(filtered);
     } else {
-      // If no campus is selected, show all universities
       setFilteredUnis(Unis);
     }
   };
@@ -31,8 +30,9 @@ const Search = () => {
           options={Campus}
           placeholder="Campuses"
           onChange={handleCampusChange}
+          classNamePrefix="react-select"
           styles={{
-            control: (provided, state) => ({
+            control: (provided) => ({
               ...provided,
               width: "320px",
               marginTop: "10px",
@@ -40,11 +40,6 @@ const Search = () => {
               color: "#000",
               outline: "none",
               border: 0,
-              // "&:hover": { backgroundColor: "#2B5FE0" },
-              // ...(state.selectProps.menuIsOpen && {
-              //   backgroundColor: "#2B5FE0",
-              //   color: "#fff",
-              // }),
             }),
             menu: (provided) => ({
               ...provided,
@@ -52,6 +47,7 @@ const Search = () => {
               borderTopLeftRadius: "0",
               borderTopRightRadius: "0",
               width: "320px",
+              animation: "fadeIn 300ms ease-in",
             }),
             placeholder: (provided) => ({
               ...provided,
@@ -59,14 +55,15 @@ const Search = () => {
             }),
             option: (provided, state) => ({
               ...provided,
-              backgroundColor: state.isSelected ? "#2B5FE0" : "#fff",
-              "&:hover": { backgroundColor: "#2B5FE0" },
+              backgroundColor: state.isSelected ? "#29ABE2" : "#fff",
+              "&:hover": { backgroundColor: "#29ABE2", color: "#fff" },
             }),
           }}
         />
         <Select
           options={filteredUnis}
           placeholder={placeholder}
+          classNamePrefix="react-select"
           styles={{
             control: (provided, state) => ({
               ...provided,
@@ -76,9 +73,10 @@ const Search = () => {
               color: "#000",
               outline: "none",
               border: 0,
-              "&:hover": { backgroundColor: "#2B5FE0" },
+              "&:hover": { backgroundColor: "" },
               ...(state.selectProps.menuIsOpen && {
-                backgroundColor: "#2B5FE0",
+                backgroundColor: "#fff",
+                outline: "none",
                 color: "#fff",
               }),
             }),
@@ -88,13 +86,17 @@ const Search = () => {
               borderTopLeftRadius: "0",
               borderTopRightRadius: "0",
               width: "320px",
+              animation: "fadeIn 300ms ease-in",
             }),
             placeholder: (provided) => ({
               ...provided,
               color: "#000",
+              outline: "none",
             }),
-            option: (provided) => ({
+            option: (provided, state) => ({
               ...provided,
+              backgroundColor: state.isSelected ? "#29ABE2" : "#fff",
+              "&:hover": { backgroundColor: "#29ABE2", color: "#fff" },
             }),
           }}
         />

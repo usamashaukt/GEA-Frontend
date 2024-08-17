@@ -10,19 +10,15 @@
 }
 
 .navbar .nav-item a:hover {
-    /* background-color: #69b090; */
     color: #000;
     border-radius: 4px;
-    /* padding: 4px 16px !important ; */
-
+    background-color: #29ABE2;
 }
 
 
 
 
 .navbar .nav-item a:focus {
-    /* background-color: #58a783; */
-    /* color: #fff; */
     border-radius: 4px;
 
 }
@@ -31,4 +27,59 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+}
+
+
+.navbar-nav{
+    justify-content: end;
+    width: 100%;
+    padding-right: 30px;
+}
+
+/* Nav.css */
+
+/* Keyframes for fade-in and fade-out animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+}
+
+/* Applying the animations to the dropdown menus */
+.dropdown-menu {
+    display: none;
+    /* Hide dropdown by default */
+    animation: fadeIn 300ms ease-in forwards;
+}
+
+.dropdown-menu.show {
+    display: block;
+    animation: fadeIn 300ms ease-in forwards;
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-menu {
+    animation: fadeIn 300ms ease-in;
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-menu.hide {
+    animation: fadeOut 300ms ease-in;
+    animation-fill-mode: forwards;
 }

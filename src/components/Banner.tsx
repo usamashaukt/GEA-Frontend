@@ -7,6 +7,7 @@ const Banner = ({}: Props) => {
   return (
     <div>
       <div className="search-banner">
+        {/* <div></div> */}
         {<Button />}
         {/* {<Search />} */}
       </div>

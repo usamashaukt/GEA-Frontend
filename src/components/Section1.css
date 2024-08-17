@@ -16,14 +16,38 @@
     text-decoration: underline;
 }
 
-.welcome-sec p strong a {}
+/* Search.css */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 
+    100% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+}
 
-/* .container .pager-2 p strong {
-    color: #000;
-} */
+.react-select__menu {
+    animation: fadeIn 300ms ease-in;
+}
+
+.react-select__menu--exit {
+    animation: fadeOut 300ms ease-in;
+}
 
 .welcome-sec {
     min-height: 130px;

@@ -26,3 +26,11 @@
   justify-content: center;
   vertical-align: middle;
 }
+
+.slick-track {
+  display: flex;
+  padding: 99px;
+  flex-direction: row;
+  align-items: center;
+
+}

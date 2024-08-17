@@ -6,6 +6,9 @@ import Section2 from "./components/Section2";
 import Section3 from "./components/Section3";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/home";
+import About from "./pages/About/about";
 function App() {
   // const [count, setCount] = useState(0);
   const services1 = [
@@ -246,19 +249,10 @@ function App() {
     <>
       <div>
         <Nav />
-        <Banner />
-        <Section1 />
-        <Section2 />
-        {services1.map((service) => (
-          <Section3
-            title={service.title}
-            btnColor={service.btnColor}
-            imgServices={service.images}
-            mainStyles={service.mainStyles}
-            description={service.description}
-          />
-        ))}
-        <Testimonial />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
         <Footer />
       </div>
     </>
