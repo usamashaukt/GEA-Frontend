@@ -8,11 +8,17 @@ const Nav = (props: Props) => {
       <nav className="navbar navbar-expand-lg  p-0">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img
+          {/* <img
               width={"100px"}
               src="../assets/images/Logo/GEA-logo-02.png"
               alt=""
+            /> */}
+            <img
+              width={"100px"}
+              src="../assets/images/Logo/gea-logo2.0.jpg"
+              alt=""
             />
+           
           </a>
           <button
             className="navbar-toggler border-none btn-outline-none"

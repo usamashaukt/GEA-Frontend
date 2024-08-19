@@ -9,10 +9,10 @@
 }
 
 .banner-btn {
-    /* border-color: #0f387d; */
+
     background-color: #B40C31 !important;
     padding: 10px;
-    /* color: #0f387d; */
+
     min-width: 96px;
     color: #fff !important;
     margin-right: 5px;
@@ -23,103 +23,24 @@
 
 .banner-btn:hover {
     background-color: #2B5FE0 !important;
-    /* border-color: #69b090; */
+
     color: #fff !important;
 }
 
 .banner-btn:focus {
     background-color: #2B5FE0 !important;
     color: #fff;
-    /* outline: none;
-    border: none; */
+
     border-color: #69b090;
 }
 
 .banner-btn:active {
     border-color: #69b090;
-    /* outline: none; 
-    border: none; */
-
-}
-
-/* 
-.dropdown .btn {
-    background-color: #d1e7dd;
-    color: #333333;
-    padding: 10px;
-    font-size: 14px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    text-align: left;
-    position: relative;
-    height: 43px;
-    border-right: 1px solid transparent;
-    border-radius: 4px;
-    border-top: 2px solid #d1e7dd;
-
 
 }
 
 
-.dropdown .btn:hover {
-    background-color: #69b090 !important;
-    color: #fff !important;
-    border-right: 1px solid transparent;
-    border-top: 2px solid #69b090;
-
-}
-
-
-
-
-
-.btn.show {
-    background-color: #69b090 !important;
-    color: #fff;
-    border-right: 1px solid transparent !important;
-    border-top: 2px solid #69b090 !important;
-   
-}
-
-.btn:active {
-    background-color: #69b090 !important;
-    color: #fff;
-    border-right: 1px solid transparent !important;
-    border-top: 2px solid #69b090 !important;
-}
-
-.search-ddown.show{
-    width: 100%;
-    max-width: 404px;
-}
-
-.search-ddown2.show{
-    width: 100%;
-    max-width: 259.78px;
-}
-
-.search-top input{
-    margin: 2% 1% 2%;
-    width: calc(100% - 8px);
-}
-
-#dropdownMenuButton1:after,
-#dropdownMenuButton2:after {
-    content: '';
-    position: absolute;
-    right: 7px;
-    top: 46%;
-    width: 0;
-    height: 0;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-top: 6px solid #203972;
-    clear: both;
-    border-radius: 5px;
-} */
 
 .search-wrapper {
     max-width: 663px;
-    /* margin-left: 25px; */
 }
