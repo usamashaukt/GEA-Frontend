@@ -1,0 +1,10 @@
+.banner-img {
+    background-image: url(../../public/assets/images/uk-1920-x-1080-background-nhcbt5u3fodvxuhl.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: 400px;
+    transition: .4s ease-in-out;
+    z-index: 1;
+}

@@ -8,7 +8,9 @@ const Banner = ({}: Props) => {
     <div>
       <div className="search-banner position-relative w-100">
         {/* <div></div> */}
-        {<Button />}
+        <div className="container h-100 d-flex flex-column justify-content-between mx-auto">
+          <div></div>
+        {<Button />}</div>
         {/* {<Search />} */}
       </div>
     </div>

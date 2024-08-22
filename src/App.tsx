@@ -1,14 +1,9 @@
 import Nav from "./components/Nav";
 import "./App.css";
-import Banner from "./components/Banner";
-import Section1 from "./components/Section1";
-import Section2 from "./components/Section2";
-import Section3 from "./components/Section3";
-import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/home";
-import About from "./pages/About/about";
+import Home from "./pages/Home/Home";
+import Universities from "./pages/Universities/Universities";
 function App() {
   // const [count, setCount] = useState(0);
   const services1 = [
@@ -251,7 +246,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/universities" element={<Universities />} />
         </Routes>
         <Footer />
       </div>

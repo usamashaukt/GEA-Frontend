@@ -1,38 +1,44 @@
-
 [
   {
     "label": "Bangor University",
+    "description": "Bangor University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "campus": "Bangor",
     "value": "Bangor University"
   },
   {
     "label": "Bath Spa University",
     "campus": "Bath",
+    "description": "Study at Bath Spa University with the help of SI-UK. Book a free consultation today with our experienced counsellors to join a UK university.",
     "value": "Bath Spa University"
   },
   {
     "label": "Birmingham City University",
     "campus": "Birmingham",
+    "description": "Discover Birmingham City University's acceptance rate. SI-UK provides insights into admission chances and helps you make informed decisions for your education.",
     "value": "Birmingham City University"
   },
   {
     "label": "Bloomsbury Institute",
     "campus": "London",
+    "description": "Join Bloomsbury Institute with SI-UK free application support. SI-UK will provide you with free counselling and assist with your application to Bloomsbury Institute.",
     "value": "Bloomsbury Institute"
   },
   {
     "label": "BPP University",
     "campus": "London, Birmingham, Manchester",
+    "description": "BPP University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "BPP University"
   },
   {
     "label": "Coventry University",
+    "description": "Coventry University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students at Coventry",
     "campus": "Coventry, London",
     "value": "Coventry University"
   },
   {
     "label": "De Montfort University",
     "campus": "Leicester",
+    "description": "De Montfort University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "De Montfort University"
   },
   {
@@ -43,11 +49,13 @@
   {
     "label": "London South Bank University",
     "campus": "London",
+    "description": "London South Bank University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "London South Bank University"
   },
   {
     "label": "Liver Pool John Moores University",
     "campus": "Liverpool",
+    "description": "University of Liverpool profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "Liver Pool John Moores University"
   },
   {
@@ -58,346 +66,406 @@
   {
     "label": "Richmond American University London",
     "campus": "London",
+    "description": "Richmond, The American University in London profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "Richmond American University London"
   },
   {
     "label": "University of Bedfordshire",
     "campus": "Luton, Bedford",
+    "description": "University of Bedfordshire profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "University of Bedfordshire"
   },
   {
     "label": "University of Bradford",
     "campus": "Bradford",
+    "description": "University of Bedfordshire profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "University of Bradford"
   },
   {
     "label": "University of Bolton",
     "campus": "Bolton",
+    "description": "University of Bolton profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "University of Bolton"
   },
   {
     "label": "University of Chester",
+    "description": "University of Chester profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "campus": "Chester, Warrington",
     "value": "University of Chester"
   },
   {
     "label": "University of Huddersfield",
     "campus": "Huddersfield",
+    "description": "University of Huddersfield profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "University of Huddersfield"
   },
   {
     "label": "University of Lincoln",
     "campus": "Lincoln",
+    "description": "University of Lincoln profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "University of Lincoln"
   },
   {
     "label": "University of Middlesex",
     "campus": "London",
+    "description": "Middlesex University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "University of Middlesex"
   },
   {
     "label": "University of Stirling",
     "campus": "Stirling, Scotland",
+    "description": "University of Stirling profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "University of Stirling"
   },
   {
     "label": "University of South Wales",
     "campus": "South Wales, London",
+    "description": "University of South Wales profile. Get information on undergraduate and postgraduate courses at South Wales University UK; rankings; accommodation and services for international students.",
     "value": "University of South Wales"
   },
   {
     "label": "University of west of scotland",
     "campus": "London",
+    "description": "University of west scotland profile. Get information on undergraduate and postgraduate courses at South Wales University UK; rankings; accommodation and services for international students.",
     "value": "University of west of scotland"
   },
   {
     "label": "University of Bolton",
     "campus": "Holborn, Great Titchfield Street, Wembley, South Hall",
-    "value": "University of Bolton"
+    "value": "University of Bolton",
+    "description": "University of Bolton profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students."
   },
   {
     "label": "Canterburry Christ Church University",
     "campus": "Cantbury, Kent",
-    "value": "Canterburry Christ Church University"
+    "value": "Canterburry Christ Church University",
+    "description": "Canterbury Christ Church profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students."
   },
   {
     "label": "University of Gloucestershire",
     "campus": "Cheltenham, Gloucester, Cotswolds",
-    "value": "University of Gloucestershire"
+    "value": "University of Gloucestershire",
+    "description": "University of Gloucestershire profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students."
   },
   {
     "label": "University of the Creative Arts",
     "campus": "Canterbury, Epsom, Farnham, Rochester",
+    "description": "UCA profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "University of the Creative Arts"
   },
   {
     "label": "The University of Law",
     "campus": "London",
+    "description": "University of Law profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "The University of Law"
   },
   {
     "label": "Heriot-Watt University",
     "campus": "Edinburgh",
+    "description": "Heriot-Watt University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "Heriot-Watt University"
   },
   {
     "label": "Bangor University International College",
     "campus": "Wales",
+    "description": "Bangor University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "Bangor University International College"
   },
   {
     "label": "De Montfort University International College",
     "campus": "Leicester",
+    "description": "De Montfort University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "De Montfort University International College"
   },
   {
     "label": "Edinburgh Napier University International College",
     "campus": "Edinburgh",
+    "description": "Edinburgh Napier profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "Edinburgh Napier University International College"
   },
   {
     "label": "International College Dundee",
     "campus": "Dundee",
+    "description": "International College Dundee profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "International College Dundee"
   },
   {
     "label": "Oxford International College Pathways London",
     "campus": "London & Oxford Campus",
+    "description": "Oxford International College profile. Information on pathway courses; accommodation and services for international students.",
     "value": "Oxford International College Pathways London"
   },
   {
     "label": "University of Bradford International College",
     "campus": "Bradford",
+    "description": "University of Bradford profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "University of Bradford International College"
   },
   {
     "label": "University of Greenwich International College",
     "campus": "London",
+    "description": "University of Greenwich profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "University of Greenwich International College"
   },
   {
     "label": "University of Kent International College",
     "campus": "Cantbury, Medway",
+    "description": "University of Kent profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "University of Kent International College"
   },
   {
     "label": "Ravensbourne University London",
     "campus": "London",
+    "description": "Ravensbourne University London offer undergraduate and postgraduate degrees in digital media and design for international students. Apply to Ravensbourne today.",
     "value": "Ravensbourne University London"
   },
   {
     "label": "University of Roehampton",
     "campus": "London",
+    "description": "University of Roehampton profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "University of Roehampton"
   },
   {
     "label": "Brickbeck University",
     "campus": "London",
+    "description": "University of Brickbeck profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "Brickbeck University"
   },
   {
     "label": "Northhumbria University",
     "campus": "London",
+    "description": "University of Northhumbria profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "Northhumbria University"
   },
   {
     "label": "Solent University",
     "campus": "Southhampton",
+    "description": "Solent University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "Solent University"
   },
   {
     "label": "Ulster University",
     "campus": "London & Birmingham",
+    "description": "Ulster University London and Birmingham profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services.",
     "value": "Ulster University"
   },
   {
     "label": "University of Roehampton",
     "campus": "London",
+    "description": "University of Roehampton profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "University of Roehampton"
   },
   {
     "label": "University of South Wales",
-    "campus": "Pontypridd, Cardiff",
+    "campus": "Pontypridd, Cardiff, Wales",
+    "description": "University of South Wales profile. Get information on undergraduate and postgraduate courses at South Wales University UK; rankings; accommodation and services for international students.",
     "value": "University of South Wales"
   },
   {
     "label": "Royal Hollway Direct",
     "campus": "London",
+    "description": "Royal Holloway profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "Royal Hollway Direct"
   },
   {
     "label": "Royal Hollway Direct International Study Centre",
     "campus": "Surrey",
+    "description": "Royal Holloway Direct International Study Centre profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "Royal Hollway Direct International Study Centre"
   },
   {
     "label": "Cardiff University International Study Centre",
     "campus": "Cardiff",
+    "description": "Cardiff University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "Cardiff University International Study Centre"
   },
   {
     "label": "Durham University International Study Centre",
     "campus": "Durham",
+    "description": "Learn about Durham University. Explore postgraduate & undergraduate courses, rankings, accommodation & facilities. Access our application support service.",
     "value": "Durham University International Study Centre"
   },
   {
     "label": "Kingston University International Study Centre",
     "campus": "London",
+    "description": "Kingston University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "Kingston University International Study Centre"
   },
   {
     "label": "Leeds Beckett International Study Centre",
     "campus": "Leeds",
+    "description": "Leeds Beckett profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "Leeds Beckett International Study Centre"
   },
   {
     "label": "Liver Pool John Moores University International Study Centre",
     "campus": "Liverpool",
+    "description": "University of Liverpool profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "Liver Pool John Moores University International Study Centre"
   },
   {
     "label": "Teesside University International Study Centre",
     "campus": "Middlebrough",
+    "description": "Teesside University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "Teesside University International Study Centre"
   },
   {
     "label": "The University of Sheffield International Study Centre",
     "campus": "Sheffield",
+    "description": "Sheffield University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "The University of Sheffield International Study Centre"
   },
   {
     "label": "Universtiy of Aberdeen International Study Centre",
     "campus": "Aberdeen",
+    "description": "Aberdeen University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "Universtiy of Aberdeen International Study Centre"
   },
   {
     "label": "Univerasity of Huddersfield International Study Centre",
     "campus": "Huddersfield",
+    "description": "Huddersfield University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "Univerasity of Huddersfield International Study Centre"
   },
   {
     "label": "Universtiy of Leeds International Study Centre",
     "campus": "Leeds",
+    "description": "Leeds University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "Universtiy of Leeds International Study Centre"
   },
   {
     "label": "University of Strathclyde International Study Centre",
     "campus": "Glasgow",
+    "description": "Strathclyde University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "University of Strathclyde International Study Centre"
   },
   {
     "label": "University of Surrey International Study Centre",
     "campus": "London",
+    "description": "Surrey University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "University of Surrey International Study Centre"
   },
   {
     "label": "University of Sussex International Study Centre",
     "campus": "Brighton",
+    "description": "Sussex University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "University of Sussex International Study Centre"
   },
   {
     "label": "Bournemouth Universtiy International College",
     "campus": "Bournemouth",
+    "description": "Bournemouth University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "Bournemouth Universtiy International College"
   },
   {
     "label": "Cranfield University",
     "campus": "Cranfield",
+    "description": "Cranfield University profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "Cranfield University"
   },
   {
     "label": "Glasgow International College",
     "campus": "Glasgow",
+    "description": "Learn about The College of Glasgow. Explore postgraduate & undergraduate courses, rankings & accommodation. Access our application support service here",
     "value": "Glasgow International College"
   },
   {
     "label": "Nottingham Trent International College",
     "campus": "Nottingham",
+    "description": "Learn about The College of Nottingham. Explore postgraduate & undergraduate courses, rankings & accommodation. Access our application support service here",
+
     "value": "Nottingham Trent International College"
   },
   {
     "label": "The University of Birmingham",
     "campus": "Birmingham",
+    "description": "University of Birmingham profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "The University of Birmingham"
   },
   {
     "label": "Universtiy of Bristol",
     "campus": "Bristol",
+    "description": "University of Bristol profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "Universtiy of Bristol"
   },
   {
     "label": "Universtiy of Brighton International College",
     "campus": "Brighton",
+    "description": "University of Brighton International College profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "Universtiy of Brighton International College"
   },
   {
     "label": "University of Nottingham International College",
     "campus": "Nottingham",
+    "description": "University of Nottingham International College profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "University of Nottingham International College"
   },
   {
     "label": "UWE Bristol",
     "campus": "Bristol",
+    "description": "University of Bristol profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "UWE Bristol"
   },
   {
     "label": "University of Westminster",
     "campus": "London",
+    "description": "University of Westminster profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "University of Westminster"
   },
   {
     "label": "University of York International Pathway College",
     "campus": "York",
+    "description": "University of York International Pathway College profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "University of York International Pathway College"
   },
   {
     "label": "University of Liverpool",
+    "description": "University of Liverpool profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "campus": "Liverpool",
     "value": "University of Liverpool"
   },
   {
     "label": "University of Essex",
     "campus": "Colchester",
+    "description": "University of Essex profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "University of Essex"
   },
   {
     "label": "City. University of London",
     "campus": "London",
+    "description": "University of London profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "City. University of London"
   },
   {
     "label": "Queen Marry University of London",
     "campus": "London",
+    "description": "University of Queen Marry profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
+
     "value": "Queen Marry University of London"
   },
   {
     "label": "TEDI - London",
     "campus": "London",
+    "description": "University of TEDI - London profile. Information on undergraduate and postgraduate courses; rankings; accommodation and services for international students.",
     "value": "TEDI - London"
-  },
-  {
-    "label": "Henley Business School",
-    "campus": "",
-    "value": "Henley Business School"
-  },
-  {
-    "label": "Loughborough University",
-    "campus": "",
-    "value": "Loughborough University"
-  },
-  {
-    "label": "Royal College of Surgeons, Ireland",
-    "campus": "",
-    "value": "Royal College of Surgeons, Ireland"
-  },
-  {
-    "label": "Georges. University of London",
-    "campus": "",
-    "value": "Georges. University of London"
-  },
-  {
-    "label": "University of Nicosia",
-    "campus": "",
-    "value": "University of Nicosia"
   }
 ]
