@@ -44,11 +44,11 @@ const testimonial = (props: Props) => {
                             alt="Breckett Front"
                           />{" "}
                           &nbsp;I believe my success is due to the great support
-                          provided by SI-UK. I was advised the right IELTS
+                          provided by GEA. I was advised the right IELTS
                           courses to attend and they also helped with my visa
                           application. I really want to share with you my
                           positive experience and I would definitely recommend
-                          SI-UK to my friends. &nbsp;
+                          GEA to my friends. &nbsp;
                           <img
                             src="https://siuk-europe.s3.eu-west-2.amazonaws.com/assets/images/breckett-back.png"
                             alt="breckett-back"

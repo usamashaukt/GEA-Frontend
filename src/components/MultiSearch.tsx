@@ -13,6 +13,7 @@ const MultiSearch = ({ placeholder }: Props) => {
         name="multi-search"
         id="multi-search"
       />
+      <img src="../../public/assets/images/search-icon.svg" alt="" />
     </div>
   );
 };

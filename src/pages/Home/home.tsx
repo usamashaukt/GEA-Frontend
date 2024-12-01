@@ -8,7 +8,7 @@ const Home = () => {
   const services1 = [
     {
       mainStyles: { background: "#B40C31", color: "#fff" },
-      title: "SI-UK University Application Services",
+      title: "GEA University Application Services",
       images: [
         {
           src: "https://siuk-europe.s3.eu-west-2.amazonaws.com/assets/images/service-img-3-1.png",

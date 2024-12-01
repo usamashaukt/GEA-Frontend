@@ -89,12 +89,6 @@ const CarouselSlider = () => {
     autoplay: true,
     autoplaySpeed: 1000,
     arrows: true,
-    // nextArrow: (
-    //   <NextArrow className={undefined} style={undefined} onClick={undefined} />
-    // ),
-    // prevArrow: (
-    //   <PrevArrow className={undefined} style={undefined} onClick={undefined} />
-    // ),
   };
 
   return (

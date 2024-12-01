@@ -1,0 +1,3870 @@
+[
+  {
+    "level": "grad",
+    "courses": [
+      {
+        "courseTitle": "Accounting & Management",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n4n2-accounting-and-management-bsc-hons"
+      },
+      {
+        "courseTitle": "Accounting & Management (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n4n2-accounting-and-management-bsc-hons"
+      },
+      {
+        "courseTitle": "Accounting & Management (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n4n2-accounting-and-management-bsc-hons"
+      },
+      {
+        "courseTitle": "Accounting and Finance",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/nn4h-accounting-and-finance-bsc-hons"
+      },
+      {
+        "courseTitle": "Accounting and Finance (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/nn4f-accounting-and-finance-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Accounting and Finance (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/nn4f-accounting-and-finance-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Accounting and Finance (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/nn4f-accounting-and-finance-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Accounting and Finance (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/nn4h-accounting-and-finance-bsc-hons"
+      },
+      {
+        "courseTitle": "Accounting and Finance (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/nn4h-accounting-and-finance-bsc-hons"
+      },
+      {
+        "courseTitle": "Adult Nursing",
+        "intake": "Sep 2024",
+        "degree": "BNurs",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b741-adult-nursing-bn-hons"
+      },
+      {
+        "courseTitle": "Adult Nursing (Dispersed Learning Route for Powys-Based Students)",
+        "intake": "Sep 2024",
+        "degree": "BNurs",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b744-adult-nursing-dispersed-learning-route-for-powys-based-students-bn-hons"
+      },
+      {
+        "courseTitle": "Adventure Sport Science",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c611-adventure-sport-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Adventure Sport Science (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c611-adventure-sport-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Adventure Sport Science (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c611-adventure-sport-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Banking and Finance",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n391-banking-and-finance-bsc-hons"
+      },
+      {
+        "courseTitle": "Banking and Finance (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n39f-banking-and-finance-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Banking and Finance (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n39f-banking-and-finance-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Banking and Finance (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n39f-banking-and-finance-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Banking and Finance (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n391-banking-and-finance-bsc-hons"
+      },
+      {
+        "courseTitle": "Banking and Finance (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n391-banking-and-finance-bsc-hons"
+      },
+      {
+        "courseTitle": "Banking with Financial Technology",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n312-banking-with-financial-technology-fintech-bsc-hons"
+      },
+      {
+        "courseTitle": "Banking with Financial Technology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n312-banking-with-financial-technology-fintech-bsc-hons"
+      },
+      {
+        "courseTitle": "Banking with Financial Technology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n312-banking-with-financial-technology-fintech-bsc-hons"
+      },
+      {
+        "courseTitle": "Biology",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c100-biology-bsc-hons"
+      },
+      {
+        "courseTitle": "Biology (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "MBiol",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c101-biology-mbiol"
+      },
+      {
+        "courseTitle": "Biology (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c10f-biology-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Biology (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c10f-biology-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Biology (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c10f-biology-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Biology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c100-biology-bsc-hons"
+      },
+      {
+        "courseTitle": "Biology (with Placement Year) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "MBiol",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c101-biology-mbiol"
+      },
+      {
+        "courseTitle": "Biology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c100-biology-bsc-hons"
+      },
+      {
+        "courseTitle": "Biology (with Study Abroad) (5 Years)",
+        "intake": "Sep 2024",
+        "degree": "MBiol",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c101-biology-mbiol"
+      },
+      {
+        "courseTitle": "Biology with Biotechnology",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c511-biology-with-biotechnology-bsc-hons"
+      },
+      {
+        "courseTitle": "Biology with Biotechnology (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "MBiol",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c510-biology-with-biotechnology-mbiol"
+      },
+      {
+        "courseTitle": "Biology with Biotechnology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c511-biology-with-biotechnology-bsc-hons"
+      },
+      {
+        "courseTitle": "Biology with Biotechnology (with Placement Year) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "MBiol",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c510-biology-with-biotechnology-mbiol"
+      },
+      {
+        "courseTitle": "Biology with Biotechnology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c511-biology-with-biotechnology-bsc-hons"
+      },
+      {
+        "courseTitle": "Biology with Biotechnology (with Study Abroad) (5 Years)",
+        "intake": "Sep 2024",
+        "degree": "MBiol",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c510-biology-with-biotechnology-mbiol"
+      },
+      {
+        "courseTitle": "Biomedical Science (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b112-biomedical-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Biomedical Science (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b112-biomedical-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Biomedical Science (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b112-biomedical-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Biomedical Science",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b102-biomedical-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Biomedical Science (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b102-biomedical-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Biomedical Science (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b102-biomedical-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Data Analytics",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n313-business-data-analytics-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Data Analytics (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n313-business-data-analytics-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Data Analytics (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n313-business-data-analytics-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Enterprise and Entrepreneurship",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n111-business-enterprise-and-entrepreneurship-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Enterprise and Entrepreneurship (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n111-business-enterprise-and-entrepreneurship-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Enterprise and Entrepreneurship (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n111-business-enterprise-and-entrepreneurship-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Management",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n200-business-management-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Management (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n20f-business-management-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Management (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n20f-business-management-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Management (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n20f-business-management-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Management (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n200-business-management-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Management (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n200-business-management-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Management and Marketing",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n2n5-business-management-and-marketing-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Management and Marketing (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n2n5-business-management-and-marketing-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Management and Marketing (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n2n5-business-management-and-marketing-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Studies and Marketing",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n1n5-business-studies-and-marketing-ba-hons"
+      },
+      {
+        "courseTitle": "Business Studies and Marketing (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n1n5-business-studies-and-marketing-ba-hons"
+      },
+      {
+        "courseTitle": "Business Studies and Marketing (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n1n5-business-studies-and-marketing-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood and Youth Studies (English-Medium Course) (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x313-childhood-and-youth-studies-english-medium-course-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood and Youth Studies (English-Medium Course) (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x313-childhood-and-youth-studies-english-medium-course-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood and Youth Studies (Welsh-Medium Course)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x314-childhood-and-youth-studies-welsh-medium-course-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood and Youth Studies (Welsh-Medium Course) (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x314-childhood-and-youth-studies-welsh-medium-course-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood and Youth Studies (Welsh-Medium Course) (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x314-childhood-and-youth-studies-welsh-medium-course-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood And Youth Studies and Psychology",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x319-childhood-and-youth-studies-and-psychology-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood And Youth Studies and Psychology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x319-childhood-and-youth-studies-and-psychology-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood And Youth Studies and Psychology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x319-childhood-and-youth-studies-and-psychology-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood and Youth Studies and Sociology (English-Medium Course)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x315-childhood-and-youth-studies-and-sociology-english-medium-course-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood and Youth Studies and Sociology (English-Medium Course) (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x315-childhood-and-youth-studies-and-sociology-english-medium-course-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood and Youth Studies and Sociology (English-Medium Course) (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x315-childhood-and-youth-studies-and-sociology-english-medium-course-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood and Youth Studies and Sociology (Welsh-Medium Course)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x316-childhood-and-youth-studies-and-sociology-welsh-medium-course-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood and Youth Studies and Sociology (Welsh-Medium Course) (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x316-childhood-and-youth-studies-and-sociology-welsh-medium-course-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood and Youth Studies and Sociology (Welsh-Medium Course) (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x316-childhood-and-youth-studies-and-sociology-welsh-medium-course-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood and Youth Studies and Welsh",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x321-childhood-and-youth-studies-and-welsh-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood and Youth Studies and Welsh (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x321-childhood-and-youth-studies-and-welsh-ba-hons"
+      },
+      {
+        "courseTitle": "Childhood and Youth Studies and Welsh (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x321-childhood-and-youth-studies-and-welsh-ba-hons"
+      },
+      {
+        "courseTitle": "Children's Nursing",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b732-childrens-nursing-bn-hons"
+      },
+      {
+        "courseTitle": "Children's Nursing (Distance Learning)",
+        "intake": "Sep 2024",
+        "degree": "BNurs",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b734-childrens-nursing-distance-learning-bn-hons"
+      },
+      {
+        "courseTitle": "Computer Information Systems",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/i110-computer-information-systems-bsc-hons"
+      },
+      {
+        "courseTitle": "Computer Information Systems (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/i110-computer-information-systems-bsc-hons"
+      },
+      {
+        "courseTitle": "Computer Information Systems (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/i110-computer-information-systems-bsc-hons"
+      },
+      {
+        "courseTitle": "Computer Science",
+        "intake": "Sep 2024",
+        "degree": "MSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h117-computer-science-mcomp"
+      },
+      {
+        "courseTitle": "Computer Science (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g400-computer-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Computer Science (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g400-computer-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Computer Science (with Placement Year) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "MSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h117-computer-science-mcomp"
+      },
+      {
+        "courseTitle": "Computer science (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "MSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h117-computer-science-mcomp"
+      },
+      {
+        "courseTitle": "Computer Science (with Study Abroad) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g400-computer-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Computer Science with Game Design (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/i103-computer-science-with-game-design-bsc-hons"
+      },
+      {
+        "courseTitle": "Computer System Engineering",
+        "intake": "Sep 2024",
+        "degree": "MEng",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/h617-computer-systems-engineering-meng"
+      },
+      {
+        "courseTitle": "Computer System Engineering (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BEng",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/h612-computer-systems-engineering-beng-hons"
+      },
+      {
+        "courseTitle": "Computer System Engineering (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "MEng",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/h617-computer-systems-engineering-meng"
+      },
+      {
+        "courseTitle": "Computer System Engineering (with Placement Year) (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BEng",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/h612-computer-systems-engineering-beng-hons"
+      },
+      {
+        "courseTitle": "Computer System Engineering (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "MEng",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/h617-computer-systems-engineering-meng"
+      },
+      {
+        "courseTitle": "Computer System Engineering (with Study Abroad) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BEng",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/h612-computer-systems-engineering-beng-hons"
+      },
+      {
+        "courseTitle": "Conservation with Forestry",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/5dkd-conservation-with-forestry-bsc-hons"
+      },
+      {
+        "courseTitle": "Conservation with Forestry (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/5dkd-conservation-with-forestry-bsc-hons"
+      },
+      {
+        "courseTitle": "Conservation with Forestry (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/5dkd-conservation-with-forestry-bsc-hons"
+      },
+      {
+        "courseTitle": "Control and Instrumentation Engineering",
+        "intake": "Sep 2024",
+        "degree": "MEng",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/h661-control-and-instrumentation-engineering-meng"
+      },
+      {
+        "courseTitle": "Control and Instrumentation Engineering (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "MEng",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/h661-control-and-instrumentation-engineering-meng"
+      },
+      {
+        "courseTitle": "Control and Instrumentation Engineering (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "MEng",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/h661-control-and-instrumentation-engineering-meng"
+      },
+      {
+        "courseTitle": "Creative and Professional Writing",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/w890-creative-and-professional-writing-ba-hons"
+      },
+      {
+        "courseTitle": "Creative and Professional Writing (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/w890-creative-and-professional-writing-ba-hons"
+      },
+      {
+        "courseTitle": "Creative and Professional Writing (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/w890-creative-and-professional-writing-ba-hons"
+      },
+      {
+        "courseTitle": "Creative Studies",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/wpq0-creative-studies-ba-hons"
+      },
+      {
+        "courseTitle": "Creative Studies (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/wpq0-creative-studies-ba-hons"
+      },
+      {
+        "courseTitle": "Creative Studies (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/wpq0-creative-studies-ba-hons"
+      },
+      {
+        "courseTitle": "Creative Technologies",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/gw49-creative-technologies-bsc-hons"
+      },
+      {
+        "courseTitle": "Creative Technologies (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/gw49-creative-technologies-bsc-hons"
+      },
+      {
+        "courseTitle": "Creative Technologies (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/gw49-creative-technologies-bsc-hons"
+      },
+      {
+        "courseTitle": "Creative Writing and Modern Languages",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/w8r8-creative-writing-and-modern-languages-ba-hons"
+      },
+      {
+        "courseTitle": "Creative Writing and Modern Languages (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/w8r8-creative-writing-and-modern-languages-ba-hons"
+      },
+      {
+        "courseTitle": "Creative Writing and Modern Languages (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/w8r8-creative-writing-and-modern-languages-ba-hons"
+      },
+      {
+        "courseTitle": "Criminal Law",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/m212-criminal-law-llb-hons"
+      },
+      {
+        "courseTitle": "Criminal Law (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/m212-criminal-law-llb-hons"
+      },
+      {
+        "courseTitle": "Criminal Law (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/m212-criminal-law-llb-hons"
+      },
+      {
+        "courseTitle": "Criminology and Criminal Justice",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/m930-criminology-and-criminal-justice-ba-hons"
+      },
+      {
+        "courseTitle": "Criminology and Criminal Justice (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/m930-criminology-and-criminal-justice-ba-hons"
+      },
+      {
+        "courseTitle": "Criminology and Criminal Justice (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/m930-criminology-and-criminal-justice-ba-hons"
+      },
+      {
+        "courseTitle": "Criminology and Social Policy",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/3f50-criminology-and-social-policy-ba-hons"
+      },
+      {
+        "courseTitle": "Criminology and Social Policy (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/3f50-criminology-and-social-policy-ba-hons"
+      },
+      {
+        "courseTitle": "Criminology and Social Policy (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/3f50-criminology-and-social-policy-ba-hons"
+      },
+      {
+        "courseTitle": "Cymdeithaseg (Sociology) and Criminology and Criminal Justice (Bilingual)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/lm3y-cymdeithaseg-sociology-and-criminology-and-criminal-justice-bilingual-ba"
+      },
+      {
+        "courseTitle": "Cymdeithaseg (Sociology) and Criminology and Criminal Justice (Bilingual) (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/lm3y-cymdeithaseg-sociology-and-criminology-and-criminal-justice-bilingual-ba"
+      },
+      {
+        "courseTitle": "Cymdeithaseg (Sociology) and Criminology and Criminal Justice (Bilingual) (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/lm3y-cymdeithaseg-sociology-and-criminology-and-criminal-justice-bilingual-ba"
+      },
+      {
+        "courseTitle": "Cymraeg / Welsh (for First- and Second-Language)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q562-cymraeg-welsh-for-first-and-second-language-ba-hons"
+      },
+      {
+        "courseTitle": "Cymraeg / Welsh (for First- and Second-Language) (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q562-cymraeg-welsh-for-first-and-second-language-ba-hons"
+      },
+      {
+        "courseTitle": "Cymraeg / Welsh (for First- and Second-Language) (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q562-cymraeg-welsh-for-first-and-second-language-ba-hons"
+      },
+      {
+        "courseTitle": "Data Science & Visualization",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h114-data-science-and-visualisation-bsc-hons"
+      },
+      {
+        "courseTitle": "Data Science & Visualization (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h114-data-science-and-visualisation-bsc-hons"
+      },
+      {
+        "courseTitle": "Data Science & Visualization (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h114-data-science-and-visualisation-bsc-hons"
+      },
+      {
+        "courseTitle": "Data Science and Artificial Intelligence",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h118-data-science-and-artificial-intelligence-bsc-hons"
+      },
+      {
+        "courseTitle": "Data Science and Artificial Intelligence (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h118-data-science-and-artificial-intelligence-bsc-hons"
+      },
+      {
+        "courseTitle": "Data Science and Artificial Intelligence (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h118-data-science-and-artificial-intelligence-bsc-hons"
+      },
+      {
+        "courseTitle": "Dental Hygiene",
+        "intake": "Sep 2024",
+        "degree": "GDip",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b751-dental-hygiene-diphe"
+      },
+      {
+        "courseTitle": "Diagnostic Radiography",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b821-diagnostic-radiography-bsc-hons"
+      },
+      {
+        "courseTitle": "Economics",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l110-economics-bsc-hons"
+      },
+      {
+        "courseTitle": "Economics (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l110-economics-bsc-hons"
+      },
+      {
+        "courseTitle": "Economics (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l110-economics-bsc-hons"
+      },
+      {
+        "courseTitle": "Economics and Finance",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l1n3-economics-and-finance-bsc-hons"
+      },
+      {
+        "courseTitle": "Economics and Finance (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l1n3-economics-and-finance-bsc-hons"
+      },
+      {
+        "courseTitle": "Economics and Finance (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l1n3-economics-and-finance-bsc-hons"
+      },
+      {
+        "courseTitle": "Electrical and Electronic Engineering",
+        "intake": "Sep 2024",
+        "degree": "MEng",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h601-electronic-engineering-meng"
+      },
+      {
+        "courseTitle": "Electrical and Electronic Engineering (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "MEng",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h601-electronic-engineering-meng"
+      },
+      {
+        "courseTitle": "Electrical and Electronic Engineering (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "MEng",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h601-electronic-engineering-meng"
+      },
+      {
+        "courseTitle": "Electronic Engineering",
+        "intake": "Sep 2024",
+        "degree": "BEng",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h610-electronic-engineering-beng-hons"
+      },
+      {
+        "courseTitle": "Electronic Engineering (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h611-electronic-engineering-bsc-hons"
+      },
+      {
+        "courseTitle": "Electronic Engineering (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BEng",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h61f-electronic-engineering-with-foundation-year-beng-hons"
+      },
+      {
+        "courseTitle": "Electronic Engineering (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BEng",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h61f-electronic-engineering-with-foundation-year-beng-hons"
+      },
+      {
+        "courseTitle": "Electronic Engineering (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BEng",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/h61f-electronic-engineering-with-foundation-year-beng-hons"
+      },
+      {
+        "courseTitle": "English Literature",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q300-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "English Literature (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q300-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "English Literature (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q300-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "Environmental Conservation",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/cf60-environmental-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Environmental Conservation (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/cf60-environmental-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Environmental Conservation (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/cf60-environmental-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "English Language and English Literature (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qqc3-english-language-and-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "English Language and English Literature (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qqc3-english-language-and-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "English Language for Speech and Language Therapy",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q318-english-language-for-speech-and-language-therapy-ba-hons"
+      },
+      {
+        "courseTitle": "English Language for Speech and Language Therapy (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q318-english-language-for-speech-and-language-therapy-ba-hons"
+      },
+      {
+        "courseTitle": "English Language for Speech and Language Therapy (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q318-english-language-for-speech-and-language-therapy-ba-hons"
+      },
+      {
+        "courseTitle": "English Language for TEFL",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q315-english-language-for-tefl-ba-hons"
+      },
+      {
+        "courseTitle": "English Language for TEFL (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q315-english-language-for-tefl-ba-hons"
+      },
+      {
+        "courseTitle": "English Language for TEFL (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q315-english-language-for-tefl-ba-hons"
+      },
+      {
+        "courseTitle": "English Language with Creative Writing",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q3wl-english-language-with-creative-writing-ba-hons"
+      },
+      {
+        "courseTitle": "English Language with Creative Writing (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q3wl-english-language-with-creative-writing-ba-hons"
+      },
+      {
+        "courseTitle": "English Language with Creative Writing (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q3wl-english-language-with-creative-writing-ba-hons"
+      },
+      {
+        "courseTitle": "English Literature",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/8h25-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "English Literature (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/8h25-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "English Literature (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/8h25-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "English Literature and Creative Writing",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/2p17-english-literature-and-creative-writing-ba-hons"
+      },
+      {
+        "courseTitle": "English Literature and Creative Writing (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/2p17-english-literature-and-creative-writing-ba-hons"
+      },
+      {
+        "courseTitle": "English Literature and Creative Writing (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/2p17-english-literature-and-creative-writing-ba-hons"
+      },
+      {
+        "courseTitle": "English Literature and Drama",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qw34-english-literature-and-drama-ba-hons"
+      },
+      {
+        "courseTitle": "English Literature and Drama (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qw34-english-literature-and-drama-ba-hons"
+      },
+      {
+        "courseTitle": "English Literature and Drama (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qw34-english-literature-and-drama-ba-hons"
+      },
+      {
+        "courseTitle": "English Literature and Music",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/32n6-english-literature-and-music-ba-hons"
+      },
+      {
+        "courseTitle": "English Literature and Music (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/32n6-english-literature-and-music-ba-hons"
+      },
+      {
+        "courseTitle": "English Literature and Music (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/32n6-english-literature-and-music-ba-hons"
+      },
+      {
+        "courseTitle": "Environmental Conservation",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/d447-environmental-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Environmental Conservation (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/d447-environmental-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Environmental Conservation (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/d447-environmental-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Environmental Science",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f850-environmental-science-menvsci"
+      },
+      {
+        "courseTitle": "Environmental Science (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f90f-environmental-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Film and Drama (with Study Abroad) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/p34w-film-and-drama-ba-hons"
+      },
+      {
+        "courseTitle": "Film Studies and English Literature (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/3p3q-film-studies-and-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "Film Studies and English Literature (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/3p3q-film-studies-and-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "Film Studies and Production",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w610-film-studies-and-production-ba-hons"
+      },
+      {
+        "courseTitle": "Film Studies and Production (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w610-film-studies-and-production-ba-hons"
+      },
+      {
+        "courseTitle": "Film Studies and Production (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w610-film-studies-and-production-ba-hons"
+      },
+      {
+        "courseTitle": "Forestry",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/d500-forestry-bsc-hons"
+      },
+      {
+        "courseTitle": "Forestry (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/d500-forestry-bsc-hons"
+      },
+      {
+        "courseTitle": "Forestry (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/d500-forestry-bsc-hons"
+      },
+      {
+        "courseTitle": "Geography",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l700-geography-ba-hons"
+      },
+      {
+        "courseTitle": "Geography (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f800-geography-bsc-hons"
+      },
+      {
+        "courseTitle": "Geography (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f801-geography-mgeog"
+      },
+      {
+        "courseTitle": "Geography (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l700-geography-ba-hons"
+      },
+      {
+        "courseTitle": "Geography (with Placement Year) (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f800-geography-bsc-hons"
+      },
+      {
+        "courseTitle": "Geography (with Placement Year) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f801-geography-mgeog"
+      },
+      {
+        "courseTitle": "Geography (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l700-geography-ba-hons"
+      },
+      {
+        "courseTitle": "Geography (with Study Abroad) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f800-geography-bsc-hons"
+      },
+      {
+        "courseTitle": "Geography (with Study Abroad) (5 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f801-geography-mgeog"
+      },
+      {
+        "courseTitle": "Geological Oceanography",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f650-geological-oceanography-bsc-hons"
+      },
+      {
+        "courseTitle": "Geological Oceanography (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f652-geological-oceanography-msci"
+      },
+      {
+        "courseTitle": "Geological Oceanography (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f62f-geological-oceanography-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Geological Oceanography (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f62f-geological-oceanography-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Geological Oceanography (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f62f-geological-oceanography-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Geological Oceanography (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f650-geological-oceanography-bsc-hons"
+      },
+      {
+        "courseTitle": "Geological Oceanography (with Placement Year) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f652-geological-oceanography-msci"
+      },
+      {
+        "courseTitle": "Geological Oceanography (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f650-geological-oceanography-bsc-hons"
+      },
+      {
+        "courseTitle": "Geological Oceanography (with Study Abroad) (5 Years)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f652-geological-oceanography-msci"
+      },
+      {
+        "courseTitle": "Health and Social Care",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l510-health-and-social-care-ba-hons"
+      },
+      {
+        "courseTitle": "Health and Social Care (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l510-health-and-social-care-ba-hons"
+      },
+      {
+        "courseTitle": "Health and Social Care (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l510-health-and-social-care-ba-hons"
+      },
+      {
+        "courseTitle": "History and Archaeology",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/v103-history-and-archaeology-ba-hons"
+      },
+      {
+        "courseTitle": "History and Archaeology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/v103-history-and-archaeology-ba-hons"
+      },
+      {
+        "courseTitle": "History and Archaeology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/v103-history-and-archaeology-ba-hons"
+      },
+      {
+        "courseTitle": "History and English Literature",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/3qv1-history-and-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "History and English Literature (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/3qv1-history-and-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "History and English Literature (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/3qv1-history-and-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "History and Music",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/vw13-history-and-music-ba-hons"
+      },
+      {
+        "courseTitle": "History and Music (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/vw13-history-and-music-ba-hons"
+      },
+      {
+        "courseTitle": "History and Music (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/vw13-history-and-music-ba-hons"
+      },
+      {
+        "courseTitle": "International Business Management",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n206-international-business-management-bsc-hons"
+      },
+      {
+        "courseTitle": "International Business Management (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n206-international-business-management-bsc-hons"
+      },
+      {
+        "courseTitle": "International Business Management (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n206-international-business-management-bsc-hons"
+      },
+      {
+        "courseTitle": "Law",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m100-law-llb-hons"
+      },
+      {
+        "courseTitle": "Law (Two-Year Accelerated)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m101-law-2-year-accelerated-programme-llb-hons"
+      },
+      {
+        "courseTitle": "Law (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m10f-law-with-foundation-year-llb-hons"
+      },
+      {
+        "courseTitle": "Law (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m10f-law-with-foundation-year-llb-hons"
+      },
+      {
+        "courseTitle": "Law (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m10f-law-with-foundation-year-llb-hons"
+      },
+      {
+        "courseTitle": "Law (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m100-law-llb-hons"
+      },
+      {
+        "courseTitle": "Law (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m100-law-llb-hons"
+      },
+      {
+        "courseTitle": "Law with Criminology",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1m9-law-with-criminology-llb-hons"
+      },
+      {
+        "courseTitle": "Law with Criminology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1m9-law-with-criminology-llb-hons"
+      },
+      {
+        "courseTitle": "Law with Criminology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1m9-law-with-criminology-llb-hons"
+      },
+      {
+        "courseTitle": "Law with History",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1v1-law-with-history-llb-hons"
+      },
+      {
+        "courseTitle": "Law with History (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1v1-law-with-history-llb-hons"
+      },
+      {
+        "courseTitle": "Law with History (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1v1-law-with-history-llb-hons"
+      },
+      {
+        "courseTitle": "Law with Modern Languages",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1r8-law-with-modern-languages-llb-hons"
+      },
+      {
+        "courseTitle": "Law with Modern Languages (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1r8-law-with-modern-languages-llb-hons"
+      },
+      {
+        "courseTitle": "Law with Modern Languages (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1r8-law-with-modern-languages-llb-hons"
+      },
+      {
+        "courseTitle": "Law with Politics",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1l2-law-with-politics-llb-hons"
+      },
+      {
+        "courseTitle": "Law with Politics (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1l2-law-with-politics-llb-hons"
+      },
+      {
+        "courseTitle": "Law with Politics (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1l2-law-with-politics-llb-hons"
+      },
+      {
+        "courseTitle": "Music",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w300-music-ba-hons"
+      },
+      {
+        "courseTitle": "Music (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w300-music-ba-hons"
+      },
+      {
+        "courseTitle": "Music (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w300-music-ba-hons"
+      },
+      {
+        "courseTitle": "Music and Drama",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/ww84-music-and-drama-ba-hons"
+      },
+      {
+        "courseTitle": "Music and Drama (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/ww84-music-and-drama-ba-hons"
+      },
+      {
+        "courseTitle": "Music and Drama (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/ww84-music-and-drama-ba-hons"
+      },
+      {
+        "courseTitle": "Law with Sociology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1l3-law-with-sociology-llb-hons"
+      },
+      {
+        "courseTitle": "Law with Welsh (Cymraeg)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1q5-law-with-welsh-cymraeg-llb-hons"
+      },
+      {
+        "courseTitle": "Law with Welsh (Cymraeg) (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1q5-law-with-welsh-cymraeg-llb-hons"
+      },
+      {
+        "courseTitle": "Law with Welsh (Cymraeg) (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "LLB",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m1q5-law-with-welsh-cymraeg-llb-hons"
+      },
+      {
+        "courseTitle": "Learning Disability Nursing",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b763-learning-disability-nursing-bn-hons"
+      },
+      {
+        "courseTitle": "Linguistics",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q100-linguistics-ba-hons"
+      },
+      {
+        "courseTitle": "Linguistics (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q100-linguistics-ba-hons"
+      },
+      {
+        "courseTitle": "Linguistics (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q100-linguistics-ba-hons"
+      },
+      {
+        "courseTitle": "Linguistics and English Language",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q140-linguistics-and-the-english-language-ba-hons"
+      },
+      {
+        "courseTitle": "Linguistics and English Language (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q140-linguistics-and-the-english-language-ba-hons"
+      },
+      {
+        "courseTitle": "Linguistics and English Language (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q140-linguistics-and-the-english-language-ba-hons"
+      },
+      {
+        "courseTitle": "Linguistics and Modern Languages",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q3r8-linguistics-and-modern-languages-ba-hons"
+      },
+      {
+        "courseTitle": "Linguistics and Modern Languages (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q3r8-linguistics-and-modern-languages-ba-hons"
+      },
+      {
+        "courseTitle": "Linguistics and Modern Languages (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q3r8-linguistics-and-modern-languages-ba-hons"
+      },
+      {
+        "courseTitle": "Linguistics and Psychology",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q1c8-linguistics-and-psychology-ba-hons"
+      },
+      {
+        "courseTitle": "Linguistics and Psychology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q1c8-linguistics-and-psychology-ba-hons"
+      },
+      {
+        "courseTitle": "Linguistics and Psychology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q1c8-linguistics-and-psychology-ba-hons"
+      },
+      {
+        "courseTitle": "Management with Human Resource Management",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n2n6-management-with-human-resource-management-bsc-hons"
+      },
+      {
+        "courseTitle": "Management with Human Resource Management (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n2n6-management-with-human-resource-management-bsc-hons"
+      },
+      {
+        "courseTitle": "Management with Human Resource Management (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n2n6-management-with-human-resource-management-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Biology",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c160-marine-biology-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Biology (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c167-marine-biology-msci"
+      },
+      {
+        "courseTitle": "Marine Biology (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c16f-marine-biology-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Biology (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c16f-marine-biology-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Biology (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c16f-marine-biology-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Biology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c160-marine-biology-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Biology (with Placement Year) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c167-marine-biology-msci"
+      },
+      {
+        "courseTitle": "Marine Biology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c160-marine-biology-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Biology (with Study Abroad) (5 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c167-marine-biology-msci"
+      },
+      {
+        "courseTitle": "Marketing",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n500-marketing-ba-hons"
+      },
+      {
+        "courseTitle": "Marketing (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n500-marketing-ba-hons"
+      },
+      {
+        "courseTitle": "Marketing (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n500-marketing-ba-hons"
+      },
+      {
+        "courseTitle": "Mathematics",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g100-mathematics-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g103-mathematics-maths-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g100-mathematics-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g100-mathematics-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics with Economics",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g1l1-mathematics-with-economics-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics with Economics (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g1l1-mathematics-with-economics-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics with Economics (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g1l1-mathematics-with-economics-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics with Finance",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g1n3-mathematics-with-finance-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics with Finance (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g1n3-mathematics-with-finance-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics with Finance (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g1n3-mathematics-with-finance-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics with International Business",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g1n1-mathematics-with-international-business-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics with International Business (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g1n1-mathematics-with-international-business-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics with International Business (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g1n1-mathematics-with-international-business-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics with Physics",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g1f3-mathematics-with-physics-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics with Physics (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g1f3-mathematics-with-physics-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics with Physics (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g1f3-mathematics-with-physics-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics with Statistics",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g1n4-mathematics-with-statistics-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics with Statistics (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g1n4-mathematics-with-statistics-bsc-hons"
+      },
+      {
+        "courseTitle": "Mathematics with Statistics (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/g1n4-mathematics-with-statistics-bsc-hons"
+      },
+      {
+        "courseTitle": "Music",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w300-music-ba-hons"
+      },
+      {
+        "courseTitle": "Music (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w300-music-ba-hons"
+      },
+      {
+        "courseTitle": "Music (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w300-music-ba-hons"
+      },
+      {
+        "courseTitle": "Marine Biology and Oceanography (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/cf17-marine-biology-and-oceanography-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Biology and Oceanography (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/cf17-marine-biology-and-oceanography-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Biology and Oceanography (with Study Abroad) (5 Years)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f712-marine-biology-and-oceanography-msci"
+      },
+      {
+        "courseTitle": "Marine Biology and Zoology",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c169-marine-biology-and-zoology-msci"
+      },
+      {
+        "courseTitle": "Marine Biology and Zoology (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/cc13-marine-biology-and-zoology-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Biology and Zoology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c169-marine-biology-and-zoology-msci"
+      },
+      {
+        "courseTitle": "Marine Biology and Zoology (with Placement Year) (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/cc13-marine-biology-and-zoology-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Biology and Zoology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c169-marine-biology-and-zoology-msci"
+      },
+      {
+        "courseTitle": "Marine Biology and Zoology (with Study Abroad) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/cc13-marine-biology-and-zoology-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Science and Conservation",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f715-marine-science-and-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Science and Conservation (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f715-marine-science-and-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Science and Conservation (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f715-marine-science-and-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Vertebrate Conservation",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c355-marine-vertebrate-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Vertebrate Conservation (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c355-marine-vertebrate-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Vertebrate Conservation (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c355-marine-vertebrate-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Verterbate Conservation",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c356-marine-vertebrate-conservation-msci"
+      },
+      {
+        "courseTitle": "Marine Verterbate Conservation (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c356-marine-vertebrate-conservation-msci"
+      },
+      {
+        "courseTitle": "Marine Verterbate Conservation (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c356-marine-vertebrate-conservation-msci"
+      },
+      {
+        "courseTitle": "Marketing",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n501-marketing-bsc-hons"
+      },
+      {
+        "courseTitle": "Marketing (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n50f-marketing-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Marketing (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n50f-marketing-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Marketing (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n50f-marketing-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Marketing (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n501-marketing-bsc-hons"
+      },
+      {
+        "courseTitle": "Marketing (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n501-marketing-bsc-hons"
+      },
+      {
+        "courseTitle": "Media and Drama",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/p31w-media-and-drama-ba-hons"
+      },
+      {
+        "courseTitle": "Media and Drama (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/p31w-media-and-drama-ba-hons"
+      },
+      {
+        "courseTitle": "Media and Drama (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/p31w-media-and-drama-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Creative Writing",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/wp83-media-studies-and-creative-writing-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Creative Writing (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/wp83-media-studies-and-creative-writing-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Creative Writing (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/wp83-media-studies-and-creative-writing-ba-hons"
+      },
+      {
+        "courseTitle": "Music",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w300-music-ba-hons"
+      },
+      {
+        "courseTitle": "Music (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w300-music-ba-hons"
+      },
+      {
+        "courseTitle": "Music (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w300-music-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Creative Writing (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/wp83-media-studies-and-creative-writing-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and English Literature",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/3hpq-media-studies-and-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and English Literature (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/3hpq-media-studies-and-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and English Literature (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/3hpq-media-studies-and-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Music",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/pw33-media-studies-and-music-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Music (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/pw33-media-studies-and-music-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Music (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/pw33-media-studies-and-music-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Production",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/p316-media-studies-and-production-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Production (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/p31f-media-studies-and-production-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Production (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/p31f-media-studies-and-production-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Production (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/p31f-media-studies-and-production-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Production (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/p316-media-studies-and-production-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Production (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/p316-media-studies-and-production-ba-hons"
+      },
+      {
+        "courseTitle": "Medical Sciences",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b100-medical-sciences-bmedsci-hons"
+      },
+      {
+        "courseTitle": "Medical Sciences (with Placement Year) (3 years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b100-medical-sciences-bmedsci-hons"
+      },
+      {
+        "courseTitle": "Medical Sciences (with Study Abroad) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b100-medical-sciences-bmedsci-hons"
+      },
+      {
+        "courseTitle": "Medicine",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/a100-medicine-bmbs"
+      },
+      {
+        "courseTitle": "Medicine (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/a100-medicine-bmbs"
+      },
+      {
+        "courseTitle": "Medicine: Graduate Entry",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/a101-medicine-graduate-entry-bmbs"
+      },
+      {
+        "courseTitle": "Medicine: Graduate Entry (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/a101-medicine-graduate-entry-bmbs"
+      },
+      {
+        "courseTitle": "Medieval & Early Modern History",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/v130-medieval-and-early-modern-history-ba-hons"
+      },
+      {
+        "courseTitle": "Medieval & Early Modern History (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/v130-medieval-and-early-modern-history-ba-hons"
+      },
+      {
+        "courseTitle": "Medieval & Early Modern History (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/v130-medieval-and-early-modern-history-ba-hons"
+      },
+      {
+        "courseTitle": "Mental Health Nursing",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b762-mental-health-nursing-bn-hons"
+      },
+      {
+        "courseTitle": "Mental Health Nursing (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BNurs",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b769-mental-health-nursing-distance-learning"
+      },
+      {
+        "courseTitle": "Mental Health Nursing (Dispersed Learning Route for Powys Based Students)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b770-mental-health-nursing-dispersed-learning-route-for-powys-based-students"
+      },
+      {
+        "courseTitle": "Midwifery",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b720-midwifery-bm-hons"
+      },
+      {
+        "courseTitle": "Modern and Contemporary History",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/v140-modern-and-contemporary-history-ba-hons"
+      },
+      {
+        "courseTitle": "Modern and Contemporary History (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/v140-modern-and-contemporary-history-ba-hons"
+      },
+      {
+        "courseTitle": "Modern and Contemporary History (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/v140-modern-and-contemporary-history-ba-hons"
+      },
+      {
+        "courseTitle": "Music",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w300-music-ba-hons"
+      },
+      {
+        "courseTitle": "Music (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w300-music-ba-hons"
+      },
+      {
+        "courseTitle": "Music (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w300-music-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r808-modern-languages-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r808-modern-languages-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r808-modern-languages-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and Criminology & Criminal Justice",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r807-modern-languages-and-criminology-criminal-justice-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and Criminology & Criminal Justice (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r807-modern-languages-and-criminology-criminal-justice-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and Criminology & Criminal Justice (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r807-modern-languages-and-criminology-criminal-justice-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and Cymraeg (Welsh)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r805-modern-languages-and-cymraeg-welsh-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and Cymraeg (Welsh) (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r805-modern-languages-and-cymraeg-welsh-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and Cymraeg (Welsh) (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r805-modern-languages-and-cymraeg-welsh-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and English Literature",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r801-modern-languages-and-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and English Literature (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r801-modern-languages-and-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and English Literature (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r801-modern-languages-and-english-literature-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and Film Studies",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r803-modern-languages-and-film-studies-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and Film Studies (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r803-modern-languages-and-film-studies-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and Film Studies (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r803-modern-languages-and-film-studies-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and History",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r804-modern-languages-and-history-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and History (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r804-modern-languages-and-history-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and History (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r804-modern-languages-and-history-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and Media Studies",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r802-modern-languages-and-media-studies-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and Media Studies (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r802-modern-languages-and-media-studies-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and Media Studies (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r802-modern-languages-and-media-studies-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and Philosophy, Ethics and Religion",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r806-modern-languages-and-philosophy-ethics-and-religion-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and Philosophy, Ethics and Religion (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r806-modern-languages-and-philosophy-ethics-and-religion-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages and Philosophy, Ethics and Religion (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r806-modern-languages-and-philosophy-ethics-and-religion-ba-hons"
+      },
+      {
+        "courseTitle": "Music (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BMus",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w302-music-bmus-hons"
+      },
+      {
+        "courseTitle": "Music (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BMus",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w32f-music-with-foundation-year-bmus-hons"
+      },
+      {
+        "courseTitle": "Music (with Foundation Year and with Placement Year) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w30f-music-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Music (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BMus",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w32f-music-with-foundation-year-bmus-hons"
+      },
+      {
+        "courseTitle": "Music (with Foundation Year and with Study Abroad) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w30f-music-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Music (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BMus",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w30b-music-with-placement-year-bmus-hons"
+      },
+      {
+        "courseTitle": "Music (with Placement Year) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w30b-music-with-placement-year-ba-hons"
+      },
+      {
+        "courseTitle": "Music (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BMus",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w30s-music-with-study-abroad-bmus-hons"
+      },
+      {
+        "courseTitle": "Music (with Study Abroad) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w30s-music-with-study-abroad-ba-hons"
+      },
+      {
+        "courseTitle": "Music and Drama (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/ww34-music-and-drama-ba-hons"
+      },
+      {
+        "courseTitle": "Music and Film Studies",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/ww36-music-and-film-studies-ba-hons"
+      },
+      {
+        "courseTitle": "Music and Film Studies (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/ww36-music-and-film-studies-ba-hons"
+      },
+      {
+        "courseTitle": "Music and Film Studies (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/ww36-music-and-film-studies-ba-hons"
+      },
+      {
+        "courseTitle": "Music and Modern Languages",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w3r8-music-and-modern-languages-ba-hons"
+      },
+      {
+        "courseTitle": "Music and Modern Languages (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w3r8-music-and-modern-languages-ba-hons"
+      },
+      {
+        "courseTitle": "Music and Modern Languages (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w3r8-music-and-modern-languages-ba-hons"
+      },
+      {
+        "courseTitle": "Music Performance",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w307-music-performance-ba-hons"
+      },
+      {
+        "courseTitle": "Music Performance (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w307-music-performance-ba-hons"
+      },
+      {
+        "courseTitle": "Music Performance (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w307-music-performance-ba-hons"
+      },
+      {
+        "courseTitle": "Neuropsychology (Intercalated)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/6s26-neuropsychology-intercalated-bsc-hons"
+      },
+      {
+        "courseTitle": "Ocean and Geophysics",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f7f6-ocean-and-geophysics-bsc-hons"
+      },
+      {
+        "courseTitle": "Ocean and Geophysics (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f7f6-ocean-and-geophysics-bsc-hons"
+      },
+      {
+        "courseTitle": "Ocean and Geophysics (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f7f6-ocean-and-geophysics-bsc-hons"
+      },
+      {
+        "courseTitle": "Ocean Science",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f700-ocean-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Ocean Science (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f700-ocean-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Ocean Science (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f700-ocean-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Pharmacology",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b200-pharmacology-bsc-hons"
+      },
+      {
+        "courseTitle": "Pharmacology (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b20f-pharmacology-with-foundation-year"
+      },
+      {
+        "courseTitle": "Pharmacology (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b20f-pharmacology-with-foundation-year"
+      },
+      {
+        "courseTitle": "Pharmacology (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b20f-pharmacology-with-foundation-year"
+      },
+      {
+        "courseTitle": "Pharmacology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b200-pharmacology-bsc-hons"
+      },
+      {
+        "courseTitle": "Pharmacology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b200-pharmacology-bsc-hons"
+      },
+      {
+        "courseTitle": "Philosophy, Ethics and Religion",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/v5v6-philosophy-ethics-and-religion-ba-hons"
+      },
+      {
+        "courseTitle": "Philosophy, Ethics and Religion (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/v5v6-philosophy-ethics-and-religion-ba-hons"
+      },
+      {
+        "courseTitle": "Philosophy, Ethics and Religion (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/v5v6-philosophy-ethics-and-religion-ba-hons"
+      },
+      {
+        "courseTitle": "Physical Geography and Oceanography",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f840-physical-geography-and-oceanography-bsc-hons"
+      },
+      {
+        "courseTitle": "Physical Geography and Oceanography (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f840-physical-geography-and-oceanography-bsc-hons"
+      },
+      {
+        "courseTitle": "Physical Geography and Oceanography (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f840-physical-geography-and-oceanography-bsc-hons"
+      },
+      {
+        "courseTitle": "Physics",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f303-physics-bsc-hons"
+      },
+      {
+        "courseTitle": "Physics (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f301-physics-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Physics (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f303-physics-bsc-hons"
+      },
+      {
+        "courseTitle": "Physics (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f303-physics-bsc-hons"
+      },
+      {
+        "courseTitle": "Physics with Astrophysics",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f3f5-physics-with-astrophysics-bsc-hons"
+      },
+      {
+        "courseTitle": "Physics with Astrophysics (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f3f5-physics-with-astrophysics-bsc-hons"
+      },
+      {
+        "courseTitle": "Physics with Astrophysics (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f3f5-physics-with-astrophysics-bsc-hons"
+      },
+      {
+        "courseTitle": "Physics with Astrophysics (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f3f5-physics-with-astrophysics-bsc-hons"
+      },
+      {
+        "courseTitle": "Politics (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l20f-politics-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Politics (with Placement Year) (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l200-politics-ba-hons"
+      },
+      {
+        "courseTitle": "Politics (with Study Abroad) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l200-politics-ba-hons"
+      },
+      {
+        "courseTitle": "Primary Education with Qualified Teacher Status (English-Medium Course) (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x131-primary-education-with-qualified-teacher-status-english-medium-course-ba"
+      },
+      {
+        "courseTitle": "Primary Education with Qualified Teacher Status (English-Medium Course) (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x131-primary-education-with-qualified-teacher-status-english-medium-course-ba"
+      },
+      {
+        "courseTitle": "Primary Education with Qualified Teacher Status (Welsh-Medium Course)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x130-primary-education-with-qualified-teacher-status-welsh-medium-course-ba"
+      },
+      {
+        "courseTitle": "Primary Education with Qualified Teacher Status (Welsh-Medium Course) (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x130-primary-education-with-qualified-teacher-status-welsh-medium-course-ba"
+      },
+      {
+        "courseTitle": "Primary Education with Qualified Teacher Status (Welsh-Medium Course) (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/x130-primary-education-with-qualified-teacher-status-welsh-medium-course-ba"
+      },
+      {
+        "courseTitle": "Product Design (English Medium)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w240-product-design-english-medium-bsc-hons"
+      },
+      {
+        "courseTitle": "Product Design (English Medium) (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w240-product-design-english-medium-bsc-hons"
+      },
+      {
+        "courseTitle": "Product Design (English Medium) (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w240-product-design-english-medium-bsc-hons"
+      },
+      {
+        "courseTitle": "Product Design (Welsh Medium)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w241-product-design-welsh-medium-bsc-hons"
+      },
+      {
+        "courseTitle": "Product Design (Welsh Medium) (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w241-product-design-welsh-medium-bsc-hons"
+      },
+      {
+        "courseTitle": "Product Design (Welsh Medium) (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w241-product-design-welsh-medium-bsc-hons"
+      },
+      {
+        "courseTitle": "Professional Policing",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l436-professional-policing-bsc-hons"
+      },
+      {
+        "courseTitle": "Professional Welsh",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q563-professional-welsh-ba-hons"
+      },
+      {
+        "courseTitle": "Professional Welsh (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q563-professional-welsh-ba-hons"
+      },
+      {
+        "courseTitle": "Professional Welsh (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q563-professional-welsh-ba-hons"
+      },
+      {
+        "courseTitle": "Psychology",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c800-psychology-bsc-hons"
+      },
+      {
+        "courseTitle": "Psychology (with Placement Year) (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c800-psychology-bsc-hons"
+      },
+      {
+        "courseTitle": "Psychology (with Study Abroad) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c800-psychology-bsc-hons"
+      },
+      {
+        "courseTitle": "Psychology with Clinical and Health Psychology",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c880-psychology-with-clinical-and-health-psychology-bsc-hons"
+      },
+      {
+        "courseTitle": "Psychology with Clinical and Health Psychology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c880-psychology-with-clinical-and-health-psychology-bsc-hons"
+      },
+      {
+        "courseTitle": "Psychology with Clinical and Health Psychology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c880-psychology-with-clinical-and-health-psychology-bsc-hons"
+      },
+      {
+        "courseTitle": "Psychology with Forensic Psychology",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c813-psychology-with-forensic-psychology-bsc-hons"
+      },
+      {
+        "courseTitle": "Psychology with Forensic Psychology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c813-psychology-with-forensic-psychology-bsc-hons"
+      },
+      {
+        "courseTitle": "Psychology with Forensic Psychology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c813-psychology-with-forensic-psychology-bsc-hons"
+      },
+      {
+        "courseTitle": "Psychology with Neuropsychology",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c801-psychology-with-neuropsychology-bsc-hons"
+      },
+      {
+        "courseTitle": "Psychology with Neuropsychology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c801-psychology-with-neuropsychology-bsc-hons"
+      },
+      {
+        "courseTitle": "Psychology with Neuropsychology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c801-psychology-with-neuropsychology-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Science",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c600-sport-and-exercise-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Science (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c600-sport-and-exercise-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Science (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c600-sport-and-exercise-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Sociology (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l30f-sociology-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Sociology (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l30f-sociology-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Sociology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l300-sociology-ba-hons"
+      },
+      {
+        "courseTitle": "Sociology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l300-sociology-ba-hons"
+      },
+      {
+        "courseTitle": "Sociology and Criminology and Criminal Justice",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/lm39-sociology-and-criminology-and-criminal-justice-ba-hons"
+      },
+      {
+        "courseTitle": "Sociology and Criminology and Criminal Justice (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/lm39-sociology-and-criminology-and-criminal-justice-ba-hons"
+      },
+      {
+        "courseTitle": "Sociology and Criminology and Criminal Justice (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/lm39-sociology-and-criminology-and-criminal-justice-ba-hons"
+      },
+      {
+        "courseTitle": "Sociology and Social Policy (English-Medium)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/ll34-sociology-and-social-policy-english-medium-ba-hons"
+      },
+      {
+        "courseTitle": "Sociology and Social Policy (English-Medium) (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/ll34-sociology-and-social-policy-english-medium-ba-hons"
+      },
+      {
+        "courseTitle": "Sociology and Social Policy (English-Medium) (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/ll34-sociology-and-social-policy-english-medium-ba-hons"
+      },
+      {
+        "courseTitle": "Sociology and Social Policy (Welsh Medium)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l3lk-sociology-with-social-policy-welsh-medium-ba-hons"
+      },
+      {
+        "courseTitle": "Sociology and Social Policy (Welsh Medium) (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l3lk-sociology-with-social-policy-welsh-medium-ba-hons"
+      },
+      {
+        "courseTitle": "Sociology and Social Policy (Welsh Medium) (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l3lk-sociology-with-social-policy-welsh-medium-ba-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Psychology",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c680-sport-and-exercise-psychology-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Psychology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c680-sport-and-exercise-psychology-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Psychology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c680-sport-and-exercise-psychology-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Science",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c616-sport-and-exercise-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Science (Intercalated)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c619-sport-and-exercise-science-intercalated-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Science (with Foundation Year and with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c61f-sport-and-exercise-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Science (with Foundation Year and with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c61f-sport-and-exercise-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Science (with Foundation Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c61f-sport-and-exercise-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Science (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c616-sport-and-exercise-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Science (with Study Abroad) (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c616-sport-and-exercise-science-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport Science (Intercalated)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c603-sport-science-intercalated-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport Science, Physical Education and Coaching",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c617-sport-science-physical-education-and-coaching-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport Science, Physical Education and Coaching (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c617-sport-science-physical-education-and-coaching-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport Science, Physical Education and Coaching (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c617-sport-science-physical-education-and-coaching-bsc-hons"
+      },
+      {
+        "courseTitle": "Welsh and Linguistics (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qq15-welsh-and-linguistics-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh and Linguistics (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qq15-welsh-and-linguistics-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh and Music",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qw53-welsh-and-music-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh and Music (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qw53-welsh-and-music-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh and Music (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qw53-welsh-and-music-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh and Philosophy, Ethics and Religion",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q5vv-welsh-and-philosophy-ethics-and-religion-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh and Philosophy, Ethics and Religion (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q5vv-welsh-and-philosophy-ethics-and-religion-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh and Philosophy, Ethics and Religion (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q5vv-welsh-and-philosophy-ethics-and-religion-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh and Sociology",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/lq35-welsh-and-sociology-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh and Sociology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/lq35-welsh-and-sociology-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh and Sociology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/lq35-welsh-and-sociology-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh and Welsh History",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qmv2-welsh-and-welsh-history-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh and Welsh History (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qmv2-welsh-and-welsh-history-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh and Welsh History (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qmv2-welsh-and-welsh-history-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh for Beginners",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q565-welsh-for-beginners-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh for Beginners (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q565-welsh-for-beginners-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh for Beginners (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q565-welsh-for-beginners-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh with Creative Writing",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q5wk-welsh-with-creative-writing-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh with Creative Writing (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q5wk-welsh-with-creative-writing-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh with Creative Writing (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/q5wk-welsh-with-creative-writing-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh, Theatre and Media",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qwm5-welsh-theatre-and-media-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh, Theatre and Media (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qwm5-welsh-theatre-and-media-ba-hons"
+      },
+      {
+        "courseTitle": "Welsh, Theatre and Media (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/qwm5-welsh-theatre-and-media-ba-hons"
+      },
+      {
+        "courseTitle": "Wildlife Ecology and Conservation",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c347-wildlife-ecology-and-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Wildlife Ecology and Conservation (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c347-wildlife-ecology-and-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Wildlife Ecology and Conservation (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c347-wildlife-ecology-and-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Woodland Management and Conservation",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/d515-woodland-management-and-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Woodland Management and Conservation (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/d515-woodland-management-and-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Woodland Management and Conservation (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/d515-woodland-management-and-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Ornithology",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c334-zoology-with-ornithology-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Ornithology (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c330-zoology-with-ornithology-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Ornithology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c334-zoology-with-ornithology-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Ornithology (with Placement Year) (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c330-zoology-with-ornithology-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Ornithology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c334-zoology-with-ornithology-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Ornithology (with Study Abroad) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c330-zoology-with-ornithology-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Primatology",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c329-zoology-with-primatology-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Primatology (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c333-zoology-with-primatology-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Primatology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c329-zoology-with-primatology-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Primatology (with Placement Year) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c333-zoology-with-primatology-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Primatology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c329-zoology-with-primatology-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Primatology (with Study Abroad) (5 Years)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c333-zoology-with-primatology-mzool"
+      },
+      {
+        "courseTitle": "Zoology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c300-zoology-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology (with Study Abroad) (5 Years)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c301-zoology-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Animal Behaviour",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c302-zoology-with-animal-behaviour-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Animal Behaviour (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c3d3-zoology-with-animal-behaviour-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Animal Behaviour (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c302-zoology-with-animal-behaviour-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Animal Behaviour (with Placement Year) (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c3d3-zoology-with-animal-behaviour-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Animal Behaviour (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c3d3-zoology-with-animal-behaviour-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Animal Behaviour (with Study Abroad) (5 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c302-zoology-with-animal-behaviour-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Animal Management",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c336-zoology-with-animal-management-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Animal Management (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c335-zoology-with-animal-management-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Animal Management (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c336-zoology-with-animal-management-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Animal Management (with Placement Year) (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c335-zoology-with-animal-management-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Animal Management (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c336-zoology-with-animal-management-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Animal Management (with Study Abroad) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c335-zoology-with-animal-management-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Conservation",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/cd34-zoology-with-conservation-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Conservation (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/cd34-zoology-with-conservation-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Conservation (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/cd34-zoology-with-conservation-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Consevation (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c3l2-zoology-with-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Consevation (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c3l2-zoology-with-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Consevation (with Study Abroad) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c3l2-zoology-with-conservation-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Herpetology",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c303-zoology-with-herpetology-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Herpetology (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c304-zoology-with-herpetology-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Herpetology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c303-zoology-with-herpetology-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Herpetology (with Placement Year) (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c304-zoology-with-herpetology-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Herpetology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c303-zoology-with-herpetology-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Herpetology (with Study Abroad) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c304-zoology-with-herpetology-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Marine Zoology",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c353-zoology-with-marine-zoology-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Marine Zoology (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c352-zoology-with-marine-zoology-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Marine Zoology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c353-zoology-with-marine-zoology-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Marine Zoology (with Placement Year) (3 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c352-zoology-with-marine-zoology-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology with Marine Zoology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "MSci",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c353-zoology-with-marine-zoology-mzool"
+      },
+      {
+        "courseTitle": "Zoology with Marine Zoology (with Study Abroad) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "BSc",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c352-zoology-with-marine-zoology-bsc-hons"
+      }
+    ]
+  },
+  {
+    "level": "foundation",
+    "courses": [
+      {
+        "courseTitle": "Accounting and Finance",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/nn4f-accounting-and-finance-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Accounting and Finance (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/nn4f-accounting-and-finance-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Accounting and Finance (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/nn4f-accounting-and-finance-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Banking and Finance",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/n39f-banking-and-finance-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Banking and Finance (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/n39f-banking-and-finance-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Banking and Finance (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/n39f-banking-and-finance-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Biology",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c10f-biology-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Biology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c10f-biology-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Biology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/c10f-biology-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Biomedical Science",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/b112-biomedical-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Biomedical Science (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/b112-biomedical-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Biomedical Science (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/b112-biomedical-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Management",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/n20f-business-management-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Management (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/n20f-business-management-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Business Management (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/n20f-business-management-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Electronic Engineering",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/h61f-electronic-engineering-with-foundation-year-beng-hons"
+      },
+      {
+        "courseTitle": "Electronic Engineering (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/h61f-electronic-engineering-with-foundation-year-beng-hons"
+      },
+      {
+        "courseTitle": "Electronic Engineering (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/h61f-electronic-engineering-with-foundation-year-beng-hons"
+      },
+      {
+        "courseTitle": "English Language and English Literature",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/qqcf-english-language-and-english-literature-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "English Language and English Literature (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/qqcf-english-language-and-english-literature-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "English Language and English Literature (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/qqcf-english-language-and-english-literature-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Environmental Science",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/f90f-environmental-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Environmental Science (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linktocourse": "https://www.bangor.ac.uk/courses/undergraduate/f90f-environmental-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Environmental Science (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f90f-environmental-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Geological Oceanography",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f62f-geological-oceanography-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Geological Oceanography (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f62f-geological-oceanography-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Geological Oceanography (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/f62f-geological-oceanography-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "History",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/v10f-history-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "History (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/v10f-history-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "History (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/v10f-history-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "International Year One",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/buic/international-year-1"
+      },
+      {
+        "courseTitle": "Law",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m10f-law-with-foundation-year-llb-hons"
+      },
+      {
+        "courseTitle": "Law (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m10f-law-with-foundation-year-llb-hons"
+      },
+      {
+        "courseTitle": "Law (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/m10f-law-with-foundation-year-llb-hons"
+      },
+      {
+        "courseTitle": "Marine Biology",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c16f-marine-biology-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Biology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c16f-marine-biology-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Marine Biology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c16f-marine-biology-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Marketing",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n50f-marketing-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Marketing (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n50f-marketing-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Marketing (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/n50f-marketing-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Production",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/p31f-media-studies-and-production-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Production (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/p31f-media-studies-and-production-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Media Studies and Production (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/p31f-media-studies-and-production-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r808-modern-languages-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r808-modern-languages-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Modern Languages (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/r808-modern-languages-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Music",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w32f-music-with-foundation-year-bmus-hons"
+      },
+      {
+        "courseTitle": "Music (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w30f-music-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Music (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w32f-music-with-foundation-year-bmus-hons"
+      },
+      {
+        "courseTitle": "Music (with Placement Year) (4 Years)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w30f-music-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Music (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w32f-music-with-foundation-year-bmus-hons"
+      },
+      {
+        "courseTitle": "Music (with Study Abroad) (5 Years)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/w30f-music-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Pharmacology",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b20f-pharmacology-with-foundation-year"
+      },
+      {
+        "courseTitle": "Pharmacology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b20f-pharmacology-with-foundation-year"
+      },
+      {
+        "courseTitle": "Pharmacology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/b20f-pharmacology-with-foundation-year"
+      },
+      {
+        "courseTitle": "Politics",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l20f-politics-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Politics (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l20f-politics-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Politics (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l20f-politics-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Sociology",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l30f-sociology-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Sociology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l30f-sociology-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Sociology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/l30f-sociology-with-foundation-year-ba-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Science",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c61f-sport-and-exercise-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Science (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c61f-sport-and-exercise-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Sport and Exercise Science (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c61f-sport-and-exercise-science-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c30f-zoology-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology (with Placement Year)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c30f-zoology-with-foundation-year-bsc-hons"
+      },
+      {
+        "courseTitle": "Zoology (with Study Abroad)",
+        "intake": "Sep 2024",
+        "degree": "FDA",
+        "linkToCourse": "https://www.bangor.ac.uk/courses/undergraduate/c30f-zoology-with-foundation-year-bsc-hons"
+      }
+    ]
+  }
+]

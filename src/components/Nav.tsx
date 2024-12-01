@@ -5,20 +5,20 @@ interface Props {}
 const Nav = (props: Props) => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg  p-0">
+      <nav className="navbar navbar-expand-lg  px-0">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-          {/* <img
+            {/* <img
               width={"100px"}
               src="../assets/images/Logo/GEA-logo-02.png"
               alt=""
             /> */}
             <img
               width={"100px"}
-              src="../assets/images/Logo/gea-logo2.0.jpg"
+              src="../assets/images/Logo/Gealogo-latest.svg
+              "
               alt=""
             />
-           
           </a>
           <button
             className="navbar-toggler border-none btn-outline-none"
@@ -32,7 +32,10 @@ const Nav = (props: Props) => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarText">
-            <ul className="navbar-nav  mx-auto mb-2 mb-lg-0 " style={{paddingRight:0}} >
+            <ul
+              className="navbar-nav  mx-auto mb-2 mb-lg-0 "
+              style={{ paddingRight: 0 }}
+            >
               <li className="nav-item  dropdown">
                 <a
                   className="nav-link dropdown-toggle"

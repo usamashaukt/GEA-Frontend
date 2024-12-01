@@ -1,24 +1,31 @@
-.navbar .dropdown .dropdown-menu {
-
-    
-}
+.navbar .dropdown .dropdown-menu {}
 
 
-.navbar {
-    
-}
+.navbar {}
 
 .navbar .nav-item a:hover {
-    color: #000;
+    /* color: #000; */
     border-radius: 4px;
-    background-color: #29ABE2;
+    /* background-color: #29ABE2; */
+  
 }
 
+.navbar-collapse {
+    gap: 20px;
+}
 
+.navbar .nav-item .nav-link:hover {
+    padding-bottom: 5px !important;
+    border-bottom: 2px solid red;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
 
 
 .navbar .nav-item a:focus {
     border-radius: 4px;
+ 
 
 }
 
@@ -29,10 +36,11 @@
 }
 
 
-.navbar-nav{
+.navbar-nav {
     justify-content: end;
     width: 100%;
     padding-right: 30px;
+    gap: 20px;
 }
 
 /* Nav.css */
@@ -62,16 +70,18 @@
     }
 }
 
+
+
 /* Applying the animations to the dropdown menus */
 .dropdown-menu {
     display: none;
     /* Hide dropdown by default */
-    animation: fadeIn 300ms ease-in forwards;
+    animation: fadeIn 300ms ease-in both;
 }
 
 .dropdown-menu.show {
     display: block;
-    animation: fadeIn 300ms ease-in forwards;
+    animation: fadeIn 300ms ease-in both;
 }
 
 .navbar-nav .nav-item.dropdown .dropdown-menu {

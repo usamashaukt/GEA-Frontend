@@ -26,20 +26,20 @@ const Button = (props: Props) => {
               Courses
             </button>
             <button
-              className=" btn mt-5  banner-btn"
+              className=" btn mt-5  d-none banner-btn"
               onClick={() => handleButtonClick("Scholarships")}
             >
               {" "}
               Scholarships
             </button>
             <button
-              className=" btn mt-5  banner-btn"
+              className=" btn mt-5 d-none  banner-btn"
               onClick={() => handleButtonClick("Universities")}
             >
               Universities
             </button>
             <button
-              className=" btn mt-5  banner-btn"
+              className=" btn mt-5  d-none banner-btn"
               onClick={() => handleButtonClick("websiteSearch")}
             >
               Website Search
