@@ -1,14 +1,17 @@
 .search-banner {
-    background-image: url(../../public/assets/images/uk-1920-x-1080-background-nhcbt5u3fodvxuhl.jpg);
-    background-position: center bottom;
+    background-image: url(../../public/assets/images/geawallpaper/wp2244522-united-kingdom-wallpapers.jpg);
+    background-position: center -300px;
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    min-height: 400px;
+    min-height: 700px;
     transition: .4s ease-in-out;
     z-index: 1;
 }
 
+.container{
+    margin-left: 42px !important;
+}
 /* .search-banner::before {
     position: absolute;
     width: 100%;

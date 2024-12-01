@@ -5,7 +5,7 @@ interface Props {}
 const Nav = (props: Props) => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg  px-0">
+      <nav className="navbar navbar-expand-lg   px-0">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             {/* <img
@@ -34,7 +34,7 @@ const Nav = (props: Props) => {
           <div className="collapse navbar-collapse" id="navbarText">
             <ul
               className="navbar-nav  mx-auto mb-2 mb-lg-0 "
-              style={{ paddingRight: 0 }}
+             
             >
               <li className="nav-item  dropdown">
                 <a

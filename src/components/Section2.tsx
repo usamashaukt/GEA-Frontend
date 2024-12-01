@@ -8,7 +8,7 @@ const Section2 = (props: Props) => {
   return (
     <div>
       <div className="global-imgs">
-        <div className="container">
+        <div className="container mx-auto ">
           <div className="row">
             <div className="col-lg-12">
               <div className="row">

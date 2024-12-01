@@ -1,13 +1,17 @@
 .navbar .dropdown .dropdown-menu {}
 
 
-.navbar {}
+.navbar {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    /* margin-left: 25px; */
+}
 
 .navbar .nav-item a:hover {
     /* color: #000; */
     border-radius: 4px;
     /* background-color: #29ABE2; */
-  
+
 }
 
 .navbar-collapse {
@@ -16,16 +20,20 @@
 
 .navbar .nav-item .nav-link:hover {
     padding-bottom: 5px !important;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid red !important;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    
+
 }
 
+.navbar .container-fluid {
+    padding-right: 42px !important;
+    padding-left: 42px !important;
+}
 
 .navbar .nav-item a:focus {
     border-radius: 4px;
- 
+
 
 }
 
@@ -39,7 +47,7 @@
 .navbar-nav {
     justify-content: end;
     width: 100%;
-    padding-right: 30px;
+    /* padding-right: 30px !important; */
     gap: 20px;
 }
 
