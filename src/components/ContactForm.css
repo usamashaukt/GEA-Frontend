@@ -1,0 +1,72 @@
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn-danger {
+    background-color: #FF5252;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #e33e3e;
+}
+
+.text-danger {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.text-center a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
+
+.modal-dialog {
+    max-width: 700px !important;
+}
+
+.modal-body {
+    padding: 0 !important;
+}
+
+.modal-body>.container {
+    padding: 0 !important;
+}
+
+.modal-content .modal-body .container .row {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.modal-header {
+    padding: 8px 16px !important;
+}
+
+.modal-footer {
+    padding: 8px 16px !important;
+}

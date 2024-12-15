@@ -16,20 +16,35 @@
 
 }
 
-.global-imgs::before {
-    content: "";
-    display: table;
+
+
+.card {
+    position: relative ;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+    margin: 20px 10px;
+    z-index: 10;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.global-imgs .container .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.global-imgs .container .row .col-lg-6 {
-    max-width: 450px;
+.card-img {
+    border-bottom: 2px solid #f0f0f0;
+    width: -webkit-fill-available;
+
 }
+
+.row {
+    padding: 20px;
+}
+
+
 
 @media (max-width: 767px) {
     /* .global-imgs {

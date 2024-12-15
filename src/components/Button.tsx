@@ -15,7 +15,7 @@ const Button = (props: Props) => {
   };
   return (
     <>
-      <div className=" ">
+      <div className=" btn-container">
         <div></div>
         <div className="">
           <div className="button-wrapper ">

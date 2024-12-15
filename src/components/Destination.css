@@ -1,0 +1,53 @@
+/* Container holding the image card */
+.card {
+    overflow: hidden;
+    /* Ensures image does not overflow outside the card */
+    border-radius: 8px !important;
+    /* Rounded corners */
+    position: relative;
+}
+
+/* Image scaling effect on hover */
+.card .destination-img {
+    transition: transform 0.4s ease-in-out !important;
+    /* Smooth scaling effect */
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    /* Ensures the image maintains aspect ratio */
+}
+
+.card:hover .destination-img {
+    transform: scale(1.1) !important;
+    /* Slightly scale the image */
+}
+
+/* Image overlay styling */
+.card-img-overlay {
+    background: rgba(0, 0, 0, 0.5) !important;
+    /* Dark semi-transparent overlay */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    opacity: 0;
+    /* Hidden by default */
+    transition: opacity 0.4s ease-in-out !important;
+    /* Fade-in effect */
+}
+
+/* Show overlay on hover */
+.card:hover .card-img-overlay {
+    opacity: 1 !important;
+    /* Show overlay */
+}
+
+/* Text styling on the overlay */
+.destination-title {
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    /* Slightly darker background for readability */
+    padding: 0.5rem 1rem !important;
+    border-radius: 5px !important;
+}

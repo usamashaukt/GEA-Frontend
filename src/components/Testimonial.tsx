@@ -1,94 +1,65 @@
 import React from "react";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 import "./Testimonial.css";
-import CarouselSlider from "./CarouselSlider";
-interface Props {}
 
-const testimonial = (props: Props) => {
+const testimonials = [
+  {
+    name: "Natalia",
+    course: "BSc (Honours) Architecture | Italy",
+    message:
+      "Super helpful! Always got back to me ASAP with any questions and extra tips to help me in my application process.",
+    image:
+      "https://www.studyadvisers.com/wp-content/uploads/2018/09/review_Italy-300x300.jpg", // Replace with actual image path
+  },
+  {
+    name: "Ehsan",
+    course: "Language Course | Pakistan",
+    message:
+      "Excellent and knowledgeable service. Would highly recommend. Gave me consistent advice from my foundation until my bachelor's application.",
+    image:
+      "https://www.studyadvisers.com/wp-content/uploads/2018/09/review_Pakistan-300x300.jpg",
+  },
+  {
+    name: "Alice Johnson",
+    course: "PhD | Nigeria",
+    message:
+      "Helped me find, the university best matched for my personal needs and criteria. Their expertise in handling application procedures, visa procedures is outstanding, thus helping me through all the important steps of finding and arriving to the university.",
+    image:
+      "https://www.studyadvisers.com/wp-content/uploads/2018/09/review_ksa-300x300.jpg",
+  },
+];
+
+const Testimonial = () => {
   return (
-    <div>
-      <div className="testimonial-wrapper pt-5">
-        <section
-          id="testimonial"
-          className="adaptive-background container"
-          data-background-position="right bottom"
-          data-background-xs="https://siuk-europe.s3.eu-west-2.amazonaws.com/assets/images/Pakistan.gif"
-          data-background-sm="https://siuk-europe.s3.eu-west-2.amazonaws.com/assets/images/Pakistan.gif"
-          data-background-md="https://siuk-europe.s3.eu-west-2.amazonaws.com/assets/images/Pakistan.gif"
-          data-background-lg="https://siuk-europe.s3.eu-west-2.amazonaws.com/assets/images/Pakistan.gif"
-          style={{
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            backgroundImage:
-              "url(https://siuk-europe.s3.eu-west-2.amazonaws.com/assets/images/Pakistan.gif)",
-            backgroundPosition: "right bottom",
-          }}
-        >
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-10 col-sm-12 col-xs-12">
-                <div className="testimonial-new">
-                  <blockquote>
-                    <div className="row">
-                      <div className="col-xs-8 col-sm-8 col-lg-9">
-                        {/* <div className="pull-left margin-20">
-                          <img
-                            src="https://siuk-europe.s3.eu-west-2.amazonaws.com/assets/images/upward-comma.png"
-                            className="img-responsive"
-                          />
-                        </div> */}
-                        {/* <div className="clearfix"></div> */}
-                        <p>
-                          <img
-                            src="https://siuk-europe.s3.eu-west-2.amazonaws.com/assets/images/breckett-front.png"
-                            alt="Breckett Front"
-                          />{" "}
-                          &nbsp;I believe my success is due to the great support
-                          provided by GEA. I was advised the right IELTS
-                          courses to attend and they also helped with my visa
-                          application. I really want to share with you my
-                          positive experience and I would definitely recommend
-                          GEA to my friends. &nbsp;
-                          <img
-                            src="https://siuk-europe.s3.eu-west-2.amazonaws.com/assets/images/breckett-back.png"
-                            alt="breckett-back"
-                          />
-                        </p>
-                        {/* <div className="pull-right">
-                          <img
-                            src="https://siuk-europe.s3.eu-west-2.amazonaws.com/assets/images/downward-comma.png"
-                            className="img-responsive"
-                          />
-                        </div> */}
-                        {/* <div className="clearfix"></div> */}
-                        <h4 className="margin-20 mt-5">
-                          Fatima Parveen{" "}
-                          <span>Psychology at University of Nottingham</span>
-                        </h4>
-                      </div>
-                    </div>
-                  </blockquote>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <div
-        className="my-4 leading-unis mx-auto container-fluid"
-        style={{ paddingLeft: "40px", paddingRight: "40px" }}
+    <div className="slider-container-fluid">
+      <Swiper
+        modules={[Pagination, Autoplay]}
+        spaceBetween={30}
+        slidesPerView={1}
+        autoplay={{ delay: 3000 }}
+        pagination={{ clickable: true }}
       >
-        <h2 className="mb-5 d-flex flex-row justify-content-center align-items-center">
-          Leading Universities and GEA Partners
-        </h2>{" "}
-        <div>
-          <i className="bi bi-chevron-right"></i>
-        </div>
-        <CarouselSlider />
-      </div>
+        {testimonials.map((testimonial, index) => (
+          <SwiperSlide key={index}>
+            <div className="testimonial-card">
+              <p className="testimonial-message">"{testimonial.message}"</p>
+              <img
+                src={testimonial.image}
+                alt={testimonial.name}
+                className="testimonial-image"
+              />
+              <h3 className="testimonial-name">{testimonial.name}</h3>
+              <p className="testimonial-course">{testimonial.course}</p>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+      
     </div>
   );
 };
 
-export default testimonial;
+export default Testimonial;

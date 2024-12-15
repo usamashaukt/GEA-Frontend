@@ -8,45 +8,84 @@ const Section2 = (props: Props) => {
   return (
     <div>
       <div className="global-imgs">
-        <div className="container mx-auto ">
+        <div className="container-fluid mb-4 mx-auto ">
           <div className="row">
-            <div className="col-lg-12">
-              <div className="row">
-                <div className="col-lg-6 col-sm-6 col-xs-12 text-center p-3 pb-0">
-                  <a href="#" target="">
-                    <img
-                      src="../../public/assets/images/sec2/services-dec.jpg"
-                      className="img-fluid"
-                      alt="services-dec"
-                    />
+            <div className="col-lg-3">
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    className="card-img"
+                    height={"198"}
+                    src="../../public/assets/images/studentpics/student1.webp"
+                    alt=""
+                  />
+                  <h5 className="card-title">Bachelors</h5>
+                  <p className="card-text">
+                    Explore basic undergraduate programs and courses
+                    internationally.
+                  </p>
+                  <a href="#" className="btn btn-primary">
+                    Learn More
                   </a>
                 </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12 text-center p-3 pb-0">
-                  <a href="#" target="_blank">
-                    <img
-                      src="../../public/assets/images/sec2/dmp-a1-unite-student-global-may-2024.webp"
-                      className="img-fluid"
-                      alt="dmp-a1-unite-student-global-may-2024"
-                    />
+              </div>
+            </div>
+
+            <div className="col-lg-3">
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    className="card-img"
+                    height={"198"}
+                    src="../../public/assets/images/studentpics/student2.webp"
+                    alt=""
+                  />
+
+                  <h5 className="card-title">Masters</h5>
+                  <p className="card-text">
+                    Dive deeper with advanced courses and specializations.
+                  </p>
+                  <a href="#" className="btn btn-primary">
+                    Learn More
                   </a>
                 </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12 text-center p-3 ">
-                  <a href="#" target="_blank">
-                    <img
-                      src="../../public/assets/images/sec2/dmp-a1-UWL-1-feb-2024.webp"
-                      className="img-fluid"
-                      alt="dmp-a1-UWL-1-feb-2024"
-                    />
+              </div>
+            </div>
+
+            <div className="col-lg-3">
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    className="card-img"
+                    src="../../public/assets/images/studentpics/student3.jpg"
+                    alt=""
+                  />
+
+                  <h5 className="card-title">PhDs</h5>
+                  <p className="card-text">
+                    Engage in research and innovation at the highest level.
+                  </p>
+                  <a href="#" className="btn btn-primary">
+                    Learn More
                   </a>
                 </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12 text-center p-3 ">
-                  <a href="#" target="_blank">
-                    <img
-                      src="../../public/assets/images/sec2/top_10_campus_470x160_1-northumbria-multiple-june-2024.webp
-                      "
-                      className="img-fluid"
-                      alt="top_10_campus_470x160_1-northumbria-multiple-june-2024"
-                    />
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    className="card-img"
+                    src="../../public/assets/images/studentpics/student3.jpg"
+                    alt=""
+                  />
+
+                  <h5 className="card-title">PhDs</h5>
+                  <p className="card-text">
+                    Engage in research and innovation at the highest level.
+                  </p>
+                  <a href="#" className="btn btn-primary">
+                    Learn More
                   </a>
                 </div>
               </div>
