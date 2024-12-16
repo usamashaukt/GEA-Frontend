@@ -16,7 +16,7 @@ const ContactBtn = ({ btnColor }: Props) => {
 
   return (
     <>
-      <div className="d-flex flex-row justify-content-center mt-4 pb-4">
+      <div className="d-flex flex-row justify-content-center ">
         <div className="contact-btn">
           <a
             className="btn"
@@ -33,12 +33,14 @@ const ContactBtn = ({ btnColor }: Props) => {
                   : isHovered
                   ? "#fff"
                   : "#B40C31",
+              width: "calc(100% + 12px)",
+              backgroundColor:"#000"
             }}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             onClick={handleShow} // Show the modal on click
           >
-            Contact Us Today
+            Contact Us
           </a>
         </div>
       </div>

@@ -1,0 +1,111 @@
+/* Reset styling for cross-browser consistency */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    padding: 20px;
+} */
+
+.header-uk {
+    background-image: url(../../public/assets/images/geawallpaper/wp2244522-united-kingdom-wallpapers.jpg);
+    /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* .container {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+} */
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card-london {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-london h2 {
+    font-size: 1.5rem;
+    /* margin-bottom: 15px; */
+    font-weight: bold;
+}
+
+.card-london p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.card-london ul {
+    list-style-type: disc;
+    /* margin-left: 20px; */
+    font-size: 1rem;
+}
+
+
+
+
+/* .container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+} */
+
+/* Section Headers */
+.uk-cont h1,
+.uk-cont h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.uk-cont h1 {
+    font-size: 2.5rem;
+}
+
+.uk-cont h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+/* Paragraph Styling */
+.uk-cont p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}

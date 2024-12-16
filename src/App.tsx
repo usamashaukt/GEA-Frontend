@@ -4,7 +4,10 @@ import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Universities from "./pages/Universities/Universities";
-import Destination from "./components/Destination";
+import VisaApplication from "./pages/UnitedKingdom/VisaApplication";
+import Australia from "./pages/Australia/Australia";
+import Usa from "./pages/Usa/Usa";
+import Europe from "./pages/Europe/Europe";
 function App() {
   // const [count, setCount] = useState(0);
   const services1 = [
@@ -107,8 +110,7 @@ function App() {
         </p>
       ),
     },
-    {
-    }
+    {},
     // {
     //   mainStyles: {},
     //   title: "UK Institution Profiles",
@@ -250,8 +252,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/universities" element={<Universities />} />
+          <Route path="/aus" element={<Australia />} />
+          <Route path="/usa" element={<Usa />} />
+          <Route path="/eu" element={<Europe />} />
+          <Route path="/uk" element={<VisaApplication />} />
         </Routes>
-
         <Footer />
       </div>
     </>

@@ -1,0 +1,12 @@
+.header-usa {
+    background-image: url(../../public/assets/images/usa/usa.jpg);
+    /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

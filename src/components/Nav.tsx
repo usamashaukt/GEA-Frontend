@@ -1,3 +1,4 @@
+import ContactBtn from "./ContactBtn";
 import "./Nav.css";
 
 interface Props {}
@@ -7,7 +8,7 @@ const Nav = (props: Props) => {
     <>
       <nav className="navbar navbar-expand-lg   px-0">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             {/* <img
               width={"100px"}
               src="../assets/images/Logo/GEA-logo-02.png"
@@ -32,10 +33,7 @@ const Nav = (props: Props) => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarText">
-            <ul
-              className="navbar-nav  mx-auto mb-2 mb-lg-0 "
-             
-            >
+            <ul className="navbar-nav  mx-auto mb-2 mb-lg-0 ">
               <li className="nav-item  dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -220,6 +218,7 @@ const Nav = (props: Props) => {
                 </ul>
               </li>
             </ul>
+            <ContactBtn btnColor={""} />
           </div>
         </div>
       </nav>

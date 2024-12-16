@@ -1,0 +1,42 @@
+/* Header Section */
+.header-aus {
+    background-image: url(../../public/assets/images/Aus-bg/aus.jpg);
+    /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* General Content Section */
+.content-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.section-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.section-image {
+    margin-top: 1.5rem;
+    max-width: 100%;
+    border-radius: 10px;
+}

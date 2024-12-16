@@ -21,8 +21,7 @@ const Section2 = (props: Props) => {
                   />
                   <h5 className="card-title">Bachelors</h5>
                   <p className="card-text">
-                    Explore basic undergraduate programs and courses
-                    internationally.
+                    Explore basic undergraduate programs and courses.
                   </p>
                   <a href="#" className="btn btn-primary">
                     Learn More
@@ -56,7 +55,8 @@ const Section2 = (props: Props) => {
               <div className="card">
                 <div className="card-body">
                   <img
-                    className="card-img"
+                    className="card-img"                    height={"198"}
+
                     src="../../public/assets/images/studentpics/student3.jpg"
                     alt=""
                   />
@@ -75,7 +75,8 @@ const Section2 = (props: Props) => {
               <div className="card">
                 <div className="card-body">
                   <img
-                    className="card-img"
+                    className="card-img"                    height={"198"}
+
                     src="../../public/assets/images/studentpics/student3.jpg"
                     alt=""
                   />

@@ -26,7 +26,7 @@ const testimonials = [
     name: "Alice Johnson",
     course: "PhD | Nigeria",
     message:
-      "Helped me find, the university best matched for my personal needs and criteria. Their expertise in handling application procedures, visa procedures is outstanding, thus helping me through all the important steps of finding and arriving to the university.",
+      "Helped me find, the university best matched for my personal needs and criteria. Their expertise in handling application procedures, visa procedures is outstanding.",
     image:
       "https://www.studyadvisers.com/wp-content/uploads/2018/09/review_ksa-300x300.jpg",
   },
@@ -34,13 +34,14 @@ const testimonials = [
 
 const Testimonial = () => {
   return (
-    <div className="slider-container-fluid">
+    <div className="slider-container-fluid mt-5">
       <Swiper
         modules={[Pagination, Autoplay]}
         spaceBetween={30}
         slidesPerView={1}
         autoplay={{ delay: 3000 }}
         pagination={{ clickable: true }}
+        
       >
         {testimonials.map((testimonial, index) => (
           <SwiperSlide key={index}>
@@ -57,7 +58,6 @@ const Testimonial = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      
     </div>
   );
 };
