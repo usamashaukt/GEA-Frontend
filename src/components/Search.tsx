@@ -1,4 +1,4 @@
-// import  { useState } from "react";
+// import { useState } from "react";
 // import Select from "react-select";
 // import Unis from "../../src/data/universityNames.json";
 // import Campus from "../../src/data/universityCampus.json";
@@ -13,7 +13,7 @@
 //     setSelectedCampus(selectedOption);
 //     setPlaceholder(`University in ${selectedOption.label}`);
 //     if (selectedOption) {
-//       const filtered = Unis.filter((uni: { campus: string | any[]; }) =>
+//       const filtered = Unis.filter((uni: { campus: string | any[] }) =>
 //         uni.campus.includes(selectedOption.label)
 //       );
 //       setFilteredUnis(filtered);
@@ -100,9 +100,7 @@
 //             }),
 //           }}
 //         />
-
 //       </div>
-
 //     </div>
 //   );
 // };

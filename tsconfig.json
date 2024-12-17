@@ -7,9 +7,13 @@
     {
       "path": "./tsconfig.node.json"
     }
-  ],
-  "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
-  }
+    // {
+    //   "compilerOptions": {
+    //     "allowSyntheticDefaultImports": true,
+    //     "esModuleInterop": true,
+    //     "resolveJsonModule": true, // This is necessary to import JSON files directly
+    //     "strict": true
+    //   }
+    // }
+  ]
 }
