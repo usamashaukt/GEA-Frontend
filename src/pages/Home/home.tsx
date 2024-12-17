@@ -1,7 +1,7 @@
 import Banner from "../../components/Banner";
 import Section1 from "../../components/Section1";
 import Section2 from "../../components/Section2";
-import Section3 from "../../components/Section3";
+// import Section3 from "../../components/Section3";
 import Testimonial from "../../components/Testimonial";
 import Destination from "../../components/Destination";
 import CarouselSlider from "../../components/CarouselSlider";
