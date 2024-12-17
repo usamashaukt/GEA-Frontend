@@ -1,9 +1,8 @@
 // import React from "react";
 import { useState } from "react";
 import "./Button.css";
-import Search from "./Search";
+// import Search from "./Search";
 import MultiSearch from "./MultiSearch";
-
 
 const Button = () => {
   const [activeButton, setActiveButton] = useState("Courses");
@@ -55,7 +54,8 @@ const Button = () => {
           {activeButton === "websiteSearch" && (
             <MultiSearch placeholder={"Search our website.."} />
           )}
-          {activeButton === "Courses" && <Search />}
+          {activeButton === "Courses"}
+          {/* && <Search />  add this against courses */}
         </div>
       </div>
     </>
