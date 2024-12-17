@@ -1,19 +1,18 @@
-.container .row p strong a {
+/* .container .row p strong a {
 
-    /* color: #FFF; */
     text-underline-offset: 2px;
 }
 
 
 
 .text-black-color strong a {
-    /* color: #404040 !important; */
+   
 }
 .text-white-color  strong  a {
-    /* color: #FFF !important; */
+    
 }
 @media (max-width: 992px) {
     .hidden-xs {
         display: none !important;
     }
-}
+} */
