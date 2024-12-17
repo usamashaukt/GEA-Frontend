@@ -2,7 +2,7 @@ import Nav from "./components/Nav";
 import "./App.css";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
+import Home from "./pages/home/Home";
 import Universities from "./pages/Universities/Universities";
 import VisaApplication from "./pages/UnitedKingdom/VisaApplication";
 import Australia from "./pages/Australia/Australia";
