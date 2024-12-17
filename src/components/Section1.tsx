@@ -1,8 +1,7 @@
 import "./Section1.css";
 
-type Props = {};
 
-const Section1 = (props: Props) => {
+const Section1 = () => {
   return (
     <div>
       <div className="container welcome-sec mx-auto mt-3">

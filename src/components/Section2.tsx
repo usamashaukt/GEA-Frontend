@@ -1,10 +1,9 @@
-import React from "react";
+// import React from "react";
 import "./Section2.css";
-import secTwo from "../assets/images/sec2/dmp-a1-UWL-1-feb-2024.webp";
+// import secTwo from "../assets/images/sec2/dmp-a1-UWL-1-feb-2024.webp";
 
-type Props = {};
 
-const Section2 = (props: Props) => {
+const Section2 = () => {
   return (
     <div>
       <div className="global-imgs">

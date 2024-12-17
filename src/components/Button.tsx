@@ -1,12 +1,11 @@
-import React from "react";
+// import React from "react";
 import { useState } from "react";
 import "./Button.css";
 import Search from "./Search";
 import MultiSearch from "./MultiSearch";
 
-interface Props {}
 
-const Button = (props: Props) => {
+const Button = () => {
   const [activeButton, setActiveButton] = useState("Courses");
   const handleButtonClick = (buttonName: any) => {
     if (activeButton !== buttonName) {

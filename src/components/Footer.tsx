@@ -1,8 +1,7 @@
 import "./Footer.css";
 
-interface Props {}
 
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div>
       <div className="  foot-container d-flex flex-row align-items-center justify-content-start">

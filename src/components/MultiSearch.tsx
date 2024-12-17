@@ -1,4 +1,5 @@
-import React from "react";
+
+// import React from "react";
 import "./MultiSearch.css";
 interface Props {
   placeholder: string;

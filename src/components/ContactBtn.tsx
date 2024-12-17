@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 import ContactForm from "./ContactForm"; // Adjust the path as necessary
 import "./ContactBtn.css";
@@ -34,7 +34,7 @@ const ContactBtn = ({ btnColor }: Props) => {
                   ? "#fff"
                   : "#B40C31",
               width: "calc(100% + 12px)",
-              backgroundColor:"#000"
+              backgroundColor: "#000",
             }}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}

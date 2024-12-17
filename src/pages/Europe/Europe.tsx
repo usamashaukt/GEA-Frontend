@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 import "./Europe.css";
 
-import BannerImg from "../../components/BannerImg";
+
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 

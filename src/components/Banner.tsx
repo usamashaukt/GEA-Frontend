@@ -1,6 +1,6 @@
 import "./Banner.css";
 import Button from "./Button";
-import Search from "./Search";
+// import Search from "./Search";
 interface Props {}
 
 const Banner = ({}: Props) => {

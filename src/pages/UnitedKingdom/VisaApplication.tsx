@@ -1,6 +1,6 @@
-import React from "react";
+// import React from "react";
 import "./VisaApplication.css"; 
-import BannerImg from "../../components/BannerImg";
+// import BannerImg from "../../components/BannerImg";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 

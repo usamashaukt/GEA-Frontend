@@ -1,9 +1,8 @@
 import ContactBtn from "./ContactBtn";
 import "./Nav.css";
 
-interface Props {}
 
-const Nav = (props: Props) => {
+const Nav = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg   px-0">
