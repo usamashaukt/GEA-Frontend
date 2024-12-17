@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { gapi } from "gapi-script";
 import "./ContactForm.css";
 
