@@ -1,12 +1,12 @@
 // import React from "react";
-import { useState } from "react";
+import { SetStateAction, useState } from "react";
 import "./Button.css";
 // import Search from "./Search";
 import MultiSearch from "./MultiSearch";
 
 const Button = () => {
   const [activeButton, setActiveButton] = useState("Courses");
-  const handleButtonClick = (buttonName: any) => {
+  const handleButtonClick = (buttonName: SetStateAction<string>) => {
     if (activeButton !== buttonName) {
       setActiveButton(buttonName);
     }

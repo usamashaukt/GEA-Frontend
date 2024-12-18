@@ -41,7 +41,7 @@ export default function ContactForm() {
           authInstance.isSignedIn.listen(updateSigninStatus);
           updateSigninStatus(authInstance.isSignedIn.get());
         })
-        .catch((error: any) => {
+        .catch((error: unknown) => {
           console.error("Error initializing Google API client:", error);
         });
     };
@@ -59,16 +59,25 @@ export default function ContactForm() {
       await authInstance.signIn();
       setIsAuthenticated(true);
       setAuthError(null); // Clear any previous error
-    } catch (error: any) {
+    } catch (error) {
       console.error("Authentication failed:", error);
-      if (error.error === "popup_closed_by_user") {
-        setAuthError(
-          "Authentication process was closed by the user. Please try again."
-        );
-      } else if (error.error === "access_denied") {
-        setAuthError("Access denied. Please try again.");
+
+      // Safely check if error is an object and has an 'error' property
+      if (typeof error === "object" && error !== null && "error" in error) {
+        const errorCode = (error as { error: string }).error;
+
+        if (errorCode === "popup_closed_by_user") {
+          setAuthError(
+            "Authentication process was closed by the user. Please try again."
+          );
+        } else if (errorCode === "access_denied") {
+          setAuthError("Access denied. Please try again.");
+        } else {
+          setAuthError("Authentication failed. Please try again.");
+        }
       } else {
-        setAuthError("Authentication failed. Please try again.");
+        // Default case for unknown errors
+        setAuthError("An unexpected error occurred. Please try again.");
       }
     }
   };
