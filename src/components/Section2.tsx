@@ -2,7 +2,6 @@
 import "./Section2.css";
 // import secTwo from "../assets/images/sec2/dmp-a1-UWL-1-feb-2024.webp";
 
-
 const Section2 = () => {
   return (
     <div>
@@ -41,7 +40,7 @@ const Section2 = () => {
 
                   <h5 className="card-title">Masters</h5>
                   <p className="card-text">
-                    Dive deeper with advanced courses and specializations.
+                    Dive deeper with advanced specializations.
                   </p>
                   <a href="#" className="btn btn-primary">
                     Learn More
@@ -54,8 +53,8 @@ const Section2 = () => {
               <div className="card">
                 <div className="card-body">
                   <img
-                    className="card-img"                    height={"198"}
-
+                    className="card-img"
+                    height={"198"}
                     src="/assets/images/studentpics/student3.jpg"
                     alt=""
                   />
@@ -74,8 +73,8 @@ const Section2 = () => {
               <div className="card">
                 <div className="card-body">
                   <img
-                    className="card-img"                    height={"198"}
-
+                    className="card-img"
+                    height={"198"}
                     src="/assets/images/studentpics/student3.jpg"
                     alt=""
                   />
