@@ -9,11 +9,11 @@ interface ContactFormData {
   queries: string;
 }
 
-// OAuth2 credentials from Google Cloud Console
+// OAuth2 credentials
 const CLIENT_ID =
   "511521747192-pk4cfcmbhmtp4508gtgn92ln81ji2hcm.apps.googleusercontent.com";
-const SCOPES = "https://www.googleapis.com/auth/spreadsheets"; // Allows reading/writing to Google Sheets
-const SPREADSHEET_ID = "1LjtudmWUp6AlGr8Mar8aQhEPtXIyvHyOoR7UQ9X2Xic"; // Your Google Sheets ID
+const SCOPES = "https://www.googleapis.com/auth/spreadsheets";
+const SPREADSHEET_ID = "1LjtudmWUp6AlGr8Mar8aQhEPtXIyvHyOoR7UQ9X2Xic";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState<ContactFormData>({
@@ -25,67 +25,53 @@ export default function ContactForm() {
 
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [authError, setAuthError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
 
+  // Initialize the Google API client and auto-trigger sign-in
   useEffect(() => {
-    const initClient = () => {
-      gapi.client
-        .init({
-          apiKey: "YOUR_API_KEY", // Replace with your actual API key if necessary
-          clientId: CLIENT_ID,
-          scope: SCOPES,
-        })
-        .then(() => {
-          const authInstance = gapi.auth2.getAuthInstance();
-          authInstance.isSignedIn.listen(updateSigninStatus);
-          updateSigninStatus(authInstance.isSignedIn.get());
-        })
-        .catch((error: unknown) => {
-          console.error("Error initializing Google API client:", error);
+    const initializeGoogleAPI = async () => {
+      try {
+        await gapi.load("client:auth2", () => {
+          gapi.client
+            .init({
+              clientId: CLIENT_ID,
+              scope: SCOPES,
+            })
+            .then(() => {
+              const authInstance = gapi.auth2.getAuthInstance();
+              if (!authInstance.isSignedIn.get()) {
+                authInstance.signIn(); // Automatically trigger Google Sign-In
+              }
+              updateSigninStatus(authInstance.isSignedIn.get());
+            });
         });
+      } catch (error) {
+        console.error("Error initializing Google API:", error);
+        setAuthError("Failed to initialize Google Sign-In.");
+      }
     };
 
-    gapi.load("client:auth2", initClient);
+    initializeGoogleAPI();
   }, []);
 
   const updateSigninStatus = (isSignedIn: boolean) => {
     setIsAuthenticated(isSignedIn);
-  };
 
-  const handleAuth = async () => {
-    try {
-      const authInstance = gapi.auth2.getAuthInstance();
-      await authInstance.signIn();
-      setIsAuthenticated(true);
-      setAuthError(null); // Clear any previous error
-    } catch (error) {
-      console.error("Authentication failed:", error);
-
-      // Safely check if error is an object and has an 'error' property
-      if (typeof error === "object" && error !== null && "error" in error) {
-        const errorCode = (error as { error: string }).error;
-
-        if (errorCode === "popup_closed_by_user") {
-          setAuthError(
-            "Authentication process was closed by the user. Please try again."
-          );
-        } else if (errorCode === "access_denied") {
-          setAuthError("Access denied. Please try again.");
-        } else {
-          setAuthError("Authentication failed. Please try again.");
-        }
-      } else {
-        // Default case for unknown errors
-        setAuthError("An unexpected error occurred. Please try again.");
-      }
+    if (isSignedIn) {
+      const profile = gapi.auth2
+        .getAuthInstance()
+        .currentUser.get()
+        .getBasicProfile();
+      setFormData((prev) => ({
+        ...prev,
+        name: profile.getName(),
+        email: profile.getEmail(),
+      }));
     }
   };
 
+  // Submit form data to Google Sheets
   const saveToGoogleSheets = async () => {
-    if (!isAuthenticated) {
-      alert("Please authenticate first!");
-      return;
-    }
-
     const accessToken = gapi.auth2
       .getAuthInstance()
       .currentUser.get()
@@ -93,13 +79,14 @@ export default function ContactForm() {
 
     const endpoint = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/Sheet1!A1:append?valueInputOption=USER_ENTERED`;
 
-    const rowData = [
-      [formData.name, formData.email, formData.phone, formData.queries],
-    ];
-
-    const body = { values: rowData };
+    const body = {
+      values: [
+        [formData.name, formData.email, formData.phone, formData.queries],
+      ],
+    };
 
     try {
+      setLoading(true);
       const response = await fetch(endpoint, {
         method: "POST",
         headers: {
@@ -109,17 +96,17 @@ export default function ContactForm() {
         body: JSON.stringify(body),
       });
 
-      if (response.ok) {
-        alert("Form data has been saved to Google Sheets!");
-        setFormData({ name: "", email: "", phone: "", queries: "" });
-      } else {
-        const error = await response.json();
-        console.error("Error saving to Google Sheets:", error);
-        alert("Failed to save data. Please try again.");
+      if (!response.ok) {
+        throw new Error("Failed to save data to Google Sheets");
       }
+
+      alert("Form data has been successfully saved!");
+      setFormData({ name: "", email: "", phone: "", queries: "" });
     } catch (error) {
-      console.error("Error:", error);
-      alert("An error occurred. Please check the console for details.");
+      console.error("Error saving data to Google Sheets:", error);
+      alert("An error occurred while saving your data. Please try again.");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -134,14 +121,7 @@ export default function ContactForm() {
         <div className="col-md-12">
           <div className="card">
             <div className="card-body">
-              {!isAuthenticated ? (
-                <div className="text-center">
-                  <button className="btn btn-primary" onClick={handleAuth}>
-                    Sign In with Google
-                  </button>
-                  {authError && <p className="text-danger mt-3">{authError}</p>}
-                </div>
-              ) : (
+              {isAuthenticated ? (
                 <form onSubmit={handleSubmit}>
                   <div className="mb-3">
                     <label htmlFor="name" className="form-label">
@@ -205,10 +185,19 @@ export default function ContactForm() {
                       }
                     ></textarea>
                   </div>
-                  <button type="submit" className="btn btn-danger w-100">
-                    Submit
+                  <button
+                    type="submit"
+                    className="btn btn-danger w-100"
+                    disabled={loading}
+                  >
+                    {loading ? "Submitting..." : "Submit"}
                   </button>
                 </form>
+              ) : (
+                <p className="text-center">Loading sign-in...</p>
+              )}
+              {authError && (
+                <p className="text-danger mt-3 text-center">{authError}</p>
               )}
             </div>
           </div>

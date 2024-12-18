@@ -17,7 +17,7 @@ const Section2 = () => {
                     src="/assets/images/studentpics/student1.webp"
                     alt=""
                   />
-                  <h5 className="card-title">Bachelors</h5>
+                  <h5 className="card-title">Undergraduate</h5>
                   <p className="card-text">
                     Explore basic undergraduate programs and courses.
                   </p>
@@ -38,7 +38,7 @@ const Section2 = () => {
                     alt=""
                   />
 
-                  <h5 className="card-title">Masters</h5>
+                  <h5 className="card-title">PostGraduate</h5>
                   <p className="card-text">
                     Dive deeper with advanced specializations.
                   </p>
