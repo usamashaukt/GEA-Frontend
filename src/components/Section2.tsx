@@ -15,7 +15,7 @@ const Section2 = () => {
                   <img
                     className="card-img"
                     height={"198"}
-                    src="../../public/assets/images/studentpics/student1.webp"
+                    src="/assets/images/studentpics/student1.webp"
                     alt=""
                   />
                   <h5 className="card-title">Bachelors</h5>
@@ -35,7 +35,7 @@ const Section2 = () => {
                   <img
                     className="card-img"
                     height={"198"}
-                    src="../../public/assets/images/studentpics/student2.webp"
+                    src="/assets/images/studentpics/student2.webp"
                     alt=""
                   />
 
@@ -56,7 +56,7 @@ const Section2 = () => {
                   <img
                     className="card-img"                    height={"198"}
 
-                    src="../../public/assets/images/studentpics/student3.jpg"
+                    src="/assets/images/studentpics/student3.jpg"
                     alt=""
                   />
 
@@ -76,7 +76,7 @@ const Section2 = () => {
                   <img
                     className="card-img"                    height={"198"}
 
-                    src="../../public/assets/images/studentpics/student3.jpg"
+                    src="/assets/images/studentpics/student3.jpg"
                     alt=""
                   />
 
