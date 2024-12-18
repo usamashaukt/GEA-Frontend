@@ -12,8 +12,7 @@ interface ContactFormData {
 // OAuth2 credentials from Google Cloud Console
 const CLIENT_ID =
   "511521747192-pk4cfcmbhmtp4508gtgn92ln81ji2hcm.apps.googleusercontent.com";
-const REDIRECT_URI = "http://localhost:5173"; // Ensure this is added to the OAuth client in the Google Console
-const SCOPES = "https://www.googleapis.com/auth/spreadsheets"; // This scope allows reading and writing to Google Sheets
+const SCOPES = "https://www.googleapis.com/auth/spreadsheets"; // Allows reading/writing to Google Sheets
 const SPREADSHEET_ID = "1LjtudmWUp6AlGr8Mar8aQhEPtXIyvHyOoR7UQ9X2Xic"; // Your Google Sheets ID
 
 export default function ContactForm() {
@@ -34,7 +33,6 @@ export default function ContactForm() {
           apiKey: "YOUR_API_KEY", // Replace with your actual API key if necessary
           clientId: CLIENT_ID,
           scope: SCOPES,
-          redirectUri: REDIRECT_URI,
         })
         .then(() => {
           const authInstance = gapi.auth2.getAuthInstance();

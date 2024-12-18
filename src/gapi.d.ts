@@ -19,6 +19,7 @@ declare let gapi: {
     init(params: {
       client_id: string;
       scope?: string;
+      redirect_uri?: string; // Optional custom property
     }): Promise<gapi.auth2.GoogleAuth>;
     getAuthInstance(): gapi.auth2.GoogleAuthInstance;
   };
