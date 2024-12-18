@@ -27,6 +27,4 @@
     }
 } */
 
-@media screen and (max-width: 1400px) {
-    .btn-container {}
-}
+@media screen and (max-width: 1400px) {}
