@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    overflow: auto;
+    overflow: hidden;
     min-height: 700px;
     transition: .4s ease-in-out;
     z-index: 1;
@@ -12,20 +12,6 @@
 
 
 
-/* .search-banner::before {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 0;
-} */
 
-/* 
-@media only screen and (max-width: 1200px){
-    .search-banner{
-        min-height: 210px;
-        transition:  .4s ease-in-out;
-    }
-} */
 
 @media screen and (max-width: 1400px) {}
