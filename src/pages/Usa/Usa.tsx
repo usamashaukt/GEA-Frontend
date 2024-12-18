@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./USA.css"; // Import the separate CSS file
+import "./Usa.css"; // Import the separate CSS file
 
 function Usa() {
   return (
