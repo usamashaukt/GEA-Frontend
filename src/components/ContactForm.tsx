@@ -123,10 +123,6 @@ export default function ContactForm() {
   };
 
   // On error handler (no arguments)
-  const handleError = () => {
-    console.error("An error occurred during authentication.");
-    setAuthError("Authentication failed. Please try again.");
-  };
 
   if (loading) {
     return <p className="text-center">Loading...</p>; // Loading state
