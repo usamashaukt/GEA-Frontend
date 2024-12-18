@@ -1,9 +1,0 @@
-[[headers]]
-for = "/*" # Apply headers to all paths
-[headers.values]
-Content-Security-Policy = "default-src 'self'; script-src 'self' https://apis.google.com https://www.gstatic.com https://accounts.google.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; frame-src https://accounts.google.com https://www.gstatic.com; connect-src 'self' https://accounts.google.com https://www.googleapis.com; object-src 'none'; base-uri 'self';"
-Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
-X-Frame-Options = "DENY"
-X-Content-Type-Options = "nosniff"
-Referrer-Policy = "no-referrer-when-downgrade"
-Permissions-Policy = "geolocation=(), microphone=(), camera=()"
