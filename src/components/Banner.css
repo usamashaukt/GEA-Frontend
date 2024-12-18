@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
+    overflow: auto;
     min-height: 700px;
     transition: .4s ease-in-out;
     z-index: 1;
