@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { gapi } from "gapi-script";
-import "./ContactForm.css";
+import "./ContactForm.css"; // Retaining your original CSS styling
 
 interface ContactFormData {
   name: string;
@@ -120,6 +120,12 @@ export default function ContactForm() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     saveToGoogleSheets();
+  };
+
+  // On error handler (no arguments)
+  const handleError = () => {
+    console.error("An error occurred during authentication.");
+    setAuthError("Authentication failed. Please try again.");
   };
 
   if (loading) {
