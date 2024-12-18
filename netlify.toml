@@ -7,4 +7,3 @@
         connect-src https://www.googleapis.com https://accounts.google.com;
         object-src 'none';
       "
-git add netlify.toml
