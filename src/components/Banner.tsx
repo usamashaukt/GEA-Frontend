@@ -1,5 +1,5 @@
 import "./Banner.css";
-import Button from "./Button";
+// import Button from "./Button";
 // import Search from "./Search";
 // interface Props {}
 
