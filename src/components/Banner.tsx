@@ -13,7 +13,7 @@ const Banner = () => {
           style={{ minHeight: "650px", marginLeft: "42px" }}
         >
           <div></div>
-          {<Button />}
+          {/* {<Button  />} */}
         </div>
         {/* {<Search />} */}
       </div>
