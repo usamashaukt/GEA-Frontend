@@ -1,6 +1,6 @@
 /* Header Section */
 .header-aus {
-    background-image: url(../../public/assets/images/Aus-bg/aus.jpg);
+    background-image: url(/assets/images/Aus-bg/aus.jpg);
     /* Replace with your image URL */
     background-size: cover;
     background-position: center;

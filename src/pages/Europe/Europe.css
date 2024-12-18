@@ -5,7 +5,7 @@
 }
 
 .header-eu {
-    background-image: url(../../public/assets/images/Eu-bg/EU.jpg);
+    background-image: url(/assets/images/Eu-bg/EU.jpg);
     /* Replace with your image URL */
     background-size: cover;
     background-position: center;

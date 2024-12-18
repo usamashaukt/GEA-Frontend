@@ -15,7 +15,7 @@ body {
 } */
 
 .header-uk {
-    background-image: url(../../public/assets/images/geawallpaper/wp2244522-united-kingdom-wallpapers.jpg);
+    background-image: url(/assets/images/geawallpaper/wp2244522-united-kingdom-wallpapers.jpg);
     /* Replace with your image URL */
     background-size: cover;
     background-position: center;
