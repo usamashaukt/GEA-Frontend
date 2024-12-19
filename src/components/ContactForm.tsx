@@ -8,7 +8,7 @@ interface ContactFormData {
   queries: string;
 }
 
-const SERVER_ENDPOINT = "http://localhost:5000/save-to-sheets"; // Update with your backend URL
+const SERVER_ENDPOINT = "https://geabackend.netlify.app//save-to-sheets"; // Update with your backend URL
 
 export default function ContactForm() {
   const [formData, setFormData] = useState<ContactFormData>({
