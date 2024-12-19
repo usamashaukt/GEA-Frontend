@@ -10,7 +10,7 @@ interface ContactFormData {
 
 const SERVER_ENDPOINT =
   process.env.NODE_ENV === "production"
-    ? "https://globaleducationadviser.netlify.app"
+    ? "https://geabackend.netlify.app"
     : "http://localhost:5000/save-to-sheets";
 
 export default function ContactForm() {
