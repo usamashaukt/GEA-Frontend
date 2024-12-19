@@ -8,6 +8,7 @@ import VisaApplication from "./pages/UnitedKingdom/VisaApplication";
 import Australia from "./pages/Australia/Australia";
 import Usa from "./pages/Usa/Usa";
 import Europe from "./pages/Europe/Europe";
+import WhatsApp from "./components/WhatsApp";
 function App() {
   // const [count, setCount] = useState(0);
   // const services1 = [
@@ -257,6 +258,7 @@ function App() {
           <Route path="/eu" element={<Europe />} />
           <Route path="/uk" element={<VisaApplication />} />
         </Routes>
+        <WhatsApp phoneNumber="+923339662308" />
         <Footer />
       </div>
     </>

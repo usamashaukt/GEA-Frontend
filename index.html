@@ -5,8 +5,11 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/assets/images/Logo/Gealogo-latest.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <meta http-equiv="Content-Security-Policy"
+    content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;"> -->
+  <!-- <script src="https://apis.google.com/js/api.js"></script> -->
   <meta http-equiv="Content-Security-Policy"
-    content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;">
+    content="script-src 'self' https://accounts.google.com; object-src 'none';" />
   <title>Global Education Adviser</title>
   <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
 </head>
@@ -14,7 +17,7 @@
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
-  <script async defer src="https://apis.google.com/js/api.js"></script>
+  <!-- <script async defer src="https://apis.google.com/js/api.js"></script> -->
   <script src="https://accounts.google.com/gsi/client" async defer></script>
 
 </body>
