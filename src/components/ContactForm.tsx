@@ -9,9 +9,8 @@ interface ContactFormData {
 }
 
 const SERVER_ENDPOINT =
-  process.env.NODE_ENV === "production"
-    ? "https://geabackend.netlify.app/.netlify/functions/save-to-sheets"
-    : "http://localhost:5000/save-to-sheets";
+  import.meta.env.VITE_SERVER_ENDPOINT ||
+  "http://localhost:5000/save-to-sheets";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState<ContactFormData>({
