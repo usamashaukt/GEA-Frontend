@@ -8,7 +8,9 @@ interface ContactFormData {
   queries: string;
 }
 
-const SERVER_ENDPOINT = "https://geabackend.netlify.app/save-to-sheets"; // Update with your backend URL
+const SERVER_ENDPOINT =
+  import.meta.env.VITE_SERVER_ENDPOINT ||
+  "http://localhost:5000/save-to-sheets";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState<ContactFormData>({
@@ -31,7 +33,9 @@ export default function ContactForm() {
     try {
       const response = await fetch(SERVER_ENDPOINT, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+        },
         body: JSON.stringify(formData),
       });
 
