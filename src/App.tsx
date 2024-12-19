@@ -258,7 +258,7 @@ function App() {
           <Route path="/eu" element={<Europe />} />
           <Route path="/uk" element={<VisaApplication />} />
         </Routes>
-        <WhatsApp phoneNumber="+923339662308" />
+        <WhatsApp phoneNumber="+923122496574" />
         <Footer />
       </div>
     </>
