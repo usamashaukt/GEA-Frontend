@@ -1,6 +1,5 @@
 // import "./Footer.css";
 
-
 // const Footer = () => {
 //   return (
 //     <div>
@@ -53,8 +52,9 @@
 
 // export default Footer;
 
-import React from 'react';
-import styles from './Footer.module.css';
+import React from "react";
+import styles from "./Footer.module.css";
+import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
   return (
@@ -63,12 +63,15 @@ const Footer: React.FC = () => {
         {/* Left Section */}
         <div className={styles.left}>
           <img
-            src="/logo.png" // Replace with the actual path to your logo
-            alt="Study Empire Logo"
+            width={"100px"}
+            src="../assets/images/Logo/Gealogo-latest.svg" // Replace with the actual path to your logo
+            alt="Gea-Logo"
             className={styles.logo}
           />
           <p className={styles.description}>
-            Study Empire: Your partner in crafting a life-changing study abroad experience. We’re here to support you every step of the way. Your dreams are within reach—let’s make them a reality!
+            Global Education Adviser: Your partner in crafting a life-changing
+            study abroad experience. We’re here to support you every step of the
+            way. Your dreams are within reach—let’s make them a reality!
           </p>
           <div className={styles.socialIcons}>
             <i className="fab fa-facebook-f"></i>
@@ -85,16 +88,24 @@ const Footer: React.FC = () => {
             <li>Destinations</li>
             <li>Scholarships</li>
             <li>Contact Us</li>
-            <li>United Kingdom</li>
-            <li>Australia</li>
-            <li>USA</li>
-            <li>Europe</li>
+            <li>
+          <Link to="/uk">United Kingdom</Link>
+        </li>
+        <li>
+          <Link to="/aus">Australia</Link>
+        </li>
+        <li>
+          <Link to="/usa">USA</Link>
+        </li>
+        <li>
+          <Link to="/eu">Europe</Link>
+        </li>
           </ul>
         </div>
 
         {/* Right Section */}
         <div className={styles.right}>
-          <h4 className={styles.title}>Subscribe Now</h4>
+          {/* <h4 className={styles.title}>Subscribe Now</h4>
           <p className={styles.description}>
             Don’t miss our future updates! Get Subscribed Today!
           </p>
@@ -107,11 +118,15 @@ const Footer: React.FC = () => {
             <button type="submit" className={styles.subscribeButton}>
               <i className="fas fa-envelope"></i>
             </button>
-          </form>
+          </form> */}
           <address className={styles.address}>
-            02 Universal Square, Devonshire Street, Manchester, M12 6JH<br />
-            <a href="tel:+447774448896">+44 777 4448896</a><br />
-            <a href="mailto:info@studyempires.com">info@studyempires.com</a>
+            730 Romford Road Suite 2, First Floor, London, England, E12 6BT
+            <br />
+            <a href="tel:+923394007202">+923394007202</a>
+            <br />
+            <a href="mailto:info@globaleducationadviser.com">
+              info@globaleducationadviser.com
+            </a>
           </address>
         </div>
       </div>

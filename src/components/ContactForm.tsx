@@ -1,4 +1,10 @@
 import { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMapMarkerAlt,
+  faPhone,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
 import "./ContactForm.css"; // Retain your CSS styling
 
 interface ContactFormData {
@@ -35,6 +41,7 @@ export default function ContactForm() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
@@ -158,6 +165,25 @@ export default function ContactForm() {
                   Form data has been successfully saved!
                 </p>
               )}
+              <div className="contact-details">
+                <p className="mt-4">
+                  <FontAwesomeIcon icon={faMapMarkerAlt} /> 02 Universal Square,
+                  Devonshire Street, Manchester, M12 6JH
+                </p>
+
+                <p>
+                  <FontAwesomeIcon icon={faPhone} />
+                  <a href="tel:+923394007202">+923394007202</a> |
+                  <a href="tel:+447957884884">+447957884884</a>
+                </p>
+
+                <p>
+                  <FontAwesomeIcon icon={faEnvelope} />
+                  <a href="mailto:info@globaleducationadviser.com">
+                    info@globaleducationadviser.com
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
