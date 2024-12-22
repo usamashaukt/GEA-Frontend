@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./ContactForm.css"; // Retain your CSS styling
 
 interface ContactFormData {
@@ -25,6 +25,16 @@ export default function ContactForm() {
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
 
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
@@ -66,8 +76,8 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="container">
-      <div className="row justify-content-center">
+    <div className={isMobile ? "container-fluid" : "container"}>
+      <div className={`row justify-content-center ${isMobile ? "p-0" : ""}`}>
         <div className="col-md-12">
           <div className="card">
             <div className="card-body">

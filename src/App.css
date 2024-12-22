@@ -12,3 +12,37 @@ body {
     color: #333;
     -webkit-font-smoothing: antialiased;
 }
+
+/* Define custom styles for the modal */
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .custom-modal {
+        max-width: 100% !important;
+        /* Ensure it fits smaller screens */
+        margin: 0 !important;
+        height: 100vh !important;
+    }
+
+    .custom-modal .modal-body {
+        padding: 15px;
+
+        /* Adjust padding for mobile */
+    }
+
+    .custom-modal .modal-content {
+        height: 100% !important;
+        border-radius: 0;
+    }
+
+    .custom-modal .modal-footer {
+        justify-content: center;
+        /* Center align buttons */
+    }
+
+    .navbar>.container-fluid {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+}

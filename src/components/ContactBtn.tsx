@@ -44,12 +44,15 @@ const ContactBtn = ({ btnColor }: Props) => {
           </a>
         </div>
       </div>
-
-      <Modal show={showModal} onHide={handleClose}>
+      <Modal
+        show={showModal}
+        onHide={handleClose}
+        dialogClassName="custom-modal"
+      >
         <Modal.Header closeButton>
           <Modal.Title>Contact Us</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className="custom-modal-body">
           <ContactForm />
         </Modal.Body>
         <Modal.Footer>
