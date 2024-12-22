@@ -167,8 +167,8 @@ export default function ContactForm() {
               )}
               <div className="contact-details">
                 <p className="mt-4">
-                  <FontAwesomeIcon icon={faMapMarkerAlt} /> 02 Universal Square,
-                  Devonshire Street, Manchester, M12 6JH
+                  <FontAwesomeIcon icon={faMapMarkerAlt} /> 730 Romford Road
+                  Suite 2, First Floor, London, England, E12 6BT
                 </p>
 
                 <p>

@@ -51,7 +51,6 @@
 // };
 
 // export default Footer;
-
 import React from "react";
 import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
@@ -89,36 +88,22 @@ const Footer: React.FC = () => {
             <li>Scholarships</li>
             <li>Contact Us</li>
             <li>
-          <Link to="/uk">United Kingdom</Link>
-        </li>
-        <li>
-          <Link to="/aus">Australia</Link>
-        </li>
-        <li>
-          <Link to="/usa">USA</Link>
-        </li>
-        <li>
-          <Link to="/eu">Europe</Link>
-        </li>
+              <Link to="/uk">United Kingdom</Link>
+            </li>
+            <li>
+              <Link to="/aus">Australia</Link>
+            </li>
+            <li>
+              <Link to="/usa">USA</Link>
+            </li>
+            <li>
+              <Link to="/eu">Europe</Link>
+            </li>
           </ul>
         </div>
 
         {/* Right Section */}
         <div className={styles.right}>
-          {/* <h4 className={styles.title}>Subscribe Now</h4>
-          <p className={styles.description}>
-            Don’t miss our future updates! Get Subscribed Today!
-          </p>
-          <form className={styles.subscribeForm}>
-            <input
-              type="email"
-              placeholder="Your Email"
-              className={styles.emailInput}
-            />
-            <button type="submit" className={styles.subscribeButton}>
-              <i className="fas fa-envelope"></i>
-            </button>
-          </form> */}
           <address className={styles.address}>
             730 Romford Road Suite 2, First Floor, London, England, E12 6BT
             <br />
@@ -128,6 +113,18 @@ const Footer: React.FC = () => {
               info@globaleducationadviser.com
             </a>
           </address>
+          {/* Embedded Google Map */}
+          <div className={styles.mapContainer}>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2375.267205492728!2d-2.227456984163794!3d53.46722877999624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1e7194ba693%3A0x3774a0e2179ec389!2sUniversal%20Square!5e0!3m2!1sen!2suk!4v1677241313322!5m2!1sen!2suk"
+              width="100%"
+              height="250"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </div>
       </div>
     </footer>

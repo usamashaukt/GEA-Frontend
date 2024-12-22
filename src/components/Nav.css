@@ -4,6 +4,10 @@
 .navbar {
     padding-top: 16px !important;
     padding-bottom: 16px !important;
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 1000 !important;
+    background: #fff !important;
     /* margin-left: 25px; */
 }
 

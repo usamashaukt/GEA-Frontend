@@ -59,7 +59,7 @@ const Section2 = () => {
                     alt=""
                   />
 
-                  <h5 className="card-title">PhDs</h5>
+                  <h5 className="card-title">MRes</h5>
                   <p className="card-text">
                     Engage in research and innovation at the highest level.
                   </p>

@@ -13,6 +13,32 @@ const CarouselSlider = () => {
     autoplay: true,
     autoplaySpeed: 1000,
     arrows: false,
+    responsive: [
+      {
+        breakpoint: 1200, // For screens smaller than 1200px
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 992, // For screens smaller than 992px
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768, // For screens smaller than 768px
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 576, // For screens smaller than 576px
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
