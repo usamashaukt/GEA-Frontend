@@ -16,8 +16,8 @@ const Section1 = () => {
             </p>
           </div>
         </div>
-        <VisaAssistance />
       </div>
+      <VisaAssistance />
     </div>
   );
 };
