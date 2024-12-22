@@ -6,15 +6,15 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <>
-      <div className="search-banner position-relative w-100">
+      <div className="search-banner w-100">
         {/* <div></div> */}
-        <div
+        {/* <div
           className="container  d-flex flex-column justify-content-between "
-          style={{ minHeight: "650px", marginLeft: "42px" }}
+          style={{ height: "100%" }}
         >
           <div></div>
-          {/* {<Button  />} */}
-        </div>
+         
+        </div> */}
         {/* {<Search />} */}
       </div>
     </>

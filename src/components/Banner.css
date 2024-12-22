@@ -1,11 +1,10 @@
 .search-banner {
-    background-image: url(/assets/images/geawallpaper/wp2244522-united-kingdom-wallpapers.jpg);
-    background-position: center -300px;
+    background-image: url("https://cdn.britannica.com/01/94501-050-7C939333/Big-Ben-London.jpg");
+    background-position: center -100px;
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
     overflow: hidden;
-    min-height: 700px;
     transition: .4s ease-in-out;
     z-index: 1;
 }
@@ -14,4 +13,9 @@
 
 
 
-@media screen and (max-width: 1400px) {}
+@media screen and (max-width: 768px) {
+    .search-banner {
+        height: calc(100vh - 480px);
+        background-position: center;
+    }
+}

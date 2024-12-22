@@ -4,11 +4,19 @@
     /* Replace with your image URL */
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 100%;
+    min-height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
 
+}
+
+@media screen and (max-width: 768px) {
+    .header-aus {
+        min-height: 300px;
+
+    }
 }
 
 .header-title {

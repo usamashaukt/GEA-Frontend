@@ -1,5 +1,5 @@
 .header-usa {
-    background-image: url(/assets/images/usa/usa.jpg);
+    background-image: url(assets/images/usa/USA.png);
     /* Replace with your image URL */
     background-size: cover;
     background-position: center;
@@ -9,4 +9,12 @@
     align-items: center;
     justify-content: center;
 
+}
+
+
+@media screen and (max-width: 768px) {
+    .header-usa {
+        min-height: 300px;
+        background-position: center;
+    }
 }
