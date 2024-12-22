@@ -116,7 +116,7 @@ const Footer: React.FC = () => {
           {/* Embedded Google Map */}
           <div className={styles.mapContainer}>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2375.267205492728!2d-2.227456984163794!3d53.46722877999624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1e7194ba693%3A0x3774a0e2179ec389!2sUniversal%20Square!5e0!3m2!1sen!2suk!4v1677241313322!5m2!1sen!2suk"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9932.123456789!2d0.053228!3d51.552329!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a9b123456789%3A0xabcdef1234567890!2s730%20Romford%20Road%2C%20London%20E12%206BT%2C%20UK!5e0!3m2!1sen!2suk!4v1677241313322!5m2!1sen!2suk"
               width="100%"
               height="250"
               style={{ border: 0 }}

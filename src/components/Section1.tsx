@@ -1,5 +1,5 @@
 import "./Section1.css";
-
+import VisaAssistance from "./VisaAssistance";
 
 const Section1 = () => {
   return (
@@ -16,6 +16,7 @@ const Section1 = () => {
             </p>
           </div>
         </div>
+        <VisaAssistance />
       </div>
     </div>
   );
