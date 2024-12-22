@@ -76,7 +76,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className={isMobile ? "container-fluid" : "container"}>
+    <div className="container-fluid">
       <div className={`row justify-content-center ${isMobile ? "p-0" : ""}`}>
         <div className="col-md-12">
           <div className="card">
