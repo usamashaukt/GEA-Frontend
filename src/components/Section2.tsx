@@ -1,6 +1,5 @@
-// import React from "react";
+
 import "./Section2.css";
-// import secTwo from "../assets/images/sec2/dmp-a1-UWL-1-feb-2024.webp";
 
 const Section2 = () => {
   return (

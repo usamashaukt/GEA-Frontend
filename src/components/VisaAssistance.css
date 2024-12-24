@@ -37,3 +37,8 @@
     color: #555;
     line-height: 1.5;
 }
+
+.card-img-assistance {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}

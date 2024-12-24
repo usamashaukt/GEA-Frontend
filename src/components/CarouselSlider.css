@@ -34,3 +34,9 @@
   align-items: center;
 
 }
+
+.slick-slide>div {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}

@@ -12,6 +12,7 @@ interface ContactFormData {
   email: string;
   phone: string;
   queries: string;
+  lastQualification: string; // Added field
 }
 
 const SERVER_ENDPOINT =
@@ -25,6 +26,7 @@ export default function ContactForm() {
     email: "",
     phone: "",
     queries: "",
+    lastQualification: "", // Initialize field
   });
 
   const [loading, setLoading] = useState(false);
@@ -65,7 +67,13 @@ export default function ContactForm() {
       }
 
       setSuccess(true);
-      setFormData({ name: "", email: "", phone: "", queries: "" });
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        queries: "",
+        lastQualification: "", // Reset field
+      });
     } catch (err) {
       if (err instanceof Error) {
         console.error("Error:", err.message);
@@ -134,6 +142,25 @@ export default function ContactForm() {
                     onChange={(e) =>
                       setFormData({ ...formData, phone: e.target.value })
                     }
+                  />
+                </div>
+                <div className="mb-3">
+                  <label htmlFor="lastQualification" className="form-label">
+                    Last Qualification
+                  </label>
+                  <input
+                    type="text"
+                    id="lastQualification"
+                    name="lastQualification"
+                    className="form-control"
+                    value={formData.lastQualification}
+                    onChange={(e) =>
+                      setFormData({
+                        ...formData,
+                        lastQualification: e.target.value,
+                      })
+                    }
+                    required
                   />
                 </div>
                 <div className="mb-3">

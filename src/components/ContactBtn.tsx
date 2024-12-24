@@ -16,7 +16,7 @@ const ContactBtn = ({ btnColor }: Props) => {
 
   return (
     <>
-      <div className="d-flex flex-row justify-content-center ">
+      <div className="d-flex  contact-btn-parent  ">
         <div className="contact-btn">
           <a
             className="btn"
