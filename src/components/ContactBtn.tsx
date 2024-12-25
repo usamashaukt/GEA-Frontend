@@ -8,7 +8,6 @@ interface Props {
 }
 
 const ContactBtn = ({ btnColor }: Props) => {
-  const [isHovered, setIsHovered] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
   const handleClose = () => setShowModal(false);
@@ -21,23 +20,7 @@ const ContactBtn = ({ btnColor }: Props) => {
           <a
             className="btn"
             role="button"
-            style={{
-              background: isHovered
-                ? btnColor === "#B40C31"
-                  ? "#2B5FE0"
-                  : "#B40C31"
-                : btnColor,
-              color:
-                btnColor === "#B40C31"
-                  ? "#fff"
-                  : isHovered
-                  ? "#fff"
-                  : "#B40C31",
-              width: "calc(100% + 12px)",
-              backgroundColor: "#000",
-            }}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
+            style={{ backgroundColor: btnColor }}
             onClick={handleShow} // Show the modal on click
           >
             Contact Us

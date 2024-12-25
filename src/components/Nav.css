@@ -1,40 +1,52 @@
-.navbar .dropdown .dropdown-menu {}
-
-
 .navbar {
     padding-top: 16px !important;
     padding-bottom: 16px !important;
     position: fixed !important;
     width: 100% !important;
     z-index: 1000 !important;
-    /* background: #fff !important; */
-    background: rgba(255, 255, 255, 0.8) !important;
-    /* Make the background semi-transparent */
-    backdrop-filter: blur(10px);
-    /* Apply the backdrop filter effect */
+    background: rgba(255, 255, 255, 0.8) !important; /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply the backdrop filter */
     -webkit-backdrop-filter: blur(10px);
-    /* F
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important; */
-
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .navbar .nav-item a:hover {
-    /* color: #000; */
     border-radius: 4px;
-    /* background-color: #29ABE2; */
+}
 
+.navbar .nav-item .nav-link {
+    color: #4A4A6A !important; /* Dark gray/purple */
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar .nav-item .nav-link:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: #B00020; /* Match red logo color */
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.navbar .nav-item .nav-link:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #B00020 !important; /* Red hover effect */
 }
 
 .navbar-collapse {
     gap: 20px;
-}
-
-.navbar .nav-item .nav-link:hover {
-    padding-bottom: 5px !important;
-    border-bottom: 2px solid red !important;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-
 }
 
 .navbar .container-fluid {
@@ -42,10 +54,10 @@
     padding-left: 20px !important;
 }
 
-.navbar .nav-item a:focus {
-    border-radius: 4px;
-
-
+.navbar-nav {
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
 }
 
 .navbar .nav-item {
@@ -54,23 +66,45 @@
     align-items: start;
 }
 
-
-.navbar-nav {
-    justify-content: end;
-    width: 100%;
-    /* padding-right: 30px !important; */
-    gap: 20px;
+/* Dropdown Menu */
+.dropdown-menu {
+    display: none; /* Hide dropdown by default */
+    animation: fadeIn 300ms ease-in both;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply backdrop filter */
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* Nav.css */
+.dropdown-menu.show {
+    display: block;
+}
 
-/* Keyframes for fade-in and fade-out animations */
+.dropdown-menu .dropdown-item {
+    color: #4A4A6A !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #fff !important; /* White text on hover */
+    background: #B00020 !important; /* Red background on hover */
+    border-radius: 4px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    margin: 0;
+    padding: 0;
+}
+
+/* Keyframes for animations */
 @keyframes fadeIn {
     0% {
         opacity: 0;
         transform: translateY(-10px);
     }
-
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -82,32 +116,8 @@
         opacity: 1;
         transform: translateY(0);
     }
-
     100% {
         opacity: 0;
         transform: translateY(-10px);
     }
-}
-
-
-
-/* Applying the animations to the dropdown menus */
-.dropdown-menu {
-    display: none;
-    /* Hide dropdown by default */
-    animation: fadeIn 300ms ease-in both;
-}
-
-.dropdown-menu.show {
-    display: block;
-    animation: fadeIn 300ms ease-in both;
-}
-
-.navbar-nav .nav-item.dropdown .dropdown-menu {
-    animation: fadeIn 300ms ease-in;
-}
-
-.navbar-nav .nav-item.dropdown .dropdown-menu.hide {
-    animation: fadeOut 300ms ease-in;
-    animation-fill-mode: forwards;
 }

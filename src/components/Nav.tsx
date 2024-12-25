@@ -188,7 +188,7 @@ const Nav = () => {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
                   href="#"
@@ -215,7 +215,7 @@ const Nav = () => {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
             </ul>
             <ContactBtn btnColor={""} />
           </div>
