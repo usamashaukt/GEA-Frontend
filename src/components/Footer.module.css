@@ -1,46 +1,70 @@
 .footer {
-  background-color: #f7faff;
-  padding: 30px 15px;
-  font-family: Arial, sans-serif;
-  color: #333;
+  background: linear-gradient(120deg, #1a1a2e 80%, #16213e 100%);
+  border-top: 4px solid #e63946;
+  padding: 40px 15px 20px 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #f7faff;
+  box-shadow: 0 -4px 24px rgba(0,0,0,0.12);
 }
 
 .container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 32px;
 }
 
 .left,
 .middle,
 .right {
   flex: 1;
-  min-width: 300px;
+  min-width: 260px;
 }
 
 .logo {
   width: 150px;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
+  filter: drop-shadow(0 2px 8px #e63946aa);
 }
 
 .description {
-  font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 15px;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 18px;
+  color: #c7c7d9;
 }
 
+.socialIcons {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
 .socialIcons i {
-  font-size: 18px;
-  margin-right: 10px;
-  color: #333;
+  font-size: 22px;
+  width: 40px;
+  height: 40px;
+  background: #23234b;
+  color: #f7faff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(230,57,70,0.08);
   cursor: pointer;
+}
+.socialIcons i:hover {
+  background: #e63946;
+  color: #fff;
+  transform: scale(1.12);
 }
 
 .title {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
 .links {
@@ -50,58 +74,53 @@
 }
 
 .links li {
-  font-size: 14px;
-  margin-bottom: 5px;
+  font-size: 15px;
+  margin-bottom: 7px;
+  color: #c7c7d9;
   cursor: pointer;
+  transition: color 0.2s;
+  position: relative;
 }
-
 .links li:hover {
-  text-decoration: underline;
+  color: #e63946;
 }
-
-.subscribeForm {
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
+.links li::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #e63946;
+  transition: width 0.3s;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
 }
-
-.emailInput {
-  flex: 1;
-  padding: 8px 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-}
-
-.subscribeButton {
-  background-color: #e3342f;
-  color: #fff;
-  padding: 8px 12px;
-  border: none;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
+.links li:hover::after {
+  width: 100%;
 }
 
 .address {
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #c7c7d9;
+  margin-bottom: 10px;
 }
-
 .address a {
-  color: #333;
+  color: #e63946;
   text-decoration: none;
+  transition: color 0.2s;
 }
-
 .address a:hover {
+  color: #fff;
   text-decoration: underline;
 }
 
-/* Map Container */
 .mapContainer {
-  margin-top: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  margin-top: 18px;
+  border: 1px solid #23234b;
+  border-radius: 8px;
   overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
 }
 
 .mapContainer iframe {
@@ -110,21 +129,19 @@
   border: none;
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .container {
     flex-direction: column;
     align-items: center;
+    gap: 24px;
   }
-
   .left,
   .middle,
   .right {
     min-width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
-
   .mapContainer iframe {
-    height: 200px;
+    height: 180px;
   }
 }

@@ -1,12 +1,32 @@
+import React, { useEffect, useRef } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./VisaAssistance.css";
 const VisaAssistance = () => {
+  const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
+
+  useEffect(() => {
+    const observer = new window.IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+    cardRefs.current.forEach((ref) => {
+      if (ref) observer.observe(ref);
+    });
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div className="container-fluid mb-4 mx-auto text-center">
       <div className="row justify-content-center">
         {/* University Selection Assistance */}
         <div className="col-lg-3 mb-4">
-          <div className="card border-primary">
+          <div ref={el => (cardRefs.current[0] = el)} className="card border-primary">
             <div className="card-body">
               <div className="card-header bg-primary text-white">
                 <h5 className="card-title">University Selection Assistance</h5>
@@ -29,7 +49,7 @@ const VisaAssistance = () => {
 
         {/* Application Support */}
         <div className="col-lg-3 mb-4">
-          <div className="card border-success">
+          <div ref={el => (cardRefs.current[1] = el)} className="card border-success">
             <div className="card-body">
               <div className="card-header bg-success text-white">
                 <h5 className="card-title">Application Support</h5>
@@ -52,7 +72,7 @@ const VisaAssistance = () => {
 
         {/* Visa & Immigration Guidance */}
         <div className="col-lg-3 mb-4">
-          <div className="card border-warning">
+          <div ref={el => (cardRefs.current[2] = el)} className="card border-warning">
             <div className="card-body">
               <div className="card-header bg-warning text-dark">
                 <h5 className="card-title">Visa & Immigration Guidance</h5>
@@ -75,7 +95,7 @@ const VisaAssistance = () => {
 
         {/* Scholarship & Financial Aid */}
         <div className="col-lg-3 mb-4">
-          <div className="card border-danger">
+          <div ref={el => (cardRefs.current[3] = el)} className="card border-danger">
             <div className="card-body">
               <div className="card-header bg-danger text-white">
                 <h5 className="card-title">Scholarship & Financial Aid</h5>
@@ -98,7 +118,7 @@ const VisaAssistance = () => {
 
         {/* Test Preparation Support */}
         <div className="col-lg-3 mb-4">
-          <div className="card border-info">
+          <div ref={el => (cardRefs.current[4] = el)} className="card border-info">
             <div className="card-body">
               <div className="card-header bg-info text-white">
                 <h5 className="card-title">Test Preparation Support</h5>
@@ -121,7 +141,7 @@ const VisaAssistance = () => {
 
         {/* Pre-Departure Guidance */}
         <div className="col-lg-3 mb-4">
-          <div className="card border-secondary">
+          <div ref={el => (cardRefs.current[5] = el)} className="card border-secondary">
             <div className="card-body">
               <div className="card-header bg-secondary text-white">
                 <h5 className="card-title">Pre-Departure Guidance</h5>

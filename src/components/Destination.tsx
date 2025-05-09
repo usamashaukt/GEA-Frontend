@@ -1,4 +1,4 @@
-// import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { To, useNavigate } from "react-router-dom";
 import "./Destination.css";
@@ -32,6 +32,24 @@ const destinations = [
 
 const Destinations = () => {
   const navigate = useNavigate(); // useNavigate hook for navigation
+  const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
+
+  useEffect(() => {
+    const observer = new window.IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+    cardRefs.current.forEach((ref) => {
+      if (ref) observer.observe(ref);
+    });
+    return () => observer.disconnect();
+  }, []);
 
   const handleCardClick = (path: To) => {
     navigate(path); // Redirect to the specified path
@@ -43,8 +61,9 @@ const Destinations = () => {
       <Row>
         {destinations.map((destination, index) => (
           <Col key={index} md={3} className="mb-4">
-            <Card
-              className="text-white shadow-lg border-0"
+            <div
+              ref={(el) => (cardRefs.current[index] = el)}
+              className="card text-white shadow-lg border-0"
               onClick={() => handleCardClick(destination.path)} // Add click handler
               style={{ cursor: "pointer" }} // Add pointer cursor for better UX
             >
@@ -67,7 +86,7 @@ const Destinations = () => {
                   {destination.name}
                 </Card.Title>
               </Card.ImgOverlay>
-            </Card>
+            </div>
           </Col>
         ))}
       </Row>

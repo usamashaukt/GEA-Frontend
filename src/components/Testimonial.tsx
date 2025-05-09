@@ -1,8 +1,9 @@
-// import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/effect-fade";
 import "./Testimonial.css";
 
 const testimonials = [
@@ -33,19 +34,41 @@ const testimonials = [
 ];
 
 const Testimonial = () => {
+  const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
+
+  useEffect(() => {
+    const observer = new window.IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+    cardRefs.current.forEach((ref) => {
+      if (ref) observer.observe(ref);
+    });
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div className="slider-container-fluid mt-5">
       <Swiper
-        modules={[Pagination, Autoplay]}
+        modules={[Pagination, Autoplay, EffectFade]}
         spaceBetween={30}
         slidesPerView={1}
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 2000 }}
         pagination={{ clickable: true }}
-        
+        effect="fade"
+        fadeEffect={{ crossFade: true }}
+        speed={600}
       >
         {testimonials.map((testimonial, index) => (
           <SwiperSlide key={index}>
-            <div className="testimonial-card">
+            <div ref={el => (cardRefs.current[index] = el)} className="testimonial-card">
+              <span className="testimonial-quote">“</span>
               <p className="testimonial-message">"{testimonial.message}"</p>
               <img
                 src={testimonial.image}

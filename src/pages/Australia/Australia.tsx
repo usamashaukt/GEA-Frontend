@@ -1,14 +1,39 @@
-// import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Australia.css"; // Import the separate CSS file
 
 function Australia() {
+  const imgRefs = useRef<(HTMLImageElement | null)[]>([]);
+
+  useEffect(() => {
+    const observer = new window.IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+    imgRefs.current.forEach((ref) => {
+      if (ref) observer.observe(ref);
+    });
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <Container fluid className="p-0">
       {/* Header Section */}
       <div className="header-aus">
-        {/* <h1 className="header-title">Australia</h1> */}
+        <div className="hero-content-aus">
+          <h1 className="hero-title-aus">Study in Australia</h1>
+          <div className="hero-subtitle-aus">
+            World-class education, vibrant cities, and unforgettable experiences await you.
+          </div>
+          <a href="#aus-apply" className="hero-cta-aus">Start Your Application</a>
+        </div>
       </div>
 
       {/* Section: Study in Australia */}
@@ -63,6 +88,7 @@ function Australia() {
           </Col>
           <Col lg={4} className="text-center">
             <Image
+              ref={el => (imgRefs.current[0] = el)}
               src="https://example.com/sydney-opera-house.jpg" // Replace with your image URL
               alt="Sydney Opera House"
               fluid
@@ -95,7 +121,7 @@ function Australia() {
       </Container>
 
       {/* Section: Application Procedure */}
-      <Container fluid className="content-section">
+      <Container fluid className="content-section" id="aus-apply">
         <Row>
           <Col>
             <h3 className="section-title  ">Application Procedure:</h3>

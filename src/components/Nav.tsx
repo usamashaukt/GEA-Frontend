@@ -1,11 +1,17 @@
+import React, { useState } from "react";
 import ContactBtn from "./ContactBtn";
 import "./Nav.css";
 
-
 const Nav = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleHamburgerClick = () => {
+    setMenuOpen((prev) => !prev);
+  };
+
   return (
     <>
-      <nav className="navbar navbar-expand-lg   px-0">
+      <nav className="navbar navbar-expand-lg px-0">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             {/* <img
@@ -15,24 +21,22 @@ const Nav = () => {
             /> */}
             <img
               width={"100px"}
-              src="../assets/images/Logo/Gealogo-latest.svg
-              "
-              alt=""
+              src="../assets/images/Logo/Gealogo-latest.svg"
+              alt="GEA Logo"
             />
           </a>
           <button
-            className="navbar-toggler border-none btn-outline-none"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarText"
-            aria-controls="navbarText"
-            aria-expanded="false"
+            className={`custom-hamburger${menuOpen ? " open" : ""}`}
             aria-label="Toggle navigation"
+            aria-expanded={menuOpen}
+            onClick={handleHamburgerClick}
           >
-            <span className="navbar-toggler-icon"></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarText">
-            <ul className="navbar-nav  mx-auto mb-2 mb-lg-0 ">
+          <div className={`collapse navbar-collapse${menuOpen ? " show" : ""}`} id="navbarText">
+            <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
               <li className="nav-item  dropdown">
                 <a
                   className="nav-link dropdown-toggle"

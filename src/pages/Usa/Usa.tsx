@@ -7,7 +7,13 @@ function Usa() {
     <Container fluid className="p-0">
       {/* Header Section */}
       <div className="header-usa">
-        {/* <h1 className="header-title">Study in USA</h1> */}
+        <div className="hero-content-usa">
+          <h1 className="hero-title-usa">Study in USA</h1>
+          <div className="hero-subtitle-usa">
+            World-class education, innovation, and global opportunities await you.
+          </div>
+          <a href="#usa-apply" className="hero-cta-usa">Start Your Application</a>
+        </div>
       </div>
 
       {/* Section: Why Choose to Study in USA */}
@@ -75,7 +81,7 @@ function Usa() {
               Understanding Study Visa Requirements for USA:
             </h3>
             <p className="section-text">
-              If you’re considering applying for a student visa, it’s essential
+              If you're considering applying for a student visa, it's essential
               to familiarize yourself with the study visa prerequisites to
               ensure a smooth application process.
             </p>
@@ -113,17 +119,17 @@ function Usa() {
         </Row>
       </Container>
 
-      {/* Section: Value of PhD and Master’s Degrees */}
+      {/* Section: Value of PhD and Master's Degrees */}
       <Container fluid className="content-section">
         <Row>
           <Col>
             <h3 className="section-title">
-              Value of PhD and Master’s Degrees in USA:
+              Value of PhD and Master's Degrees in USA:
             </h3>
             <p className="section-text">
               Research funding is frequently allocated to universities and
               research laboratories in the USA to attract talented individuals.
-              Pursuing a PhD or Master’s degree in the USA offers numerous
+              Pursuing a PhD or Master's degree in the USA offers numerous
               benefits for personal, social, and career growth. Graduates often
               transition into roles as assistant professors, research
               assistants, or educators.

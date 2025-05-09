@@ -5,16 +5,32 @@
     border-radius: 8px !important;
     /* Rounded corners */
     position: relative;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: box-shadow 0.3s, transform 0.3s, opacity 0.6s, transform 0.6s;
+    opacity: 0;
+    transform: translateY(40px) scale(0.98);
+    will-change: opacity, transform;
+}
+
+.card.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
 }
 
 /* Image scaling effect on hover */
 .card .destination-img {
-    transition: transform 0.4s ease-in-out !important;
+    transition: transform 0.4s cubic-bezier(0.4,0,0.2,1) !important;
     /* Smooth scaling effect */
     width: 100% !important;
     height: 100% !important;
     object-fit: cover;
     /* Ensures the image maintains aspect ratio */
+}
+
+.card:hover {
+    box-shadow: 0 12px 32px rgba(0,0,0,0.18), 0 1.5px 6px rgba(176,0,32,0.08);
+    transform: translateY(-8px) scale(1.03);
+    z-index: 2;
 }
 
 .card:hover .destination-img {
@@ -31,7 +47,7 @@
     align-items: center !important;
     opacity: 0;
     /* Hidden by default */
-    transition: opacity 0.4s ease-in-out !important;
+    transition: opacity 0.4s cubic-bezier(0.4,0,0.2,1) !important;
     /* Fade-in effect */
 }
 

@@ -1,15 +1,42 @@
 // import React from "react";
 import "./Europe.css";
-
+import React, { useEffect, useRef } from "react";
 
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Europe = () => {
+  const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
+
+  useEffect(() => {
+    const observer = new window.IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+    cardRefs.current.forEach((ref) => {
+      if (ref) observer.observe(ref);
+    });
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <>
       {/* <div className="search-banner" style={{minHeight:"500px"}} ></div> */}
-      <div className="header-eu"></div>
+      <div className="header-eu">
+        <div className="hero-content-eu">
+          <h1 className="hero-title-eu">Study in Europe</h1>
+          <div className="hero-subtitle-eu">
+            World-class education, diverse cultures, and endless opportunities await you.
+          </div>
+          <a href="#eu-apply" className="hero-cta-eu">Start Your Application</a>
+        </div>
+      </div>
       <Container fluid className="mt-5">
         <Row className="mb-4">
           <Col>
@@ -29,9 +56,9 @@ const Europe = () => {
               international students across its universities and colleges.
             </p>
             <p>
-              This is possible due to Europe’s inclusive approach towards global
+              This is possible due to Europe's inclusive approach towards global
               education, offering more than 1,000 universities and a wide
-              variety of courses tailored to suit students’ interests and career
+              variety of courses tailored to suit students' interests and career
               goals. Students can choose from thousands of programs, ranging
               from undergraduate and postgraduate degrees to specialized short
               courses, ensuring flexibility and quality in their academic
@@ -126,7 +153,7 @@ const Europe = () => {
             <p>
               Choosing to study abroad in Europe equips students with not only a
               degree but also invaluable experiences, global networks, and
-              skills that shape a successful future. It’s an opportunity to gain
+              skills that shape a successful future. It's an opportunity to gain
               a world-class education while embracing new cultures and
               opportunities.
             </p>
@@ -139,7 +166,7 @@ const Europe = () => {
         </h1>
         <div className="content">
           {/* card-eu 1 */}
-          <div className="card-eu card">
+          <div className="card-eu" ref={el => cardRefs.current[0] = el}>
             <h2>Choose Course and University</h2>
             <p>
               Start by selecting the course and university in the UK that aligns
@@ -149,7 +176,7 @@ const Europe = () => {
           </div>
 
           {/* card-eu 2 */}
-          <div className="card-eu card">
+          <div className="card-eu" ref={el => cardRefs.current[1] = el}>
             <h2>English Language Proficiency</h2>
             <p>
               Demonstrate proficiency in English by providing valid scores from
@@ -160,17 +187,17 @@ const Europe = () => {
           </div>
 
           {/* card-eu 3 */}
-          <div className="card-eu card">
+          <div className="card-eu" ref={el => cardRefs.current[2] = el}>
             <h2>Educational Documentation</h2>
             <p>
               Submit diplomas, transcripts, and other academic records from
-              previous studies (high school, bachelor’s degree, etc.). Ensure
+              previous studies (high school, bachelor's degree, etc.). Ensure
               all documents are attested and updated.
             </p>
           </div>
 
           {/* card-eu 4 */}
-          <div className="card-eu card">
+          <div className="card-eu" ref={el => cardRefs.current[3] = el}>
             <h2>Visa Application Process</h2>
             <p>
               Complete the online visa application, providing your{" "}
@@ -183,7 +210,7 @@ const Europe = () => {
           </div>
 
           {/* card-eu 5 */}
-          <div className="card-eu card">
+          <div className="card-eu" ref={el => cardRefs.current[4] = el}>
             <h2>Initial Deposit</h2>
             <p>
               Many UK universities require an initial deposit to secure your
@@ -193,7 +220,7 @@ const Europe = () => {
           </div>
 
           {/* card-eu 6 */}
-          <div className="card-eu card">
+          <div className="card-eu" ref={el => cardRefs.current[5] = el}>
             <h2>Attend Interview and Orientation</h2>
             <p>
               Attend the <strong>credibility interview</strong> as part of the

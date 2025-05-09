@@ -26,12 +26,21 @@
     background: white;
     margin: 20px 10px;
     z-index: 10;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: box-shadow 0.3s, transform 0.3s, opacity 0.6s, transform 0.6s;
+    opacity: 0;
+    transform: translateY(40px) scale(0.98);
+    will-change: opacity, transform;
+}
+
+.card.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
 }
 
 .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.18), 0 1.5px 6px rgba(176,0,32,0.08);
+    transform: translateY(-8px) scale(1.03);
+    z-index: 2;
 }
 
 .card-img {
