@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./VisaAssistance.css";
 const VisaAssistance = () => {

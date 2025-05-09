@@ -1,6 +1,6 @@
 // import React from "react";
 import "./Europe.css";
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";

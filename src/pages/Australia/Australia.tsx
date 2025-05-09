@@ -1,7 +1,7 @@
-import React, { useEffect, useRef } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Australia.css"; // Import the separate CSS file
+import { useEffect, useRef } from "react";
 
 function Australia() {
   const imgRefs = useRef<(HTMLImageElement | null)[]>([]);
@@ -67,7 +67,7 @@ function Australia() {
             <p className="section-text">
               Australia is a highly attractive and appealing destination for
               international students due to the inexpensive fee structure in
-              colleges and universities. Australia has the world’s ranked
+              colleges and universities. Australia has the world's ranked
               universities and colleges. Institutions in Australia mostly prefer
               practical work in all fields which generates excellent graduates.
             </p>
@@ -80,7 +80,7 @@ function Australia() {
             </p>
             <p className="section-text">
               Australia allows international students to obtain a work visa up
-              to 2 years after completing their Bachelor’s, Master’s, and Ph.D.
+              to 2 years after completing their Bachelor's, Master's, and Ph.D.
               successfully. Australia also offers part-time work up to 20 hours
               a week anywhere according to the feasibility of the students and
               full-time work up to 40 hours a week on vacations.
@@ -106,7 +106,7 @@ function Australia() {
             <h3 className="section-title  ">Facilities:</h3>
             <p className="section-text">
               Australian universities provide special privileges to the students
-              in the shape of students’ cards. This is turned to be a students’
+              in the shape of students' cards. This is turned to be a students'
               discount card. Wherever students go, shops, buses, and subways
               always purchase discounted items and travel cheaply.
             </p>

@@ -1,8 +1,8 @@
-import React, { useEffect, useRef } from "react";
 import "./VisaApplication.css"; 
 // import BannerImg from "../../components/BannerImg";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useEffect, useRef } from "react";
 
 const VisaApplication = () => {
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
