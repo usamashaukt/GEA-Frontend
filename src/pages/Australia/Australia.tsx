@@ -2,6 +2,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Australia.css"; // Import the separate CSS file
 import { useEffect, useRef } from "react";
+import { Helmet } from 'react-helmet-async';
 
 function Australia() {
   const imgRefs = useRef<(HTMLImageElement | null)[]>([]);
@@ -23,7 +24,14 @@ function Australia() {
     return () => observer.disconnect();
   }, []);
 
-  return (
+  return (<>
+    <Helmet>
+      <title>Study in Australia | GEA</title>
+      <meta
+        name="description"
+        content="Explore world-class education, vibrant cities, and career opportunities in Australia. GEA provides expert support for university applications, visas, and scholarships."
+      />
+    </Helmet>
     <Container fluid className="p-0">
       {/* Header Section */}
       <div className="header-aus">
@@ -142,6 +150,7 @@ function Australia() {
         </Row>
       </Container>
     </Container>
+    </>
   );
 }
 

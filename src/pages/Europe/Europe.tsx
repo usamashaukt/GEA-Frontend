@@ -1,6 +1,7 @@
 // import React from "react";
 import "./Europe.css";
 import { useEffect, useRef } from "react";
+import { Helmet } from 'react-helmet-async';
 
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -27,6 +28,13 @@ const Europe = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Study in Europe | GEA</title>
+        <meta
+          name="description"
+          content="Experience diverse cultures and top-ranked universities in Europe. GEA helps you with European university applications, visa processes, and scholarship opportunities."
+        />
+      </Helmet>
       {/* <div className="search-banner" style={{minHeight:"500px"}} ></div> */}
       <div className="header-eu">
         <div className="hero-content-eu">

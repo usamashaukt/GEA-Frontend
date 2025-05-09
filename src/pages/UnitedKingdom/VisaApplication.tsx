@@ -3,6 +3,7 @@ import "./VisaApplication.css";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect, useRef } from "react";
+import { Helmet } from 'react-helmet-async';
 
 const VisaApplication = () => {
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
@@ -26,6 +27,10 @@ const VisaApplication = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Study in the United Kingdom | GEA</title>
+        <meta name="description" content="Discover top universities, courses, and student life in the UK. GEA guides you through UK university applications, visa requirements, and scholarships for international students." />
+      </Helmet>
       {/* <div className="search-banner" style={{minHeight:"500px"}} ></div> */}
       <div className="header-uk">
         <div className="hero-content-uk">
