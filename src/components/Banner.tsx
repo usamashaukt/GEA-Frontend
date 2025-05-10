@@ -20,7 +20,21 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="search-banner w-100">
+    <div
+      className="search-banner w-100"
+      style={{
+        backgroundImage: 'url("/assets/images/big-ben/big-Ben-London.webp")',
+        backgroundPosition: 'center -100px',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        height: '100%',
+        minHeight: 'calc(100vh - 66px)',
+        overflow: 'hidden',
+        transition: '.4s ease-in-out',
+        zIndex: 1,
+        position: 'relative',
+      }}
+    >
       <div className="banner-overlay" />
       <div className="banner-content">
         <h1 className="typewriter-headline">{displayedText}</h1>
