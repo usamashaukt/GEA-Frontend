@@ -7,13 +7,13 @@ const destinations = [
   {
     name: "United Kingdom",
     image:
-      "/public/assets/images/big-ben/big-Ben-London.webp",
+      "/assets/images/big-ben/big-Ben-London.webp",
     path: "/uk", // Add a path for redirection
   },
   {
     name: "Australia",
     image:
-      "public/assets/images/Aus-bg/sydneyOperahouse.webp",
+      "/assets/images/Aus-bg/sydneyOperahouse.webp",
     path: "/aus", // Add a path for redirection
   },
   {
