@@ -93,14 +93,28 @@ body, .content-section, .section-title, .section-text {
 .section-image {
     margin-top: 1.5rem;
     max-width: 100%;
+    width: 350px;
+    height: auto !important ;
+    object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 18px rgba(26,26,46,0.10);
     opacity: 0;
     transform: translateY(40px) scale(0.98);
     transition: box-shadow 0.3s, transform 0.3s, opacity 0.6s, transform 0.6s;
     will-change: opacity, transform;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .section-image.visible {
     opacity: 1;
     transform: translateY(0) scale(1);
+}
+
+@media screen and (max-width: 768px) {
+    .section-image {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
 }

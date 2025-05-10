@@ -97,7 +97,7 @@ function Australia() {
           <Col lg={4} className="text-center">
             <Image
               ref={el => (imgRefs.current[0] = el)}
-              src="https://example.com/sydney-opera-house.jpg" // Replace with your image URL
+              src="/public/assets/images/Aus-bg/sydneyOperahouse.webp" // Replace with your image URL
               alt="Sydney Opera House"
               fluid
               rounded

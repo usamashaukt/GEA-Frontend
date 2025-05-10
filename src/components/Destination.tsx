@@ -7,13 +7,13 @@ const destinations = [
   {
     name: "United Kingdom",
     image:
-      "https://cdn.britannica.com/01/94501-050-7C939333/Big-Ben-London.jpg",
+      "/public/assets/images/big-ben/big-Ben-London.webp",
     path: "/uk", // Add a path for redirection
   },
   {
     name: "Australia",
     image:
-      "https://www.bondi38.com.au/wp-content/uploads/2023/04/top-view-of-sydney-australia-opera-house-sydney-2022-11-16-14-05-33-utc-scaled.webp",
+      "public/assets/images/Aus-bg/sydneyOperahouse.webp",
     path: "/aus", // Add a path for redirection
   },
   {
