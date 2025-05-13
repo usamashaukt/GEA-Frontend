@@ -63,8 +63,8 @@ const Footer: React.FC = () => {
         <div className={styles.left}>
           <img
             width={"100px"}
-            src="../assets/images/Logo/Gealogo-latest.svg"
-            alt="Gea-Logo"
+            src="../assets/images/Logo/gea-logo-latest.svg"
+            alt="gea-logo"
             className={styles.logo}
           />
           <p className={styles.description}>

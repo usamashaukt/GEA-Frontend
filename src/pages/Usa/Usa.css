@@ -81,3 +81,32 @@ body, .content-section, .section-title, .section-text {
         padding: 0 1rem;
     }
 }
+
+.section-title {
+    color: #e63946;
+    margin-bottom: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 2rem;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: #e63946;
+    border-radius: 2px;
+}
+
+h2.section-title {
+    font-size: 2.5rem;
+}
+
+h3.section-title {
+    font-size: 1.75rem;
+}

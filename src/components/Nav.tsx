@@ -21,7 +21,7 @@ const Nav = () => {
             /> */}
             <img
               width={"100px"}
-              src="../assets/images/Logo/Gealogo-latest.svg"
+              src="../assets/images/Logo/gea-logo-latest.svg"
               alt="GEA Logo"
             />
           </a>

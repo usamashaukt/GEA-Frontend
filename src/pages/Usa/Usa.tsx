@@ -2,8 +2,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Usa.css"; // Import the separate CSS file
 import { Helmet } from 'react-helmet-async';
+import { useEffect } from 'react';
 
 function Usa() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
   return (
     <>
       <Helmet>

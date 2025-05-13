@@ -23,7 +23,7 @@ const Section2 = () => {
 
   return (
     <div>
-      <div className="global-imgs">
+      <div className="global-imgs" style={{display: "none"}}>
         <div className="container-fluid mb-4 mx-auto ">
           <div className="row">
             {[0, 1, 2, 3].map((i) => (

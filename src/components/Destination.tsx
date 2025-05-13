@@ -13,7 +13,7 @@ const destinations = [
   {
     name: "Australia",
     image:
-      "/assets/images/Aus-bg/sydneyOperahouse.webp",
+      "/assets/images/Aus-bg/sydney-opera-house.webp",
     path: "/aus", // Add a path for redirection
   },
   {

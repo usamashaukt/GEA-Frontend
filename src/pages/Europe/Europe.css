@@ -14,7 +14,7 @@ body, .content-section, .section-title, .section-text {
 }
 
 .header-eu {
-    background-image: linear-gradient(120deg, rgba(26,26,46,0.7) 60%, rgba(230,57,70,0.3) 100%), url(/assets/images/Eu-bg/EU.jpg);
+    background-image: linear-gradient(120deg, rgba(26,26,46,0.7) 60%, rgba(230,57,70,0.3) 100%), url(/assets/images/Eu-bg/eu.jpg);
     background-size: cover;
     background-position: center;
     min-height: 420px;

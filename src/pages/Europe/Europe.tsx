@@ -8,7 +8,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Europe = () => {
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   useEffect(() => {
     const observer = new window.IntersectionObserver(
       (entries) => {
@@ -24,6 +26,7 @@ const Europe = () => {
       if (ref) observer.observe(ref);
     });
     return () => observer.disconnect();
+    window.scrollTo(0, 0);
   }, []);
 
   return (
