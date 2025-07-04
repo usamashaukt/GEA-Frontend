@@ -35,7 +35,10 @@ const Nav = () => {
             <span></span>
             <span></span>
           </button>
-          <div className={`collapse navbar-collapse${menuOpen ? " show" : ""}`} id="navbarText">
+          <div
+            className={`collapse navbar-collapse${menuOpen ? " show" : ""}`}
+            id="navbarText"
+          >
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
               <li className="nav-item  dropdown">
                 <a
@@ -50,7 +53,7 @@ const Nav = () => {
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="#">
-                      About GEA
+                      About HU
                     </a>
                   </li>
                   <li>
@@ -73,12 +76,12 @@ const Nav = () => {
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="#">
-                      GEA Islamabad
+                      HU Islamabad
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      GEA Karachi
+                      HU Karachi
                     </a>
                   </li>
                 </ul>
