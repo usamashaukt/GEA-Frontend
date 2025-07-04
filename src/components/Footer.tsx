@@ -151,7 +151,7 @@ const Footer: React.FC = () => {
             <br />
             <a href="tel:+923394007202">+923394007202</a>
             <br />
-            <a href="mailto:huconsultant1@gmail.com">huconsultant1@gmail.com</a>
+            <a href="mailto:huconsultantpvtltd@gmail.com">huconsultantpvtltd@gmail.com</a>
           </address>
           {/* Embedded Google Map */}
           <div className={styles.mapContainer}>
