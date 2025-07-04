@@ -94,7 +94,7 @@ export default function ContactForm() {
     <div className="container-fluid">
       <div className={`row justify-content-center ${isMobile ? "p-0" : ""}`}>
         <div className="col-md-12">
-          <div className="card">
+          <div className="contact-card">
             <div className="card-body">
               <form onSubmit={handleSubmit}>
                 <div className="mb-3">
