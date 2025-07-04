@@ -4,7 +4,7 @@ import Section2 from "../../components/Section2";
 import Testimonial from "../../components/Testimonial";
 import Destination from "../../components/Destination";
 import CarouselSlider from "../../components/CarouselSlider";
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   // const services1: any[] = [
@@ -243,7 +243,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Global Education Adviser | Study Abroad Experts</title>
+        <title>HU Consultants | Study Abroad Experts</title>
         <meta
           name="description"
           content="Global Education Adviser (GEA) helps students achieve their dreams of studying abroad in the UK, USA, Australia, and Europe. Get expert guidance on university applications, visas, scholarships, and more."
