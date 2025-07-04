@@ -194,8 +194,8 @@ export default function ContactForm() {
               )}
               <div className="contact-details">
                 <p className="mt-4">
-                  <FontAwesomeIcon icon={faMapMarkerAlt} /> 730 Romford Road
-                  Suite 2, First Floor, London, England, E12 6BT
+                  <FontAwesomeIcon icon={faMapMarkerAlt} /> Shop# 1 ... Al amin
+                  Market Dhendian Road, near sabzi mandi, Pakistan
                 </p>
 
                 <p>
@@ -206,8 +206,8 @@ export default function ContactForm() {
 
                 <p>
                   <FontAwesomeIcon icon={faEnvelope} />
-                  <a href="mailto:info@globaleducationadviser.com">
-                    info@globaleducationadviser.com
+                  <a href="mailto:huconsultant1@gmail.com">
+                    huconsultant1@gmail.com
                   </a>
                 </p>
               </div>

@@ -19,7 +19,7 @@
 
 
 .card {
-    position: relative ;
+    position: relative;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     overflow: hidden;
@@ -38,7 +38,7 @@
 }
 
 .card:hover {
-    box-shadow: 0 12px 32px rgba(0,0,0,0.18), 0 1.5px 6px rgba(176,0,32,0.08);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18), 0 1.5px 6px rgba(176, 0, 32, 0.08);
     transform: translateY(-8px) scale(1.03);
     z-index: 2;
 }
