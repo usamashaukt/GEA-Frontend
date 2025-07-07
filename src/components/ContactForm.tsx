@@ -29,7 +29,7 @@ export default function ContactForm() {
     lastQualification: "", // Initialize field
   });
 
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
 
@@ -46,7 +46,7 @@ export default function ContactForm() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setLoading(true);
+    // setLoading(true);
     setError(null);
     setSuccess(false);
 
@@ -86,7 +86,7 @@ export default function ContactForm() {
         setError("An unexpected error occurred. Please try again.");
       }
     } finally {
-      setLoading(false);
+      // setLoading(false);
     }
   };
 
@@ -178,18 +178,18 @@ export default function ContactForm() {
                     }
                   ></textarea>
                 </div>
-                {/* <button
+                <button
                   type="submit"
                   className="btn btn-danger w-100"
-                  disabled={loading}
+                  // disabled={loading}
                 >
-                  {loading ? "Submitting..." : "Submit"}
-                </button> */}
+                  {/* {loading ? "Submitting..." : "Submit"} */}
+                </button>
               </form>
               {error && <p className="text-danger mt-3">{error}</p>}
               {success && (
                 <p className="text-success text-center mt-3">
-                  Thank you for contacting us! We’ll respond as soon as possible
+                  Thank you for contacting us! We'll respond as soon as possible
                 </p>
               )}
               <div className="contact-details">
