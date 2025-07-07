@@ -35,7 +35,7 @@ const Europe = () => {
         <title>Study in Europe | HU</title>
         <meta
           name="description"
-          content="Experience diverse cultures and top-ranked universities in Europe. GEA helps you with European university applications, visa processes, and scholarship opportunities."
+          content="Experience diverse cultures and top-ranked universities in Europe. HU helps you with European university applications, visa processes, and scholarship opportunities."
         />
       </Helmet>
       {/* <div className="search-banner" style={{minHeight:"500px"}} ></div> */}
