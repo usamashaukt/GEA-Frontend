@@ -26,13 +26,13 @@ body {
     }
 
     .custom-modal .modal-body {
-        padding: 15px;
+        padding: 15px !important;
 
         /* Adjust padding for mobile */
     }
 
     .custom-modal .modal-content {
-        height: 100% !important;
+        /* height: 100% !important; */
         border-radius: 0;
     }
 

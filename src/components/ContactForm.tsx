@@ -178,13 +178,13 @@ export default function ContactForm() {
                     }
                   ></textarea>
                 </div>
-                <button
+                {/* <button
                   type="submit"
                   className="btn btn-danger w-100"
                   disabled={loading}
                 >
                   {loading ? "Submitting..." : "Submit"}
-                </button>
+                </button> */}
               </form>
               {error && <p className="text-danger mt-3">{error}</p>}
               {success && (

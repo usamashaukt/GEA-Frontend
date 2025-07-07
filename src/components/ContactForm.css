@@ -71,6 +71,8 @@ h2 {
     padding: 8px 16px !important;
 }
 
+/* .modal-footer>button {display: none;} */
+
 .contact-details {
     font-size: 14px;
     color: #333;
@@ -99,7 +101,3 @@ h2 {
     align-items: center;
     gap: 5px;
 }
-@media (max-width: 768px) {
-    .modal-body {
-        padding: 15px !important;
-}}
