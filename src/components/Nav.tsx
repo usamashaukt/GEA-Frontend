@@ -11,7 +11,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg px-0">
+      <nav className={`navbar navbar-expand-lg p-0${menuOpen ? " pb-3" : ""}`}>
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
          

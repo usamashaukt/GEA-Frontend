@@ -200,7 +200,7 @@ export default function ContactForm() {
 
                 <p>
                   <FontAwesomeIcon icon={faPhone} />
-                  <a href="tel:+923394007202">+923394007202</a> 
+                  <a href="tel:+923122496574">+923122496574</a> 
                   {/* <a href="tel:+447957884884">+447957884884</a> */}
                 </p>
 

@@ -149,7 +149,7 @@ const Footer: React.FC = () => {
           <address className={styles.address}>
             Shop# 1 ... Al Amin Market Dhendian Road, near sabzi mandi, Pakistan
             <br />
-            <a href="tel:+923394007202">+923394007202</a>
+            <a href="tel:+923122496574">+923122496574</a>
             <br />
             <a href="mailto:huconsultantpvtltd@gmail.com">huconsultantpvtltd@gmail.com</a>
           </address>
