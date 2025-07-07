@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
           <p className={styles.description}>
             HU Consultants: Your partner in crafting a life-changing study
             abroad experience. We're here to support you every step of the way.
-            Your dreams are within reach—let's make them a reality!
+            Your dreams are within reach, let's make them a reality!
           </p>
           <div className={styles.socialIcons}>
             <a
