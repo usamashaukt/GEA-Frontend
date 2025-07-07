@@ -59,6 +59,9 @@
 .navbar .container-fluid {
     padding-right: 20px !important;
     padding-left: 20px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar-nav {
@@ -178,7 +181,7 @@
     opacity: 0;
 }
 .custom-hamburger.open span:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
+    transform: translateY(-13px) rotate(-45deg);
 }
 
 @media (min-width: 992px) {
