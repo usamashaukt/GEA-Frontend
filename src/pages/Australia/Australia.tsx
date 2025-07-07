@@ -32,7 +32,7 @@ function Australia() {
 
   return (<>
     <Helmet>
-      <title>Study in Australia | GEA</title>
+      <title>Study in Australia | HU</title>
       <meta
         name="description"
         content="Explore world-class education, vibrant cities, and career opportunities in Australia. GEA provides expert support for university applications, visas, and scholarships."

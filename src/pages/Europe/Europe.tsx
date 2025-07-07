@@ -32,7 +32,7 @@ const Europe = () => {
   return (
     <>
       <Helmet>
-        <title>Study in Europe | GEA</title>
+        <title>Study in Europe | HU</title>
         <meta
           name="description"
           content="Experience diverse cultures and top-ranked universities in Europe. GEA helps you with European university applications, visa processes, and scholarship opportunities."

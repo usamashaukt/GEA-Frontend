@@ -12,10 +12,10 @@ function Usa() {
   return (
     <>
       <Helmet>
-        <title>Study in the USA | GEA</title>
+        <title>Study in the USA | HU</title>
         <meta
           name="description"
-          content="Achieve your academic goals in the USA with GEA. Get guidance on US universities, application processes, student visas, and scholarships for international students."
+          content="Achieve your academic goals in the USA with HU. Get guidance on US universities, application processes, student visas, and scholarships for international students."
         />
       </Helmet>
       <Container fluid className="p-0">

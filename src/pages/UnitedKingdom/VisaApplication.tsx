@@ -33,8 +33,8 @@ const VisaApplication = () => {
   return (
     <>
       <Helmet>
-        <title>Study in the United Kingdom | GEA</title>
-        <meta name="description" content="Discover top universities, courses, and student life in the UK. GEA guides you through UK university applications, visa requirements, and scholarships for international students." />
+        <title>Study in the United Kingdom | HU</title>
+        <meta name="description" content="Discover top universities, courses, and student life in the UK. HU guides you through UK university applications, visa requirements, and scholarships for international students." />
       </Helmet>
       {/* <div className="search-banner" style={{minHeight:"500px"}} ></div> */}
       <header className="header-uk">
