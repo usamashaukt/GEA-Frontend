@@ -181,9 +181,8 @@ export default function ContactForm() {
                 <button
                   type="submit"
                   className="btn btn-danger w-100"
-                  // disabled={loading}
                 >
-                  {/* {loading ? "Submitting..." : "Submit"} */}
+                  Submit
                 </button>
               </form>
               {error && <p className="text-danger mt-3">{error}</p>}
