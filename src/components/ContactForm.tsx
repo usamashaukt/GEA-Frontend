@@ -188,20 +188,20 @@ export default function ContactForm() {
               </form>
               {error && <p className="text-danger mt-3">{error}</p>}
               {success && (
-                <p className="text-success mt-3">
-                  Form data has been successfully saved!
+                <p className="text-success text-center mt-3">
+                  Thank you for contacting us! We’ll respond as soon as possible
                 </p>
               )}
               <div className="contact-details">
                 <p className="mt-4">
-                  <FontAwesomeIcon icon={faMapMarkerAlt} /> Shop# 1 ... Al amin
+                  <FontAwesomeIcon icon={faMapMarkerAlt} /> Shop# 1 ... Al Amin
                   Market Dhendian Road, near sabzi mandi, Pakistan
                 </p>
 
                 <p>
                   <FontAwesomeIcon icon={faPhone} />
-                  <a href="tel:+923394007202">+923394007202</a> |
-                  <a href="tel:+447957884884">+447957884884</a>
+                  <a href="tel:+923394007202">+923394007202</a> 
+                  {/* <a href="tel:+447957884884">+447957884884</a> */}
                 </p>
 
                 <p>
