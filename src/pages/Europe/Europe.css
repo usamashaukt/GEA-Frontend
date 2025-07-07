@@ -55,7 +55,8 @@ body, .content-section, .section-title, .section-text {
     color: #fff;
     border: none;
     border-radius: 30px;
-    padding: 0.8rem 2.2rem;
+    padding: 0.8rem 2.2rem;   
+    text-decoration: none;
     font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
@@ -80,13 +81,14 @@ body, .content-section, .section-title, .section-text {
 
 @media screen and (max-width: 768px) {
     .header-eu {
-        min-height: 220px;
+        min-height: 728px;
     }
     .hero-title-eu {
         font-size: 2rem;
     }
     .hero-content-eu {
         padding: 0 1rem;
+        width: 100%;
     }
 }
 

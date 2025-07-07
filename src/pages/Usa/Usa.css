@@ -50,6 +50,7 @@ body, .content-section, .section-title, .section-text {
     padding: 0.8rem 2.2rem;
     font-size: 1.1rem;
     font-weight: 600;
+    text-decoration: none;
     cursor: pointer;
     box-shadow: 0 2px 12px rgba(0,0,0,0.15);
     transition: background 0.2s, transform 0.2s;
@@ -72,13 +73,14 @@ body, .content-section, .section-title, .section-text {
 
 @media screen and (max-width: 768px) {
     .header-usa {
-        min-height: 220px;
+        min-height: 728px;
     }
     .hero-title-usa {
         font-size: 2rem;
     }
     .hero-content-usa {
         padding: 0 1rem;
+        width: 100%;
     }
 }
 
