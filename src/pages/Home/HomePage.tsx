@@ -21,8 +21,6 @@ const Home = () => {
       <Destination />
       <Section1 />
       <Section2 />
-    
-
       <Testimonial />
       <CarouselSlider />
     </>

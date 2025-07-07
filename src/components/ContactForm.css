@@ -99,3 +99,7 @@ h2 {
     align-items: center;
     gap: 5px;
 }
+@media (max-width: 768px) {
+    .modal-body {
+        padding: 15px !important;
+}}
