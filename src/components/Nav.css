@@ -181,7 +181,7 @@
     opacity: 0;
 }
 .custom-hamburger.open span:nth-child(3) {
-    transform: translateY(-13px) rotate(-45deg);
+    transform: translateY(-14px) rotate(-45deg);
 }
 
 @media (min-width: 992px) {
