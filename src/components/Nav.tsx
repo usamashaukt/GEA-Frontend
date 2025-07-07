@@ -14,15 +14,11 @@ const Nav = () => {
       <nav className="navbar navbar-expand-lg px-0">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            {/* <img
-              width={"100px"}
-              src="../assets/images/Logo/GEA-logo-02.png"
-              alt=""
-            /> */}
+         
             <img
               width={"100px"}
-              src="../assets/images/Logo/gea-logo-latest.svg"
-              alt="GEA Logo"
+              src="../assets/images/hu-logo/hu-logo-bg.png"
+              alt="HU Logo"
             />
           </a>
           <button
@@ -124,7 +120,7 @@ const Nav = () => {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown d-none">
                 <a
                   className="nav-link dropdown-toggle"
                   href="#"
