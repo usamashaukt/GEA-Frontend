@@ -17,7 +17,7 @@ const Nav = () => {
          
             <img
               width={"100px"}
-              src="../assets/images/hu-logo/hu-logo-bg.png"
+              src="../assets/images/hu-logo/hu-logo-bg.webp"
               alt="HU Logo"
             />
           </a>

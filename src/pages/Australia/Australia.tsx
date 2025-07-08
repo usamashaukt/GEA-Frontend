@@ -41,6 +41,12 @@ function Australia() {
     <Container fluid className="p-0">
       {/* Header Section */}
       <div className="header-aus">
+        <img
+          src="/assets/images/Aus-bg/aus.webp"
+          alt="Australia background"
+          className="header-aus-img"
+          fetchPriority="high"
+        />
         <div className="hero-content-aus">
           <h1 className="hero-title-aus">Study in Australia</h1>
           <div className="hero-subtitle-aus">
@@ -62,13 +68,13 @@ function Australia() {
             </p>
           </Col>
           <Col md={6}>
-            <Image
+            {/* <Image
               ref={el => (imgRefs.current[0] = el)}
               src="/assets/images/Aus-bg/sydney-opera-house.webp"
               alt="Sydney Opera House"
               fluid
               className="section-image"
-            />
+            /> */}
           </Col>
         </Row>
       </Container>
@@ -86,13 +92,13 @@ function Australia() {
               <FontAwesomeIcon icon={faUniversity} className="feature-icon" />
               <h3>World-Class Universities</h3>
               <p>Access to top-ranked institutions with state-of-the-art facilities and research opportunities.</p>
-              <Image
+              {/* <Image
                 ref={el => (imgRefs.current[1] = el)}
                 src="/assets/images/Aus-bg/aus.jpg"
                 alt="Australian University"
                 fluid
                 className="section-image mt-3"
-              />
+              /> */}
             </div>
           </Col>
           <Col md={4}>
@@ -100,13 +106,13 @@ function Australia() {
               <FontAwesomeIcon icon={faGlobe} className="feature-icon" />
               <h3>Global Recognition</h3>
               <p>Degrees that are internationally recognized and valued by employers worldwide.</p>
-              <Image
+              {/* <Image
                 ref={el => (imgRefs.current[2] = el)}
                 src="/assets/images/Aus-bg/sydney-opera-house.webp"
                 alt="Sydney Landmark"
                 fluid
                 className="section-image mt-3"
-              />
+              /> */}
             </div>
           </Col>
           <Col md={4}>
@@ -114,13 +120,13 @@ function Australia() {
               <FontAwesomeIcon icon={faAward} className="feature-icon" />
               <h3>Quality Education</h3>
               <p>High standards of teaching with focus on practical and industry-relevant skills.</p>
-              <Image
+              {/* <Image
                 ref={el => (imgRefs.current[3] = el)}
                 src="/assets/images/Aus-bg/aus.jpg"
                 alt="Australian Education"
                 fluid
                 className="section-image mt-3"
-              />
+              /> */}
             </div>
           </Col>
         </Row>
