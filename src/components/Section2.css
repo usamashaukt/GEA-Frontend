@@ -1,13 +1,8 @@
-.global-imgs {
-    /* background-color: #B40C31 ; */
-}
+
 
 @media (max-width: 992px) {
 
-    /* .global-imgs {
-        max-height: 275px;
-    }
-*/
+
     .container {
         display: flex;
         justify-content: center;
