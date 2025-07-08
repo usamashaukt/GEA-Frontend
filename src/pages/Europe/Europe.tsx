@@ -4,7 +4,6 @@ import { useEffect, useRef } from "react";
 import { Helmet } from 'react-helmet-async';
 
 import { Container, Row, Col } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const Europe = () => {
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);

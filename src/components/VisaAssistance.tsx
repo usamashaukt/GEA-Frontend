@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./VisaAssistance.css";
 const VisaAssistance = () => {
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);

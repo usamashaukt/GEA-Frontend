@@ -1,5 +1,4 @@
-import { Container, Row, Col, Image } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Row, Col } from "react-bootstrap";
 import "./Australia.css"; // Import the separate CSS file
 import { useEffect, useRef } from "react";
 import { Helmet } from 'react-helmet-async';
@@ -68,11 +67,10 @@ function Australia() {
             </p>
           </Col>
           <Col md={6}>
-            {/* <Image
+            {/* <img
               ref={el => (imgRefs.current[0] = el)}
               src="/assets/images/Aus-bg/sydney-opera-house.webp"
               alt="Sydney Opera House"
-              fluid
               className="section-image"
             /> */}
           </Col>
@@ -92,11 +90,10 @@ function Australia() {
               <FontAwesomeIcon icon={faUniversity} className="feature-icon" />
               <h3>World-Class Universities</h3>
               <p>Access to top-ranked institutions with state-of-the-art facilities and research opportunities.</p>
-              {/* <Image
+              {/* <img
                 ref={el => (imgRefs.current[1] = el)}
                 src="/assets/images/Aus-bg/aus.jpg"
                 alt="Australian University"
-                fluid
                 className="section-image mt-3"
               /> */}
             </div>
@@ -106,11 +103,10 @@ function Australia() {
               <FontAwesomeIcon icon={faGlobe} className="feature-icon" />
               <h3>Global Recognition</h3>
               <p>Degrees that are internationally recognized and valued by employers worldwide.</p>
-              {/* <Image
+              {/* <img
                 ref={el => (imgRefs.current[2] = el)}
                 src="/assets/images/Aus-bg/sydney-opera-house.webp"
                 alt="Sydney Landmark"
-                fluid
                 className="section-image mt-3"
               /> */}
             </div>
@@ -120,11 +116,10 @@ function Australia() {
               <FontAwesomeIcon icon={faAward} className="feature-icon" />
               <h3>Quality Education</h3>
               <p>High standards of teaching with focus on practical and industry-relevant skills.</p>
-              {/* <Image
+              {/* <img
                 ref={el => (imgRefs.current[3] = el)}
                 src="/assets/images/Aus-bg/aus.jpg"
                 alt="Australian Education"
-                fluid
                 className="section-image mt-3"
               /> */}
             </div>
@@ -153,11 +148,10 @@ function Australia() {
             </div>
           </Col>
           <Col md={6} className="order-md-1">
-            <Image
+            <img
               ref={el => (imgRefs.current[4] = el)}
               src="/assets/images/Aus-bg/sydney-opera-house.webp"
               alt="Student Visa Process"
-              fluid
               className="section-image"
             />
           </Col>
@@ -180,11 +174,10 @@ function Australia() {
                 MBBS programs in Australia enjoy global acclaim for their high standards and training methods. Australian universities offer two basic types of MBBS programs:
                 graduate medical programs and undergraduate medical programs, providing diverse study opportunities for Pakistani students pursuing a career in medicine.
               </p>
-              <Image
+              <img
                 ref={el => (imgRefs.current[5] = el)}
                 src="/assets/images/Aus-bg/aus.jpg"
                 alt="Medical Education"
-                fluid
                 className="section-image mt-3"
               />
             </div>
@@ -197,11 +190,10 @@ function Australia() {
                 Upon approval, students can proceed to arrange their journey to Australia and commence their studies upon receiving the grant notification.
                 Pakistani students seeking knowledge and learning opportunities to bolster their career prospects can greatly benefit from studying in Australia.
               </p>
-              <Image
+              <img
                 ref={el => (imgRefs.current[6] = el)}
                 src="/assets/images/Aus-bg/sydney-opera-house.webp"
                 alt="Graduation"
-                fluid
                 className="section-image mt-3"
               />
             </div>

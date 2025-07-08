@@ -1,7 +1,6 @@
-import "./VisaApplication.css"; 
+import "./VisaApplication.css";
 // import BannerImg from "../../components/BannerImg";
 import { Row, Col } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect, useRef } from "react";
 import { Helmet } from 'react-helmet-async';
 import { FaGraduationCap, FaUniversity, FaAward, FaGlobe } from 'react-icons/fa';
