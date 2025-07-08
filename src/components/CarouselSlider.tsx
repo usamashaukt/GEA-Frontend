@@ -49,6 +49,8 @@ const CarouselSlider = () => {
           src="/assets/images/uni-logos/uws.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
+          width="160"
+          height="90"
         />
       </div>
       <div>
@@ -57,6 +59,8 @@ const CarouselSlider = () => {
           src="/assets/images/uni-logos/Arden-University.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
+          width="160"
+          height="90"
         />
       </div>
       <div>
@@ -65,6 +69,8 @@ const CarouselSlider = () => {
           src="/assets/images/uni-logos/bangor.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
+          width="160"
+          height="90"
         />
       </div>
       <div>
@@ -73,6 +79,8 @@ const CarouselSlider = () => {
           src="/assets/images/uni-logos/bcu.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
+          width="160"
+          height="90"
         />
       </div>
       <div>
@@ -81,6 +89,8 @@ const CarouselSlider = () => {
           src="/assets/images/uni-logos/Bedfordshire.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
+          width="160"
+          height="90"
         />
       </div>
       <div>
@@ -89,6 +99,8 @@ const CarouselSlider = () => {
           src="/assets/images/uni-logos/BPP.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
+          width="160"
+          height="90"
         />
       </div>
       <div>
@@ -97,6 +109,8 @@ const CarouselSlider = () => {
           src="/assets/images/uni-logos/LSBU.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
+          width="160"
+          height="90"
         />
       </div>
       <div>
@@ -105,6 +119,8 @@ const CarouselSlider = () => {
           src="/assets/images/uni-logos/coventry.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
+          width="160"
+          height="90"
         />
       </div>
       <div>
@@ -113,6 +129,8 @@ const CarouselSlider = () => {
           src="/assets/images/uni-logos/cuc.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
+          width="160"
+          height="90"
         />
       </div>
       <div>
@@ -121,6 +139,8 @@ const CarouselSlider = () => {
           src="/assets/images/uni-logos/Gisma_Business_School_Logo_02.2022.svg.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
+          width="160"
+          height="90"
         />
       </div>
       <div>
@@ -129,6 +149,8 @@ const CarouselSlider = () => {
           src="/assets/images/uni-logos/Heriot watt.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
+          width="160"
+          height="90"
         />
       </div>
       <div>
@@ -137,6 +159,8 @@ const CarouselSlider = () => {
           src="/assets/images/uni-logos/images.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
+          width="160"
+          height="90"
         />
       </div>
 
@@ -146,6 +170,8 @@ const CarouselSlider = () => {
           src="/assets/images/uni-logos/ulster.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
+          width="160"
+          height="90"
         />
       </div>
       <div>
@@ -154,6 +180,8 @@ const CarouselSlider = () => {
           src="/assets/images/uni-logos/lincoln.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
+          width="160"
+          height="90"
         />
       </div>
     </Slider>
