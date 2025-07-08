@@ -46,7 +46,7 @@ const CarouselSlider = () => {
       <div>
         {" "}
         <img
-          src="/assets/images/uni-logos/uws.jpg"
+          src="/assets/images/uni-logos/uws.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
         />
@@ -54,7 +54,7 @@ const CarouselSlider = () => {
       <div>
         {" "}
         <img
-          src="/assets/images/uni-logos/Arden-University.png"
+          src="/assets/images/uni-logos/Arden-University.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
         />
@@ -62,7 +62,7 @@ const CarouselSlider = () => {
       <div>
         {" "}
         <img
-          src="/assets/images/uni-logos/bangor.jpg"
+          src="/assets/images/uni-logos/bangor.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
         />
@@ -70,7 +70,7 @@ const CarouselSlider = () => {
       <div>
         {" "}
         <img
-          src="/assets/images/uni-logos/bcu.jpg"
+          src="/assets/images/uni-logos/bcu.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
         />
@@ -78,7 +78,7 @@ const CarouselSlider = () => {
       <div>
         {" "}
         <img
-          src="/assets/images/uni-logos/Bedfordshire.png"
+          src="/assets/images/uni-logos/Bedfordshire.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
         />
@@ -86,7 +86,7 @@ const CarouselSlider = () => {
       <div>
         {" "}
         <img
-          src="/assets/images/uni-logos/BPP.png"
+          src="/assets/images/uni-logos/BPP.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
         />
@@ -94,7 +94,7 @@ const CarouselSlider = () => {
       <div>
         {" "}
         <img
-          src="/assets/images/uni-logos/LSBU.png"
+          src="/assets/images/uni-logos/LSBU.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
         />
@@ -102,7 +102,7 @@ const CarouselSlider = () => {
       <div>
         {" "}
         <img
-          src="/assets/images/uni-logos/coventry.png"
+          src="/assets/images/uni-logos/coventry.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
         />
@@ -110,7 +110,7 @@ const CarouselSlider = () => {
       <div>
         {" "}
         <img
-          src="/assets/images/uni-logos/cuc.png"
+          src="/assets/images/uni-logos/cuc.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
         />
@@ -118,7 +118,7 @@ const CarouselSlider = () => {
       <div>
         {" "}
         <img
-          src="/assets/images/uni-logos/Gisma_Business_School_Logo_02.2022.svg.png"
+          src="/assets/images/uni-logos/Gisma_Business_School_Logo_02.2022.svg.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
         />
@@ -126,7 +126,7 @@ const CarouselSlider = () => {
       <div>
         {" "}
         <img
-          src="/assets/images/uni-logos/Heriot watt.png"
+          src="/assets/images/uni-logos/Heriot watt.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
         />
@@ -134,7 +134,7 @@ const CarouselSlider = () => {
       <div>
         {" "}
         <img
-          src="/assets/images/uni-logos/images.png"
+          src="/assets/images/uni-logos/images.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
         />
@@ -151,7 +151,7 @@ const CarouselSlider = () => {
       <div>
         {" "}
         <img
-          src="/assets/images/uni-logos/lincoln.png"
+          src="/assets/images/uni-logos/lincoln.webp"
           className="img-fluid carousel-img"
           alt="dmp-a1-unite-student-global-may-2024"
         />
