@@ -29,9 +29,9 @@ export default function ContactForm() {
     lastQualification: "", // Initialize field
   });
 
-  // const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
@@ -46,7 +46,7 @@ export default function ContactForm() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // setLoading(true);
+    setLoading(true);
     setError(null);
     setSuccess(false);
 
@@ -86,7 +86,7 @@ export default function ContactForm() {
         setError("An unexpected error occurred. Please try again.");
       }
     } finally {
-      // setLoading(false);
+      setLoading(false);
     }
   };
 
@@ -181,8 +181,16 @@ export default function ContactForm() {
                 <button
                   type="submit"
                   className="btn btn-danger w-100"
+                  disabled={loading}
                 >
-                  Submit
+                  {loading ? (
+                    <>
+                      <span className="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
+                      Submitting...
+                    </>
+                  ) : (
+                    "Submit"
+                  )}
                 </button>
               </form>
               {error && <p className="text-danger mt-3">{error}</p>}

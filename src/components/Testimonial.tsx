@@ -9,11 +9,11 @@ import "./Testimonial.css";
 const testimonials = [
   {
     name: "Natalia",
-    course: "BSc (Honours) Architecture | Italy",
+    course: "BSc (Honours) Architecture | UK",
     message:
       "Super helpful! Always got back to me ASAP with any questions and extra tips to help me in my application process.",
     image:
-      "https://www.studyadvisers.com/wp-content/uploads/2018/09/review_Italy-300x300.jpg", // Replace with actual image path
+      "/assets/images/testimonials/default-icon.webp",
   },
   {
     name: "Ehsan",
@@ -21,15 +21,15 @@ const testimonials = [
     message:
       "Excellent and knowledgeable service. Would highly recommend. Gave me consistent advice from my foundation until my bachelor's application.",
     image:
-      "https://www.studyadvisers.com/wp-content/uploads/2018/09/review_Pakistan-300x300.jpg",
+    "/assets/images/testimonials/default-icon.webp",
   },
   {
-    name: "Alice Johnson",
-    course: "PhD | Nigeria",
+    name: "Zeeshan",
+    course: "PhD | UK",
     message:
       "Helped me find, the university best matched for my personal needs and criteria. Their expertise in handling application procedures, visa procedures is outstanding.",
     image:
-      "https://www.studyadvisers.com/wp-content/uploads/2018/09/review_ksa-300x300.jpg",
+    "/assets/images/testimonials/default-icon.webp",
   },
 ];
 
