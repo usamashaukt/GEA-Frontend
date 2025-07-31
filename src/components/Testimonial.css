@@ -18,6 +18,7 @@
     transform: translateY(40px) scale(0.98);
     transition: box-shadow 0.3s, transform 0.3s, opacity 0.6s, transform 0.6s;
     will-change: opacity, transform;
+    min-height: 254px;
   }
   
   .testimonial-card.visible {

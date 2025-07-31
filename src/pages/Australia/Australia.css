@@ -63,7 +63,7 @@ body, .content-section, .section-title, .section-text {
 .hero-cta-aus {
     display: inline-block;
     padding: 1rem 2rem;
-    background-color: #e74c3c;
+    background-color: #B00020;
     color: white;
     text-decoration: none;
     border-radius: 30px;
@@ -72,7 +72,7 @@ body, .content-section, .section-title, .section-text {
 }
 
 .hero-cta-aus:hover {
-    background-color: #c0392b;
+    background-color: #B00020;
     transform: translateY(-3px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     color: white;

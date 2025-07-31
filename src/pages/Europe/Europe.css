@@ -51,7 +51,7 @@ body, .content-section, .section-title, .section-text {
     text-shadow: 0 2px 8px rgba(0,0,0,0.18);
 }
 .hero-cta-eu {
-    background: #e63946;
+    background: #B00020;
     color: #fff;
     border: none;
     border-radius: 30px;
@@ -64,7 +64,7 @@ body, .content-section, .section-title, .section-text {
     transition: background 0.2s, transform 0.2s;
 }
 .hero-cta-eu:hover {
-    background: #a4161a;
+    background: #B00020;
     transform: translateY(-2px) scale(1.04);
 }
 

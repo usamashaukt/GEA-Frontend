@@ -68,7 +68,7 @@ body {
 }
 
 .hero-cta-uk {
-    background: #e63946;
+    background: #B00020;
     color: #fff;
     text-decoration: none;
     border: none;
@@ -84,7 +84,7 @@ body {
 }
 
 .hero-cta-uk:hover {
-    background: #d1343f;
+    background: #B00020;
     color: #fff;
     transform: translateY(-2px);
 }
@@ -199,7 +199,7 @@ body {
     left: 0;
     width: 40px;
     height: 3px;
-    background: #e63946;
+    background: #B00020;
     border-radius: 1.5px;
 } 
 
@@ -262,11 +262,11 @@ body {
         margin-bottom: 24px;
         padding: 0 16px;
     }
-    
+/*     
     .hero-cta-uk {
         padding: 12px 28px;
         font-size: 16px;
-    }
+    } */
     
     .hero-content-uk {
         padding: 1.5rem;
