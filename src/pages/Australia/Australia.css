@@ -72,7 +72,7 @@ body, .content-section, .section-title, .section-text {
 }
 
 .hero-cta-aus:hover {
-    background-color: #B00020;
+    background-color: #000;
     transform: translateY(-3px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     color: white;

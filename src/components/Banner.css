@@ -61,7 +61,7 @@
 }
 
 .banner-cta:hover {
-    background: #a4161a;
+    background: #000;
     transform: translateY(-2px) scale(1.04);
 }
 

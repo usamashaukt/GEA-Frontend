@@ -47,7 +47,7 @@ body, .content-section, .section-title, .section-text {
     color: #fff;
     border: none;
     border-radius: 30px;
-    padding: 0.8rem 2.2rem;
+    padding: 0.8rem 2rem;
     font-size: 1.1rem;
     font-weight: 600;
     text-decoration: none;
@@ -56,7 +56,7 @@ body, .content-section, .section-title, .section-text {
     transition: background 0.2s, transform 0.2s;
 }
 .hero-cta-usa:hover {
-    background: #B00020;
+    background: #000;
     transform: translateY(-2px) scale(1.04);
 }
 
