@@ -148,12 +148,12 @@ function Australia() {
             </div>
           </Col>
           <Col md={6} className="order-md-1">
-            <img
+            {/* <img
               ref={el => (imgRefs.current[4] = el)}
               src="/assets/images/Aus-bg/sydney-opera-house.webp"
               alt="Student Visa Process"
               className="section-image"
-            />
+            /> */}
           </Col>
         </Row>
       </Container>
@@ -174,12 +174,12 @@ function Australia() {
                 MBBS programs in Australia enjoy global acclaim for their high standards and training methods. Australian universities offer two basic types of MBBS programs:
                 graduate medical programs and undergraduate medical programs, providing diverse study opportunities for Pakistani students pursuing a career in medicine.
               </p>
-              <img
+              {/* <img
                 ref={el => (imgRefs.current[5] = el)}
                 src="/assets/images/Aus-bg/aus.jpg"
                 alt="Medical Education"
                 className="section-image mt-3"
-              />
+              /> */}
             </div>
           </Col>
           <Col md={6}>
@@ -190,12 +190,12 @@ function Australia() {
                 Upon approval, students can proceed to arrange their journey to Australia and commence their studies upon receiving the grant notification.
                 Pakistani students seeking knowledge and learning opportunities to bolster their career prospects can greatly benefit from studying in Australia.
               </p>
-              <img
+              {/* <img
                 ref={el => (imgRefs.current[6] = el)}
                 src="/assets/images/Aus-bg/sydney-opera-house.webp"
                 alt="Graduation"
                 className="section-image mt-3"
-              />
+              /> */}
             </div>
           </Col>
         </Row>

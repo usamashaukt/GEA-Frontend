@@ -1,4 +1,4 @@
-.search-banner {
+/* .search-banner {
     background-image: url("/public/assets/images/big-ben/big-Ben-London.webp");
     background-position: center -100px;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
     transition: .4s ease-in-out;
     z-index: 1;
     position: relative;
-}
+} */
 
 .banner-overlay {
     position: absolute;
@@ -68,13 +68,14 @@
 @media screen and (max-width: 1450px) {
     .banner-overlay {
         height: calc(100% - 0%);
-    }
+    } 
+   
 }
 
 @media screen and (max-width: 768px) {
     .search-banner {
-        height: calc(100vh - 480px);
-        background-position: center;
+        /* height: calc(100vh - 480px); */
+        background-position: center  125px !important;
     }
     .typewriter-headline {
         font-size: 2rem;
