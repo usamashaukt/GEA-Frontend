@@ -212,8 +212,8 @@ export default function ContactForm() {
 
                 <p>
                   <FontAwesomeIcon icon={faEnvelope} />
-                  <a href="mailto:huconsultantpvtltd@gmail.com">
-                    huconsultantpvtltd@gmail.com
+                  <a href="mailto:huconsultantspvtltd@gmail.com">
+                    huconsultantspvtltd@gmail.com
                   </a>
                 </p>
               </div>
