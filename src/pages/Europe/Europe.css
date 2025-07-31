@@ -6,7 +6,7 @@ body, .content-section, .section-title, .section-text {
 
 .title,
 .mb-3 {
-    color: #e63946;
+    color: #B00020;
     font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -107,7 +107,7 @@ body, .content-section, .section-title, .section-text {
     transform: translateY(40px) scale(0.98);
     transition: box-shadow 0.3s, transform 0.3s, opacity 0.6s, transform 0.6s;
     will-change: opacity, transform;
-    border: 1.5px solid #e6394622;
+    border: 1.5px solid #B0002022;
 }
 .card-eu.visible {
     opacity: 1;
@@ -118,7 +118,7 @@ body, .content-section, .section-title, .section-text {
     transform: translateY(-8px) scale(1.03);
     z-index: 2;
     background: rgba(255,255,255,0.99);
-    border: 1.5px solid #e63946;
+    border: 1.5px solid #B00020;
 }
 
 .card-eu h2 {

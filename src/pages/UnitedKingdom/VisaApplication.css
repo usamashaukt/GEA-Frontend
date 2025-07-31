@@ -110,7 +110,7 @@ body {
     left: 0;
     width: 80px;
     height: 4px;
-    background: #e63946;
+    background: #B00020;
     border-radius: 2px;
 } */
 
@@ -147,7 +147,7 @@ body {
     transform: translateX(-50%);
     width: 100px;
     height: 4px;
-    background: #e63946;
+    background: #B00020;
     border-radius: 2px;
 } */
 
@@ -223,7 +223,7 @@ body {
 
 .card-london li::before {
     content: '•';
-    color: #e63946;
+    color: #B00020;
     font-weight: bold;
     position: absolute;
     left: -1rem;
@@ -320,7 +320,7 @@ body {
 .uk-cont h3,
 .section-title,
 .title {
-    color: #e63946;
+    color: #B00020;
     margin-bottom: 24px;
     font-weight: 700;
     letter-spacing: 0.5px;
@@ -339,7 +339,7 @@ body {
     left: 0;
     width: 80px;
     height: 4px;
-    background: #e63946;
+    background: #B00020;
     border-radius: 2px;
 } */
 
@@ -396,7 +396,7 @@ section {
 
 .stat-icon {
     font-size: 2rem;
-    color: #e63946;
+    color: #B00020;
     margin-bottom: 0.8rem;
 }
 

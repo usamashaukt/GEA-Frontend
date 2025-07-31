@@ -1,6 +1,6 @@
 .footer {
   background: linear-gradient(120deg, #1a1a2e 80%, #16213e 100%);
-  border-top: 4px solid #e63946;
+  border-top: 4px solid #B00020;
   padding: 40px 15px 20px 15px;
   font-family: 'Montserrat', Arial, sans-serif;
   color: #f7faff;
@@ -24,7 +24,7 @@
 .logo {
   width: 150px;
   margin-bottom: 18px;
-  filter: drop-shadow(0 2px 8px #e63946aa);
+  filter: drop-shadow(0 2px 8px #B00020aa);
 }
 
 .description {
@@ -54,7 +54,7 @@
   cursor: pointer;
 }
 .socialIcons i:hover {
-  background: #e63946;
+  background: #B00020;
   color: #fff;
   transform: scale(1.12);
 }
@@ -82,14 +82,14 @@
   position: relative;
 }
 .links li:hover {
-  color: #e63946;
+  color: #B00020;
 }
 .links li::after {
   content: '';
   display: block;
   width: 0;
   height: 2px;
-  background: #e63946;
+  background: #B00020;
   transition: width 0.3s;
   position: absolute;
   left: 0;
@@ -106,7 +106,7 @@
   margin-bottom: 10px;
 }
 .address a {
-  color: #e63946;
+  color: #B00020;
   text-decoration: none;
   transition: color 0.2s;
 }

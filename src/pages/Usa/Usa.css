@@ -85,7 +85,7 @@ body, .content-section, .section-title, .section-text {
 }
 
 .section-title {
-    color: #e63946;
+    color: #B00020;
     margin-bottom: 24px;
     font-weight: 700;
     letter-spacing: 0.5px;
@@ -101,7 +101,7 @@ body, .content-section, .section-title, .section-text {
     left: 0;
     width: 80px;
     height: 4px;
-    background: #e63946;
+    background: #B00020;
     border-radius: 2px;
 }
 
