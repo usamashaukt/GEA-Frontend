@@ -43,9 +43,9 @@ const VisaApplication = () => {
   }, []);
 
   // Add these hooks for each statistic
-  const studentCount = useCountUp(statsVisible ? 400 : 0, 2500);
-  const courseCount = useCountUp(statsVisible ? 1500 : 0, 2500);
-  const countryCount = useCountUp(statsVisible ? 100 : 0, 2500);
+  const studentCount = useCountUp(statsVisible ? 400 : 0, 4000);
+  const courseCount = useCountUp(statsVisible ? 1500 : 0, 4000);
+  const countryCount = useCountUp(statsVisible ? 100 : 0, 4000);
 
   return (
     <>
