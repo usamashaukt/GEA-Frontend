@@ -67,7 +67,7 @@
 
 @media screen and (max-width: 1450px) {
     .banner-overlay {
-        height: calc(100% - 12%);
+        height: calc(100% - 0%);
     }
 }
 
@@ -88,6 +88,6 @@
         padding: 0.7rem 1.5rem;
     }
     .banner-overlay {
-        height: calc(100% - 17%);
+        height: calc(100% - 0%);
     }
 }

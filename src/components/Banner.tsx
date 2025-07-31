@@ -23,8 +23,8 @@ const Banner = () => {
     <div
       className="search-banner w-100"
       style={{
-        backgroundImage: 'url("/assets/images/big-ben/big-Ben-London.webp")',
-        backgroundPosition: 'center -100px',
+        backgroundImage: 'url("/assets/images/big-ben/hero-sec.webp")',
+        backgroundPosition: 'center 20%',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         height: '100%',
