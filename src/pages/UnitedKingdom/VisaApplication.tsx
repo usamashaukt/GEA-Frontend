@@ -1,12 +1,15 @@
 import "./VisaApplication.css";
 // import BannerImg from "../../components/BannerImg";
 import { Row, Col } from "react-bootstrap";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Helmet } from 'react-helmet-async';
 import { FaGraduationCap, FaUniversity, FaAward, FaGlobe } from 'react-icons/fa';
+import { useCountUp } from '../../components/hooks/useCountUp';
 
 const VisaApplication = () => {
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const statsRef = useRef<HTMLDivElement>(null);
+  const [statsVisible, setStatsVisible] = useState(false);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -17,17 +20,32 @@ const VisaApplication = () => {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
+            if (entry.target === statsRef.current) {
+              setStatsVisible(true);
+            } else {
+              entry.target.classList.add("visible");
+            }
           }
         });
       },
       { threshold: 0.2 }
     );
+    
     cardRefs.current.forEach((ref) => {
       if (ref) observer.observe(ref);
     });
+    
+    if (statsRef.current) {
+      observer.observe(statsRef.current);
+    }
+    
     return () => observer.disconnect();
   }, []);
+
+  // Add these hooks for each statistic
+  const studentCount = useCountUp(statsVisible ? 400 : 0, 2500);
+  const courseCount = useCountUp(statsVisible ? 1500 : 0, 2500);
+  const countryCount = useCountUp(statsVisible ? 100 : 0, 2500);
 
   return (
     <>
@@ -56,15 +74,15 @@ const VisaApplication = () => {
             </p>
           </Col>
           <Col lg={4}>
-            <div className="stats-container">
+            <div className="stats-container" ref={statsRef}>
               <div className="stat-item">
                 <FaGraduationCap className="stat-icon" />
-                <div className="stat-number">436,585+</div>
+                <div className="stat-number">{studentCount.toLocaleString()}+</div>
                 <div className="stat-label">International Students</div>
               </div>
               <div className="stat-item">
                 <FaUniversity className="stat-icon" />
-                <div className="stat-number">150,000+</div>
+                <div className="stat-number">{courseCount.toLocaleString()}+</div>
                 <div className="stat-label">Available Courses</div>
               </div>
               <div className="stat-item">
@@ -74,7 +92,7 @@ const VisaApplication = () => {
               </div>
               <div className="stat-item">
                 <FaGlobe className="stat-icon" />
-                <div className="stat-number">200+</div>
+                <div className="stat-number">{countryCount}+</div>
                 <div className="stat-label">Countries Represented</div>
               </div>
             </div>

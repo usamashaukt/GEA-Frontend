@@ -103,7 +103,7 @@ body {
     padding-bottom: 1rem;
 }
 
-.uk-cont h1::after {
+/* .uk-cont h1::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -112,7 +112,7 @@ body {
     height: 4px;
     background: #e63946;
     border-radius: 2px;
-}
+} */
 
 .uk-cont h2 {
     color: #1a1a2e;
@@ -126,6 +126,7 @@ body {
     line-height: 1.8;
     color: #23234b;
     margin-bottom: 1.5rem;
+    text-align: start !important;
 }
 
 .title {
@@ -138,7 +139,7 @@ body {
     padding-bottom: 1rem;
 }
 
-.title::after {
+/* .title::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -148,7 +149,7 @@ body {
     height: 4px;
     background: #e63946;
     border-radius: 2px;
-}
+} */
 
 .content {
     display: grid;
@@ -190,7 +191,7 @@ body {
     position: relative;
     padding-bottom: 0.5rem;
 }
-
+ 
 .card-london h2::after {
     content: '';
     position: absolute;
@@ -200,7 +201,7 @@ body {
     height: 3px;
     background: #e63946;
     border-radius: 1.5px;
-}
+} 
 
 .card-london p {
     font-size: 1.1rem;
@@ -331,7 +332,7 @@ body {
     padding-bottom: 1rem;
 }
 
-.uk-cont h1::after {
+/* .uk-cont h1::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -340,7 +341,7 @@ body {
     height: 4px;
     background: #e63946;
     border-radius: 2px;
-}
+} */
 
 .uk-cont h2,
 .section-title {

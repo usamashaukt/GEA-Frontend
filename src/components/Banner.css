@@ -1,6 +1,6 @@
-/* .search-banner {
-    background-image: url("/public/assets/images/big-ben/big-Ben-London.webp");
-    background-position: center -100px;
+.search-banner {
+    background-image: url("/assets/images/big-ben/hero-sec.webp");
+    background-position: center 20%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -9,7 +9,7 @@
     transition: .4s ease-in-out;
     z-index: 1;
     position: relative;
-} */
+}
 
 .banner-overlay {
     position: absolute;
@@ -48,7 +48,7 @@
 }
 
 .banner-cta {
-    background: #e63946;
+    background: #B00020;
     color: #fff;
     border: none;
     border-radius: 30px;
@@ -75,7 +75,7 @@
 @media screen and (max-width: 768px) {
     .search-banner {
         /* height: calc(100vh - 480px); */
-        background-position: center  125px !important;
+        background-position: center  110px !important;
     }
     .typewriter-headline {
         font-size: 2rem;
