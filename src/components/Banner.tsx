@@ -20,10 +20,14 @@ const Banner = () => {
   }, []);
 
   return (
-    <div
-      className="search-banner w-100"
-      
-    >
+    <div className="search-banner w-100">
+      <img 
+        src="/assets/images/big-ben/hero-sec.webp"
+        alt="Hero background"
+        className="banner-background-image"
+        loading="eager"
+        fetchPriority="high"
+      />
       <div className="banner-overlay" />
       <div className="banner-content">
         <h1 className="typewriter-headline">{displayedText}</h1>
