@@ -52,7 +52,7 @@
     text-shadow: 0 4px 24px rgba(0,0,0,0.4);
     min-height: 3.5rem;
     font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
-    /* Prevent layout shifts */
+    /* Prevent layout shifts - Solution 1 only */
     width: 100%;
     max-width: 800px;
     display: flex;

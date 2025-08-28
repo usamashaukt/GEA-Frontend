@@ -31,8 +31,6 @@ const Banner = () => {
         className="banner-background-image"
         loading="eager"
         fetchPriority="high"
-        width="1920"
-        height="1080"
       />
       <div className="banner-overlay" />
       <div className="banner-content">
