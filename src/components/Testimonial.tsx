@@ -4,6 +4,7 @@ import { Pagination, Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
+import "swiper/css/autoplay";
 import "./Testimonial.css";
 
 const testimonials = [
@@ -68,7 +69,7 @@ const Testimonial = () => {
         {testimonials.map((testimonial, index) => (
           <SwiperSlide key={index}>
             <div ref={el => (cardRefs.current[index] = el)} className="testimonial-card">
-              <span className="testimonial-quote">“</span>
+              <span className="testimonial-quote">"</span>
               <p className="testimonial-message">"{testimonial.message}"</p>
               <img
                 src={testimonial.image}
