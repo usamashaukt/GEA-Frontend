@@ -9,12 +9,17 @@ const headlineText = "Unlock Your Future";
 
 const Banner = () => {
   const [displayedText, setDisplayedText] = useState("");
+  const [isTypingComplete, setIsTypingComplete] = useState(false);
+
   useEffect(() => {
     let i = 0;
     const interval = setInterval(() => {
       setDisplayedText(headlineText.slice(0, i + 1));
       i++;
-      if (i === headlineText.length) clearInterval(interval);
+      if (i === headlineText.length) {
+        clearInterval(interval);
+        setIsTypingComplete(true); // Stop cursor blinking
+      }
     }, 100);
     return () => clearInterval(interval);
   }, []);
@@ -38,7 +43,7 @@ const Banner = () => {
       <div className="banner-content">
         <h1 className="typewriter-headline">
           <span className="typewriter-text">{displayedText}</span>
-          <span className="typewriter-cursor">|</span>
+          {!isTypingComplete && <span className="typewriter-cursor">|</span>}
         </h1>
         <button className="banner-cta">Start Your Journey</button>
       </div>
