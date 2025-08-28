@@ -52,6 +52,29 @@
     text-shadow: 0 4px 24px rgba(0,0,0,0.4);
     min-height: 3.5rem;
     font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+    /* Prevent layout shifts */
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.typewriter-text {
+    /* Reserve space for complete text */
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typewriter-cursor {
+    animation: blink 1s infinite;
+    margin-left: 2px;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
 }
 
 .banner-cta {
@@ -86,6 +109,7 @@
     .typewriter-headline {
         font-size: 2rem;
         min-height: 2.5rem;
+        max-width: 600px;
     }
     .banner-content {
         padding: 0 0.5rem;

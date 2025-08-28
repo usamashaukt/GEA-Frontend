@@ -31,10 +31,15 @@ const Banner = () => {
         className="banner-background-image"
         loading="eager"
         fetchPriority="high"
+        width="1920"
+        height="1080"
       />
       <div className="banner-overlay" />
       <div className="banner-content">
-        <h1 className="typewriter-headline">{displayedText}</h1>
+        <h1 className="typewriter-headline">
+          <span className="typewriter-text">{displayedText}</span>
+          <span className="typewriter-cursor">|</span>
+        </h1>
         <button className="banner-cta">Start Your Journey</button>
       </div>
     </div>

@@ -7,13 +7,40 @@
 }
 
 body {
-    font-family: 'Helvetica Neue', Helvetica;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
     -webkit-font-smoothing: antialiased;
+    /* Prevent layout shifts */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
-h5{font-size:23px !important;}
+
+/* Prevent layout shifts for images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Prevent layout shifts for navbar */
+.navbar {
+    min-height: 66px;
+}
+
+.navbar-collapse {
+    transition: none;
+}
+
+/* Prevent layout shifts for content */
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /* Define custom styles for the modal */
 
