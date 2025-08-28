@@ -16,6 +16,11 @@
     object-fit: cover;
     object-position: center 20%;
     z-index: 1;
+    /* Optimize for faster rendering */
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 .banner-overlay {
