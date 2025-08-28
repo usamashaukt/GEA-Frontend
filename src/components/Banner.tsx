@@ -23,6 +23,10 @@ const Banner = () => {
     <div className="search-banner w-100">
       <img 
         src="/assets/images/big-ben/hero-sec.webp"
+        srcSet="/assets/images/big-ben/hero-sec-small.webp 800w,
+                /assets/images/big-ben/hero-sec-medium.webp 1200w,
+                /assets/images/big-ben/hero-sec.webp 1920w"
+        sizes="100vw"
         alt="Hero background"
         className="banner-background-image"
         loading="eager"
