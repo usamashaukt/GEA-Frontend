@@ -57,6 +57,8 @@ const CarouselSlider = () => {
           alt="University of the West of Scotland"
           width="160"
           height="90"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div>
@@ -68,6 +70,8 @@ const CarouselSlider = () => {
           alt="Arden University"
           width="160"
           height="90"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div>
@@ -79,6 +83,8 @@ const CarouselSlider = () => {
           alt="Bangor University"
           width="160"
           height="90"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div>
@@ -90,6 +96,8 @@ const CarouselSlider = () => {
           alt="Birmingham City University"
           width="160"
           height="90"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div>
@@ -101,6 +109,8 @@ const CarouselSlider = () => {
           alt="University of Bedfordshire"
           width="160"
           height="90"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div>
@@ -112,6 +122,8 @@ const CarouselSlider = () => {
           alt="BPP University"
           width="160"
           height="90"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div>
@@ -123,6 +135,8 @@ const CarouselSlider = () => {
           alt="London South Bank University"
           width="160"
           height="90"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div>
@@ -134,6 +148,8 @@ const CarouselSlider = () => {
           alt="Coventry University"
           width="160"
           height="90"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div>
@@ -145,6 +161,8 @@ const CarouselSlider = () => {
           alt="Coventry University College"
           width="160"
           height="90"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div>
@@ -156,6 +174,8 @@ const CarouselSlider = () => {
           alt="GISMA Business School"
           width="160"
           height="90"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div>
@@ -167,6 +187,8 @@ const CarouselSlider = () => {
           alt="Heriot-Watt University"
           width="160"
           height="90"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div>
@@ -178,6 +200,8 @@ const CarouselSlider = () => {
           alt="University Partner"
           width="160"
           height="90"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div>
@@ -189,6 +213,8 @@ const CarouselSlider = () => {
           alt="Ulster University"
           width="160"
           height="90"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div>
@@ -200,6 +226,8 @@ const CarouselSlider = () => {
           alt="University of Lincoln"
           width="160"
           height="90"
+          loading="lazy"
+          decoding="async"
         />
       </div>
     </Slider>

@@ -38,6 +38,7 @@ const Banner = () => {
         fetchPriority="high"
         width="1920"
         height="1080"
+        decoding="async"
       />
       <div className="banner-overlay" />
       <div className="banner-content">

@@ -1,6 +1,5 @@
 import App from "./App.tsx";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./App.css"
 import "swiper/css";
 import "swiper/css/pagination";
