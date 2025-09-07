@@ -44,7 +44,7 @@ function Australia() {
           src="/assets/images/Aus-bg/aus.webp"
           alt="Australia background"
           className="header-aus-img"
-          fetchPriority="high"
+          
         />
         <div className="hero-content-aus">
           <h1 className="hero-title-aus">Study in Australia</h1>
