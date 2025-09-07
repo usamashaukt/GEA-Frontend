@@ -160,8 +160,8 @@ const CarouselSlider = () => {
       </div>
       <div>
         <img
-          src="/assets/images/uni-logos/Heriot watt.webp"
-          srcSet={getResponsiveImageSrcSet("Heriot watt")}
+          src="/assets/images/uni-logos/Heriot-watt.webp"
+          srcSet={getResponsiveImageSrcSet("Heriot-watt")}
           sizes="(max-width: 480px) 80px, (max-width: 1024px) 160px, 320px"
           className="img-fluid carousel-img"
           alt="Heriot-Watt University"
