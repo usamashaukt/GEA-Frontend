@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ContactBtn from "./ContactBtn";
 import "./Nav.css";
 
@@ -8,6 +8,18 @@ const Nav = () => {
   const handleHamburgerClick = () => {
     setMenuOpen((prev) => !prev);
   };
+
+  // Defer Bootstrap JS loading until idle to keep initial bundle lean
+  useEffect(() => {
+    const loadBootstrap = () => {
+      import("bootstrap/dist/js/bootstrap.bundle.min").catch(() => {});
+    };
+    if ("requestIdleCallback" in window) {
+      (window as any).requestIdleCallback(loadBootstrap);
+    } else {
+      setTimeout(loadBootstrap, 1500);
+    }
+  }, []);
 
   return (
     <>
@@ -19,6 +31,8 @@ const Nav = () => {
               width={"100px"}
               src="../assets/images/hu-logo/hu-logo-bg.webp"
               alt="HU Logo"
+              loading="lazy"
+              decoding="async"
             />
           </a>
           <button
