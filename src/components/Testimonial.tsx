@@ -75,6 +75,8 @@ const Testimonial = () => {
                 src={testimonial.image}
                 alt={testimonial.name}
                 className="testimonial-image"
+                loading="lazy"
+                decoding="async"
               />
               <h3 className="testimonial-name">{testimonial.name}</h3>
               <p className="testimonial-course">{testimonial.course}</p>

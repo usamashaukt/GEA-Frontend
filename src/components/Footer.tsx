@@ -14,6 +14,8 @@ const Footer: React.FC = () => {
             src="../assets/images/hu-logo/hu-logo-bg.webp"
             alt="hu-logo"
             className={styles.logo}
+            loading="lazy"
+            decoding="async"
           />
           <p className={styles.description}>
             HU Consultants: Your partner in crafting a life-changing study
