@@ -2,7 +2,7 @@
 import "./Europe.css";
 import { useEffect, useRef } from "react";
 import { Helmet } from 'react-helmet-async';
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const Europe = () => {
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);

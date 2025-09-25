@@ -1,9 +1,7 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import "./Australia.css";
 import { useEffect, useRef } from "react";
 import { Helmet } from 'react-helmet-async';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap, faUniversity, faPassport, faMedkit, faGlobe, faAward } from '@fortawesome/free-solid-svg-icons';
 
 function Australia() {
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
