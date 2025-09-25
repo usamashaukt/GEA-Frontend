@@ -56,7 +56,7 @@ const Destinations = () => {
   };
 
   return (
-    <Container fluid className="my-5">
+    <div className="container my-5">
       <h2 className="text-center mb-4">Destinations</h2>
       <Row>
         {destinations.map((destination, index) => (
@@ -90,7 +90,7 @@ const Destinations = () => {
           </Col>
         ))}
       </Row>
-    </Container>
+    </div>
   );
 };
 

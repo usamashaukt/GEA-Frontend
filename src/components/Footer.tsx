@@ -97,24 +97,12 @@ const Footer: React.FC = () => {
         {/* Right Section */}
         <div className={styles.right}>
           <address className={styles.address}>
-            Shop# 1 ... Al Amin Market Dhendian Road, near sabzi mandi, Pakistan
+            Shop# 1 ... Al Amin Market Dhendian Road, near sabzi mandi, Pakistan
             <br />
             <a href="tel:+923122496574">+923122496574</a>
             <br />
             <a href="mailto:huconsultantspvtltd@gmail.com">huconsultantspvtltd@gmail.com</a>
           </address>
-          {/* Embedded Google Map */}
-          <div className={styles.mapContainer}>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.7489189079834!2d72.92278587617557!3d33.998982420539896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfb3893e5b037b%3A0x1afc8cf35b859c45!2sHU%20CONSULTANTS!5e0!3m2!1sen!2s!4v1751889891479!5m2!1sen!2s"
-              width="600"
-              height="450"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
         </div>
       </div>
     </footer>

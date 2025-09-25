@@ -4,83 +4,99 @@ body, .content-section, .section-title, .section-text {
     font-family: 'Montserrat', Arial, sans-serif !important;
 }
 
+/* Header Section */
 .header-usa {
-    background-image: linear-gradient(120deg, rgba(26,26,46,0.7) 60%, rgba(230,57,70,0.3) 100%), url(assets/images/usa/USA.png);
     background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    min-height: 420px;
+    background-position: center;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    color: white;
     position: relative;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    overflow: hidden;
+}
+
+.header-usa-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.header-usa::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    z-index: 1;
 }
 
 .hero-content-usa {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
+    position: relative;
     z-index: 2;
-    opacity: 0;
-    animation: fadeInUp 1.1s 0.1s forwards;
-}
-.hero-title-usa {
-    font-size: 3rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 1.2rem;
-    text-shadow: 0 4px 24px rgba(0,0,0,0.4);
-}
-.hero-subtitle-usa {
-    font-size: 1.3rem;
-    font-weight: 400;
-    margin-bottom: 2rem;
-    color: #f7faff;
-    text-shadow: 0 2px 8px rgba(0,0,0,0.18);
-}
-.hero-cta-usa {
-    background: #B00020;
-    color: #fff;
-    border: none;
-    border-radius: 30px;
-    padding: 0.8rem 2rem;
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-decoration: none;
-    cursor: pointer;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
-    transition: background 0.2s, transform 0.2s;
-}
-.hero-cta-usa:hover {
-    background: #000;
-    /* transform: translateY(-2px) scale(1.04); */
+    padding: 2rem;
+    max-width: 800px;
+    animation: fadeIn 1s ease-in;
 }
 
-@keyframes fadeInUp {
-    0% {
+.hero-title-usa {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle-usa {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hero-cta-usa {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #B00020;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.hero-cta-usa:hover {
+    background-color: #000;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+@keyframes fadeIn {
+    from {
         opacity: 0;
-        transform: translate(-50%, 30%) scale(0.98);
+        transform: translateY(20px);
     }
-    100% {
+    to {
         opacity: 1;
-        transform: translate(-50%, -50%) scale(1);
+        transform: translateY(0);
     }
 }
 
 @media screen and (max-width: 768px) {
     .header-usa {
-        min-height: 728px;
+        min-height: 220px;
     }
     .hero-title-usa {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .hero-content-usa {
         padding: 0 1rem;
-        width: 100%;
     }
 }
 
@@ -111,4 +127,172 @@ h2.section-title {
 
 h3.section-title {
     font-size: 1.75rem;
+}
+
+/* Content Image Styling */
+.content-image {
+  height: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.content-image img {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Make rows equal height */
+.row {
+  align-items: stretch;
+  min-height: 500px;
+}
+
+.row .col-lg-6 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Content text styling */
+.row .col-lg-6 h2 {
+  color: #1a1a2e;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.row .col-lg-6 h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: #B00020;
+  border-radius: 1.5px;
+}
+
+.row .col-lg-6 p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #23234b;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+/* Documents section styling */
+.documents-section {
+  background: #f8f9fa;
+  padding: 4rem 0;
+}
+
+.documents-section .title {
+  color: #1a1a2e;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.documents-section .title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: #B00020;
+  border-radius: 2px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.card-london {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 18px rgba(26,26,46,0.10);
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.5s ease;
+  border: 1.5px solid rgba(230,57,70,0.1);
+  height: 100%;
+}
+
+.card-london.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-london:hover {
+  box-shadow: 0 12px 32px rgba(230,57,70,0.18);
+  transform: translateY(-8px);
+  border-color: rgba(230,57,70,0.2);
+}
+
+.card-london h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.card-london h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: #B00020;
+  border-radius: 1.5px;
+}
+
+.card-london p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #23234b;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .content-image {
+    margin-bottom: 2rem;
+    min-height: 300px;
+  }
+  
+  .content-image img {
+    height: 300px;
+    min-height: 300px;
+  }
+  
+  .row {
+    min-height: auto;
+  }
+  
+  .row .col-lg-6 h2 {
+    font-size: 1.8rem;
+  }
+  
+  .row .col-lg-6 p {
+    font-size: 1rem;
+  }
 }

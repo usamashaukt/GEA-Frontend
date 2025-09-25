@@ -1,12 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
-import "./Australia.css"; // Import the separate CSS file
+import "./Australia.css";
 import { useEffect, useRef } from "react";
 import { Helmet } from 'react-helmet-async';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap, faUniversity, faPassport, faMedkit, faGlobe, faAward } from '@fortawesome/free-solid-svg-icons';
 
 function Australia() {
-  const imgRefs = useRef<(HTMLImageElement | null)[]>([]);
+  const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -23,28 +23,30 @@ function Australia() {
       },
       { threshold: 0.2 }
     );
-    imgRefs.current.forEach((ref) => {
+    
+    cardRefs.current.forEach((ref) => {
       if (ref) observer.observe(ref);
     });
+    
     return () => observer.disconnect();
   }, []);
 
-  return (<>
-    <Helmet>
-      <title>Study in Australia | HU</title>
-      <meta
-        name="description"
-        content="Explore world-class education, vibrant cities, and career opportunities in Australia. HU provides expert support for university applications, visas, and scholarships."
-      />
-    </Helmet>
-    <Container fluid className="p-0">
+  return (
+    <>
+      <Helmet>
+        <title>Study in Australia | HU</title>
+        <meta
+          name="description"
+          content="Explore world-class education, vibrant cities, and career opportunities in Australia. HU provides expert support for university applications, visas, and scholarships."
+        />
+      </Helmet>
+      
       {/* Header Section */}
       <div className="header-aus">
         <img
           src="/assets/images/Aus-bg/aus.webp"
           alt="Australia background"
           className="header-aus-img"
-          
         />
         <div className="hero-content-aus">
           <h1 className="hero-title-aus">Study in Australia</h1>
@@ -55,152 +57,115 @@ function Australia() {
         </div>
       </div>
 
-      {/* Section: Prospects of Studying in Australia */}
-      <Container fluid className="content-section">
-        <Row>
-          <Col md={6}>
-            <h2 className="section-title">Ensuring the Prospects of Studying in Australia</h2>
-            <p className="section-text">
-              Embarking on a journey to study in Australia unveils a plethora of renowned universities boasting diverse
-              programs tailored to cater to various interests and career aspirations. Australia's educational system is globally
-              recognized for its innovative approach to learning and research.
+      {/* Content Sections */}
+      <div className="container my-5">
+        <Row className="mb-5">
+          <Col lg={6}>
+            <div className="content-image">
+              <img 
+                src="/assets/images/Aus-bg/sydney-opera-house.webp" 
+                alt="Australia Education" 
+                className="img-fluid rounded"
+              />
+            </div>
+          </Col>
+          <Col lg={6}>
+            <h2>Why Study in Australia?</h2>
+            <p>
+              Australia is home to some of the world's most prestigious universities, offering world-class education and research opportunities. The country's multicultural environment provides an enriching experience for international students.
+            </p>
+            <p>
+              With its high quality of life, excellent healthcare system, and strong economy, Australia offers not just education but a pathway to permanent residency and career opportunities in various fields.
             </p>
           </Col>
-          <Col md={6}>
-            {/* <img
-              ref={el => (imgRefs.current[0] = el)}
-              src="/assets/images/Aus-bg/sydney-opera-house.webp"
-              alt="Sydney Opera House"
-              className="section-image"
-            /> */}
-          </Col>
         </Row>
-      </Container>
 
-      {/* Section: Key Features of Studying in Australia */}
-      <Container fluid className="content-section">
-        <Row>
-          <Col xs={12}>
-            <h2 className="section-title text-center">Key Features of Studying in Australia</h2>
-          </Col>
-        </Row>
-        <Row className="mt-4">
-          <Col md={4}>
-            <div className="feature-card">
-              <FontAwesomeIcon icon={faUniversity} className="feature-icon" />
-              <h3>World-Class Universities</h3>
-              <p>Access to top-ranked institutions with state-of-the-art facilities and research opportunities.</p>
-              {/* <img
-                ref={el => (imgRefs.current[1] = el)}
-                src="/assets/images/Aus-bg/aus.jpg"
-                alt="Australian University"
-                className="section-image mt-3"
-              /> */}
-            </div>
-          </Col>
-          <Col md={4}>
-            <div className="feature-card">
-              <FontAwesomeIcon icon={faGlobe} className="feature-icon" />
-              <h3>Global Recognition</h3>
-              <p>Degrees that are internationally recognized and valued by employers worldwide.</p>
-              {/* <img
-                ref={el => (imgRefs.current[2] = el)}
-                src="/assets/images/Aus-bg/sydney-opera-house.webp"
-                alt="Sydney Landmark"
-                className="section-image mt-3"
-              /> */}
-            </div>
-          </Col>
-          <Col md={4}>
-            <div className="feature-card">
-              <FontAwesomeIcon icon={faAward} className="feature-icon" />
-              <h3>Quality Education</h3>
-              <p>High standards of teaching with focus on practical and industry-relevant skills.</p>
-              {/* <img
-                ref={el => (imgRefs.current[3] = el)}
-                src="/assets/images/Aus-bg/aus.jpg"
-                alt="Australian Education"
-                className="section-image mt-3"
-              /> */}
-            </div>
-          </Col>
-        </Row>
-      </Container>
-
-      {/* Section: Eligibility Criteria */}
-      <Container fluid className="content-section">
-        <Row>
-          <Col md={6} className="order-md-2">
-            <h2 className="section-title">Eligibility Criteria for Pakistani Students</h2>
-            <p className="section-text">
-              Securing a study visa for Australia is a crucial step for any international student, including those hailing from Pakistan.
-              The process involves meticulous planning and thorough documentation to ensure a successful application.
+        <Row className="mb-5">
+          <Col lg={6}>
+            <h2>Application Process</h2>
+            <p>
+              Australian universities typically have two main intakes: February/March and July/August. Applications are usually made directly to universities or through education agents. Most universities require English proficiency tests like IELTS or TOEFL.
             </p>
-            <div className="feature-card">
-              <FontAwesomeIcon icon={faPassport} className="feature-icon" />
-              <h3>Visa Requirements</h3>
-              <ul>
-                <li>Valid passport</li>
-                <li>Confirmation of Enrollment</li>
-                <li>English proficiency proof</li>
-                <li>Financial requirements</li>
-              </ul>
+            <p>
+              The application process involves submitting academic transcripts, English test scores, personal statements, and sometimes portfolios for creative courses. Early application is recommended as places fill quickly.
+            </p>
+          </Col>
+          <Col lg={6}>
+            <div className="content-image">
+              <img 
+                src="/assets/images/studentpics/student1.webp" 
+                alt="Application Process" 
+                className="img-fluid rounded"
+              />
             </div>
           </Col>
-          <Col md={6} className="order-md-1">
-            {/* <img
-              ref={el => (imgRefs.current[4] = el)}
-              src="/assets/images/Aus-bg/sydney-opera-house.webp"
-              alt="Student Visa Process"
-              className="section-image"
-            /> */}
-          </Col>
         </Row>
-      </Container>
 
-      {/* Section: Medical Education in Australia */}
-      <Container fluid className="content-section">
-        <Row>
-          <Col xs={12} className="text-center mb-4">
-            <h2 className="section-title">Medical Education in Australia</h2>
-          </Col>
-        </Row>
-        <Row className="mt-4">
-          <Col md={6}>
-            <div className="feature-card">
-              <FontAwesomeIcon icon={faMedkit} className="feature-icon" />
-              <h3>MBBS Programs</h3>
-              <p className="section-text">
-                MBBS programs in Australia enjoy global acclaim for their high standards and training methods. Australian universities offer two basic types of MBBS programs:
-                graduate medical programs and undergraduate medical programs, providing diverse study opportunities for Pakistani students pursuing a career in medicine.
-              </p>
-              {/* <img
-                ref={el => (imgRefs.current[5] = el)}
-                src="/assets/images/Aus-bg/aus.jpg"
-                alt="Medical Education"
-                className="section-image mt-3"
-              /> */}
+        <Row className="mb-5">
+          <Col lg={6}>
+            <div className="content-image">
+              <img 
+                src="/assets/images/studentpics/student2.webp" 
+                alt="Student Life" 
+                className="img-fluid rounded"
+              />
             </div>
           </Col>
-          <Col md={6}>
-            <div className="feature-card">
-              <FontAwesomeIcon icon={faGraduationCap} className="feature-icon" />
-              <h3>Career Prospects</h3>
-              <p className="section-text">
-                Upon approval, students can proceed to arrange their journey to Australia and commence their studies upon receiving the grant notification.
-                Pakistani students seeking knowledge and learning opportunities to bolster their career prospects can greatly benefit from studying in Australia.
-              </p>
-              {/* <img
-                ref={el => (imgRefs.current[6] = el)}
-                src="/assets/images/Aus-bg/sydney-opera-house.webp"
-                alt="Graduation"
-                className="section-image mt-3"
-              /> */}
-            </div>
+          <Col lg={6}>
+            <h2>Student Life in Australia</h2>
+            <p>
+              Australia offers a vibrant student life with numerous opportunities for personal and professional growth. From beautiful beaches and outdoor activities to world-class cultural events and festivals.
+            </p>
+            <p>
+              International students can work up to 40 hours per fortnight during studies and unlimited hours during holidays, providing valuable work experience and helping with living costs.
+            </p>
           </Col>
         </Row>
-      </Container>
-    </Container>
+      </div>
+
+      {/* Documents Section */}
+      <div className="container-fluid documents-section">
+        <div className="container">
+          <h1 className="title">Required Documents for Australia Study Visa</h1>
+          <div className="content">
+            {[
+              {
+                title: "Educational Documentation",
+                text: "Academic transcripts, certificates, and diplomas from previous studies. Include English translations if documents are not in English."
+              },
+              {
+                title: "English Proficiency Proof",
+                text: "Valid IELTS, TOEFL, PTE, or Cambridge English test scores. Requirements vary by institution and course level."
+              },
+              {
+                title: "Financial Documentation",
+                text: "Evidence of sufficient funds to cover tuition fees, living expenses, and travel costs. Bank statements, scholarship letters, or sponsor documents."
+              },
+              {
+                title: "Passport and Photos",
+                text: "Valid passport with at least 6 months validity, along with recent passport-sized photographs meeting Australian visa requirements."
+              },
+              {
+                title: "Confirmation of Enrollment (CoE)",
+                text: "Official confirmation from your chosen Australian institution confirming your enrollment in a registered course."
+              },
+              {
+                title: "Health Insurance (OSHC)",
+                text: "Overseas Student Health Cover is mandatory for all international students studying in Australia."
+              }
+            ].map((card, idx) => (
+              <div
+                key={card.title}
+                ref={el => (cardRefs.current[idx] = el)}
+                className="card-london"
+              >
+                <h2>{card.title}</h2>
+                <p>{card.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
     </>
   );
 }

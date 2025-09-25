@@ -21,22 +21,22 @@ const VisaAssistance = () => {
   }, []);
 
   return (
-    <div className="container-fluid mb-4 mx-auto text-center">
+    <div className="container mb-4 mx-auto text-center">
       <div className="row justify-content-center">
         {/* University Selection Assistance */}
-        <div className="col-lg-3 mb-4">
-          <div ref={el => (cardRefs.current[0] = el)} className="card border-primary">
-            <div className="card-body">
-              <div className="card-header bg-primary text-white">
-                <h5 className="card-title">University Selection Assistance</h5>
-              </div>
+        <div className="col-lg-3 col-md-6 mb-4">
+          <div ref={el => (cardRefs.current[0] = el)} className="card border-primary h-100">
+            <div className="card-header bg-primary text-white" style={{height: '80px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+              <h5 className="card-title mb-0">University Selection Assistance</h5>
+            </div>
+            <div className="card-body d-flex flex-column">
               <img
-                className="card-img card-img-assistance"
+                className="card-img card-img-assistance mb-3"
                 height={"198"}
                 src="/assets/images/studentpics/student3.jpg"
                 alt=""
               />
-              <p className="card-text mt-3">
+              <p className="card-text mt-2">
                 Navigating through the vast array of universities worldwide can
                 be overwhelming. Our consultants provide expert guidance to help
                 you choose a university that aligns with your academic goals,
@@ -47,19 +47,19 @@ const VisaAssistance = () => {
         </div>
 
         {/* Application Support */}
-        <div className="col-lg-3 mb-4">
-          <div ref={el => (cardRefs.current[1] = el)} className="card border-success">
-            <div className="card-body">
-              <div className="card-header bg-success text-white">
-                <h5 className="card-title">Application Support</h5>
-              </div>
+        <div className="col-lg-3 col-md-6 mb-4">
+          <div ref={el => (cardRefs.current[1] = el)} className="card border-success h-100">
+            <div className="card-header bg-success text-white" style={{height: '80px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+              <h5 className="card-title mb-0">Application Support</h5>
+            </div>
+            <div className="card-body d-flex flex-column">
               <img
-                className="card-img card-img-assistance"
+                className="card-img card-img-assistance mb-3"
                 height={"198"}
                 src="/assets/images/studentpics/student3.jpg"
                 alt=""
               />
-              <p className="card-text mt-3">
+              <p className="card-text mt-2">
                 Crafting a compelling application is crucial for securing
                 admission to your desired university. We offer meticulous
                 assistance throughout the application process, ensuring your
@@ -70,19 +70,19 @@ const VisaAssistance = () => {
         </div>
 
         {/* Visa & Immigration Guidance */}
-        <div className="col-lg-3 mb-4">
-          <div ref={el => (cardRefs.current[2] = el)} className="card border-warning">
-            <div className="card-body">
-              <div className="card-header bg-warning text-dark">
-                <h5 className="card-title">Visa & Immigration Guidance</h5>
-              </div>
+        <div className="col-lg-3 col-md-6 mb-4">
+          <div ref={el => (cardRefs.current[2] = el)} className="card border-warning h-100">
+            <div className="card-header bg-warning text-dark" style={{height: '80px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+              <h5 className="card-title mb-0">Visa & Immigration Guidance</h5>
+            </div>
+            <div className="card-body d-flex flex-column">
               <img
-                className="card-img card-img-assistance"
+                className="card-img card-img-assistance mb-3"
                 height={"198"}
                 src="/assets/images/studentpics/student3.jpg"
                 alt=""
               />
-              <p className="card-text mt-3">
+              <p className="card-text mt-2">
                 Understanding visa requirements and navigating immigration
                 procedures can be daunting. Our experienced team provides
                 comprehensive support and guidance to streamline the visa
@@ -93,19 +93,19 @@ const VisaAssistance = () => {
         </div>
 
         {/* Scholarship & Financial Aid */}
-        <div className="col-lg-3 mb-4">
-          <div ref={el => (cardRefs.current[3] = el)} className="card border-danger">
-            <div className="card-body">
-              <div className="card-header bg-danger text-white">
-                <h5 className="card-title">Scholarship & Financial Aid</h5>
-              </div>
+        <div className="col-lg-3 col-md-6 mb-4">
+          <div ref={el => (cardRefs.current[3] = el)} className="card border-danger h-100">
+            <div className="card-header bg-danger text-white" style={{height: '80px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+              <h5 className="card-title mb-0">Scholarship & Financial Aid</h5>
+            </div>
+            <div className="card-body d-flex flex-column">
               <img
-                className="card-img card-img-assistance"
+                className="card-img card-img-assistance mb-3"
                 height={"198"}
                 src="/assets/images/studentpics/student3.jpg"
                 alt=""
               />
-              <p className="card-text mt-3">
+              <p className="card-text mt-2">
                 Financing your international education can be challenging, but
                 it shouldn't be a barrier to your dreams. We assist students in
                 exploring scholarship opportunities, financial aid options, and
@@ -116,19 +116,19 @@ const VisaAssistance = () => {
         </div>
 
         {/* Test Preparation Support */}
-        <div className="col-lg-3 mb-4">
-          <div ref={el => (cardRefs.current[4] = el)} className="card border-info">
-            <div className="card-body">
-              <div className="card-header bg-info text-white">
-                <h5 className="card-title">Test Preparation Support</h5>
-              </div>
+        <div className="col-lg-3 col-md-6 mb-4">
+          <div ref={el => (cardRefs.current[4] = el)} className="card border-info h-100">
+            <div className="card-header bg-info text-white" style={{height: '80px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+              <h5 className="card-title mb-0">Test Preparation Support</h5>
+            </div>
+            <div className="card-body d-flex flex-column">
               <img
-                className="card-img card-img-assistance"
+                className="card-img card-img-assistance mb-3"
                 height={"198"}
                 src="/assets/images/studentpics/student3.jpg"
                 alt=""
               />
-              <p className="card-text mt-3">
+              <p className="card-text mt-2">
                 Achieving the required scores in standardized tests is essential
                 for admission to many universities. Our test preparation
                 services equip students with the skills and strategies needed to
@@ -139,19 +139,19 @@ const VisaAssistance = () => {
         </div>
 
         {/* Pre-Departure Guidance */}
-        <div className="col-lg-3 mb-4">
-          <div ref={el => (cardRefs.current[5] = el)} className="card border-secondary">
-            <div className="card-body">
-              <div className="card-header bg-secondary text-white">
-                <h5 className="card-title">Pre-Departure Guidance</h5>
-              </div>
+        <div className="col-lg-3 col-md-6 mb-4">
+          <div ref={el => (cardRefs.current[5] = el)} className="card border-secondary h-100">
+            <div className="card-header bg-secondary text-white" style={{height: '80px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+              <h5 className="card-title mb-0">Pre-Departure Guidance</h5>
+            </div>
+            <div className="card-body d-flex flex-column">
               <img
-                className="card-img card-img-assistance"
+                className="card-img card-img-assistance mb-3"
                 height={"198"}
                 src="/assets/images/studentpics/student3.jpg"
                 alt=""
               />
-              <p className="card-text mt-3">
+              <p className="card-text mt-2">
                 Preparing for life in a new country involves various logistical
                 and cultural aspects. We offer pre-departure orientation
                 sessions to provide students with essential information, tips,
