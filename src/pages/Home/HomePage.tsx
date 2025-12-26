@@ -24,7 +24,7 @@ const Home = () => {
       <Banner />
       <LazyVisible fallback={<div style={{ minHeight: 400 }} />}>
         <Suspense fallback={<div style={{ textAlign: "center", marginTop: "2rem" }}>Loading carousel…</div>}>
-          <CarouselSlider />
+      <CarouselSlider />
         </Suspense>
       </LazyVisible>
       <Destination />
@@ -36,7 +36,7 @@ const Home = () => {
         </Suspense>
       </LazyVisible>
       <LazyVisible fallback={<div style={{ minHeight: 450 }} />}>
-        <MapSection />
+      <MapSection />
       </LazyVisible>
       <LazyVisible fallback={<div style={{ minHeight: 120 }} />}> 
         <Suspense fallback={<div style={{ textAlign: "center", marginTop: "2rem" }}>Loading logos…</div>}>

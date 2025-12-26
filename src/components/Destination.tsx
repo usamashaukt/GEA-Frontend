@@ -104,45 +104,47 @@ const Destinations = () => {
   };
 
   return (
-    <div className="container my-5">
+    <div className="my-5">
       <h2 className="text-center mb-4">Destinations</h2>
-      <Row>
-        {destinations.map((destination, index) => (
-          <Col key={index} md={3} className="mb-4">
-            <div
-              ref={(el) => (cardRefs.current[index] = el)}
-              className="card text-white shadow-lg border-0"
-              onClick={() => handleCardClick(destination.path)} // Add click handler
-              style={{ cursor: "pointer" }} // Add pointer cursor for better UX
-            >
-              <Card.Img
-                className="destination-img"
-                src={destination.image}
-                alt={destination.name}
-                loading="lazy"
-                decoding="async"
-                width={280}
-                height={185}
-                {...getResponsiveImageProps(destination.image)}
-              />
-              <Card.ImgOverlay className="d-flex justify-content-center align-items-center">
-                <Card.Title
-                  className="destination-title"
-                  style={{
-                    fontSize: "2rem",
-                    fontWeight: "bold",
-                    backgroundColor: "rgba(0, 0, 0, 0.5)",
-                    padding: "0.5rem 1rem",
-                    borderRadius: "5px",
-                  }}
-                >
-                  {destination.name}
-                </Card.Title>
-              </Card.ImgOverlay>
-            </div>
-          </Col>
-        ))}
-      </Row>
+      <div className="container">
+        <Row>
+          {destinations.map((destination, index) => (
+            <Col key={index} md={3} className="mb-4">
+              <div
+                ref={(el) => (cardRefs.current[index] = el)}
+                className="card text-white shadow-lg border-0"
+                onClick={() => handleCardClick(destination.path)} // Add click handler
+                style={{ cursor: "pointer" }} // Add pointer cursor for better UX
+              >
+                <Card.Img
+                  className="destination-img"
+                  src={destination.image}
+                  alt={destination.name}
+                  loading="lazy"
+                  decoding="async"
+                  width={280}
+                  height={185}
+                  {...getResponsiveImageProps(destination.image)}
+                />
+                <Card.ImgOverlay className="d-flex justify-content-center align-items-center">
+                  <Card.Title
+                    className="destination-title"
+                    style={{
+                      fontSize: "2rem",
+                      fontWeight: "bold",
+                      backgroundColor: "rgba(0, 0, 0, 0.5)",
+                      padding: "0.5rem 1rem",
+                      borderRadius: "5px",
+                    }}
+                  >
+                    {destination.name}
+                  </Card.Title>
+                </Card.ImgOverlay>
+              </div>
+            </Col>
+          ))}
+        </Row>
+      </div>
     </div>
   );
 };
