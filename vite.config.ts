@@ -18,8 +18,8 @@ export default defineConfig({
             if (id.includes('react-router')) {
               return 'router';
             }
-            // Bootstrap - can be deferred but needed for layout
-            if (id.includes('bootstrap') || id.includes('react-bootstrap')) {
+            // React-Bootstrap components (minimal)
+            if (id.includes('react-bootstrap')) {
               return 'bootstrap';
             }
             // Icons - defer loading
