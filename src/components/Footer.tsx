@@ -10,8 +10,13 @@ const Footer: React.FC = () => {
         {/* Left Section */}
         <div className={styles.left}>
           <img
-            width={"100px"}
+            width={100}
+            height={100}
             src="../assets/images/hu-logo/hu-logo-bg.webp"
+            srcSet="../assets/images/hu-logo/hu-logo-bg-150.webp 150w,
+                    ../assets/images/hu-logo/hu-logo-bg-300.webp 300w,
+                    ../assets/images/hu-logo/hu-logo-bg.webp 1563w"
+            sizes="100px"
             alt="hu-logo"
             className={styles.logo}
             loading="lazy"

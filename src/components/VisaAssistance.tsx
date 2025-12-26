@@ -30,12 +30,22 @@ const VisaAssistance = () => {
               <h5 className="card-title mb-0">University Selection Assistance</h5>
             </div>
             <div className="card-body d-flex flex-column">
-              <img
-                className="card-img card-img-assistance mb-3"
-                height={"198"}
-                src="/assets/images/studentpics/student3.jpg"
-                alt=""
-              />
+              <picture>
+                <source
+                  type="image/webp"
+                  srcSet="/assets/images/studentpics/student3-400.webp 400w,
+                          /assets/images/studentpics/student3-800.webp 800w"
+                  sizes="(max-width: 768px) 100vw, 25vw"
+                />
+                <img
+                  className="card-img card-img-assistance mb-3"
+                  height={198}
+                  src="/assets/images/studentpics/student3.jpg"
+                  alt="Student counselling support"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
               <p className="card-text mt-2">
                 Navigating through the vast array of universities worldwide can
                 be overwhelming. Our consultants provide expert guidance to help
@@ -53,12 +63,22 @@ const VisaAssistance = () => {
               <h5 className="card-title mb-0">Application Support</h5>
             </div>
             <div className="card-body d-flex flex-column">
-              <img
-                className="card-img card-img-assistance mb-3"
-                height={"198"}
-                src="/assets/images/studentpics/student3.jpg"
-                alt=""
-              />
+              <picture>
+                <source
+                  type="image/webp"
+                  srcSet="/assets/images/studentpics/student3-400.webp 400w,
+                          /assets/images/studentpics/student3-800.webp 800w"
+                  sizes="(max-width: 768px) 100vw, 25vw"
+                />
+                <img
+                  className="card-img card-img-assistance mb-3"
+                  height={198}
+                  src="/assets/images/studentpics/student3.jpg"
+                  alt="Application support"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
               <p className="card-text mt-2">
                 Crafting a compelling application is crucial for securing
                 admission to your desired university. We offer meticulous
@@ -76,12 +96,22 @@ const VisaAssistance = () => {
               <h5 className="card-title mb-0">Visa & Immigration Guidance</h5>
             </div>
             <div className="card-body d-flex flex-column">
-              <img
-                className="card-img card-img-assistance mb-3"
-                height={"198"}
-                src="/assets/images/studentpics/student3.jpg"
-                alt=""
-              />
+              <picture>
+                <source
+                  type="image/webp"
+                  srcSet="/assets/images/studentpics/student3-400.webp 400w,
+                          /assets/images/studentpics/student3-800.webp 800w"
+                  sizes="(max-width: 768px) 100vw, 25vw"
+                />
+                <img
+                  className="card-img card-img-assistance mb-3"
+                  height={198}
+                  src="/assets/images/studentpics/student3.jpg"
+                  alt="Visa and immigration guidance"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
               <p className="card-text mt-2">
                 Understanding visa requirements and navigating immigration
                 procedures can be daunting. Our experienced team provides
@@ -99,12 +129,22 @@ const VisaAssistance = () => {
               <h5 className="card-title mb-0">Scholarship & Financial Aid</h5>
             </div>
             <div className="card-body d-flex flex-column">
-              <img
-                className="card-img card-img-assistance mb-3"
-                height={"198"}
-                src="/assets/images/studentpics/student3.jpg"
-                alt=""
-              />
+              <picture>
+                <source
+                  type="image/webp"
+                  srcSet="/assets/images/studentpics/student3-400.webp 400w,
+                          /assets/images/studentpics/student3-800.webp 800w"
+                  sizes="(max-width: 768px) 100vw, 25vw"
+                />
+                <img
+                  className="card-img card-img-assistance mb-3"
+                  height={198}
+                  src="/assets/images/studentpics/student3.jpg"
+                  alt="Scholarship and financial aid support"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
               <p className="card-text mt-2">
                 Financing your international education can be challenging, but
                 it shouldn't be a barrier to your dreams. We assist students in
@@ -122,12 +162,22 @@ const VisaAssistance = () => {
               <h5 className="card-title mb-0">Test Preparation Support</h5>
             </div>
             <div className="card-body d-flex flex-column">
-              <img
-                className="card-img card-img-assistance mb-3"
-                height={"198"}
-                src="/assets/images/studentpics/student3.jpg"
-                alt=""
-              />
+              <picture>
+                <source
+                  type="image/webp"
+                  srcSet="/assets/images/studentpics/student3-400.webp 400w,
+                          /assets/images/studentpics/student3-800.webp 800w"
+                  sizes="(max-width: 768px) 100vw, 25vw"
+                />
+                <img
+                  className="card-img card-img-assistance mb-3"
+                  height={198}
+                  src="/assets/images/studentpics/student3.jpg"
+                  alt="Test preparation support"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
               <p className="card-text mt-2">
                 Achieving the required scores in standardized tests is essential
                 for admission to many universities. Our test preparation
@@ -145,12 +195,22 @@ const VisaAssistance = () => {
               <h5 className="card-title mb-0">Pre-Departure Guidance</h5>
             </div>
             <div className="card-body d-flex flex-column">
-              <img
-                className="card-img card-img-assistance mb-3"
-                height={"198"}
-                src="/assets/images/studentpics/student3.jpg"
-                alt=""
-              />
+              <picture>
+                <source
+                  type="image/webp"
+                  srcSet="/assets/images/studentpics/student3-400.webp 400w,
+                          /assets/images/studentpics/student3-800.webp 800w"
+                  sizes="(max-width: 768px) 100vw, 25vw"
+                />
+                <img
+                  className="card-img card-img-assistance mb-3"
+                  height={198}
+                  src="/assets/images/studentpics/student3.jpg"
+                  alt="Pre-departure guidance"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
               <p className="card-text mt-2">
                 Preparing for life in a new country involves various logistical
                 and cultural aspects. We offer pre-departure orientation

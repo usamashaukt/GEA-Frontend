@@ -28,10 +28,15 @@ const Nav = () => {
           <a className="navbar-brand" href="/">
          
             <img
-              width={"100px"}
+              width={100}
+              height={100}
               src="../assets/images/hu-logo/hu-logo-bg.webp"
+              srcSet="../assets/images/hu-logo/hu-logo-bg-150.webp 150w,
+                      ../assets/images/hu-logo/hu-logo-bg-300.webp 300w,
+                      ../assets/images/hu-logo/hu-logo-bg.webp 1563w"
+              sizes="100px"
               alt="HU Logo"
-              loading="lazy"
+              loading="eager"
               decoding="async"
             />
           </a>

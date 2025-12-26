@@ -97,8 +97,14 @@ const VisaApplication = () => {
             <div className="content-image">
               <img 
                 src="/assets/images/big-ben/big-Ben-London.webp" 
+                srcSet="/assets/images/big-ben/big-Ben-London-512.webp 512w,
+                        /assets/images/big-ben/big-Ben-London-1024.webp 1024w,
+                        /assets/images/big-ben/big-Ben-London.webp 1600w"
+                sizes="(max-width: 992px) 100vw, 50vw"
                 alt="UK Education" 
                 className="img-fluid rounded"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </Col>

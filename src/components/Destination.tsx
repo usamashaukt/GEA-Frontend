@@ -3,6 +3,34 @@ import { Row, Col, Card } from "react-bootstrap";
 import { To, useNavigate } from "react-router-dom";
 import "./Destination.css";
 
+const getResponsiveImageProps = (src: string) => {
+  // Keep `src` unchanged; provide optional `srcSet` for browsers to pick a smaller file.
+  switch (src) {
+    case "/assets/images/Aus-bg/sydney-opera-house.webp":
+      return {
+        srcSet: [
+          "/assets/images/Aus-bg/sydney-opera-house-256.webp 256w",
+          "/assets/images/Aus-bg/sydney-opera-house-512.webp 512w",
+          "/assets/images/Aus-bg/sydney-opera-house-1024.webp 1024w",
+          "/assets/images/Aus-bg/sydney-opera-house.webp 1600w",
+        ].join(", "),
+        sizes: "(max-width: 768px) 100vw, (max-width: 992px) 50vw, 25vw",
+      } as const;
+    case "/assets/images/big-ben/big-Ben-London.webp":
+      return {
+        srcSet: [
+          "/assets/images/big-ben/big-Ben-London-256.webp 256w",
+          "/assets/images/big-ben/big-Ben-London-512.webp 512w",
+          "/assets/images/big-ben/big-Ben-London-1024.webp 1024w",
+          "/assets/images/big-ben/big-Ben-London.webp 1600w",
+        ].join(", "),
+        sizes: "(max-width: 768px) 100vw, (max-width: 992px) 50vw, 25vw",
+      } as const;
+    default:
+      return {} as const;
+  }
+};
+
 const destinations = [
   {
     name: "United Kingdom",
@@ -71,6 +99,9 @@ const Destinations = () => {
                 className="destination-img"
                 src={destination.image}
                 alt={destination.name}
+                loading="lazy"
+                decoding="async"
+                {...getResponsiveImageProps(destination.image)}
               />
               <Card.ImgOverlay className="d-flex justify-content-center align-items-center">
                 <Card.Title

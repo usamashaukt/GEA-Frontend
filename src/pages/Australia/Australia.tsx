@@ -62,8 +62,14 @@ function Australia() {
             <div className="content-image">
               <img 
                 src="/assets/images/Aus-bg/sydney-opera-house.webp" 
+                srcSet="/assets/images/Aus-bg/sydney-opera-house-512.webp 512w,
+                        /assets/images/Aus-bg/sydney-opera-house-1024.webp 1024w,
+                        /assets/images/Aus-bg/sydney-opera-house.webp 1600w"
+                sizes="(max-width: 992px) 100vw, 50vw"
                 alt="Australia Education" 
                 className="img-fluid rounded"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </Col>
