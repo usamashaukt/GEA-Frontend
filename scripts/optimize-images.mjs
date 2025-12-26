@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import fsSync from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
 
@@ -49,7 +50,13 @@ async function writeJpegVariant({
 }
 
 async function main() {
-  // Hero: add a 1366w candidate; keep existing filenames intact.
+  // Hero: add responsive variants for common viewport sizes.
+  await writeWebpVariant({
+    inPath: path.join(publicDir, "assets/images/big-ben/hero-sec.webp"),
+    outPath: path.join(publicDir, "assets/images/big-ben/hero-sec-1335.webp"),
+    width: 1335,
+    quality: 75,
+  });
   await writeWebpVariant({
     inPath: path.join(publicDir, "assets/images/big-ben/hero-sec.webp"),
     outPath: path.join(publicDir, "assets/images/big-ben/hero-sec-1366.webp"),
@@ -74,7 +81,7 @@ async function main() {
       "assets/images/Aus-bg/sydney-opera-house-512.webp"
     ),
     width: 512,
-    quality: 72,
+    quality: 68,
   });
   await writeWebpVariant({
     inPath: path.join(publicDir, "assets/images/Aus-bg/sydney-opera-house.webp"),
@@ -135,6 +142,8 @@ async function main() {
     "Arden-University.webp",
     "bcu.webp",
     "Bedfordshire.webp",
+    "images.webp",
+    "ulster.webp",
   ];
   for (const file of uniLogos) {
     const inPath = path.join(publicDir, "assets/images/uni-logos", file);
@@ -166,6 +175,89 @@ async function main() {
     width: 300,
     quality: 84,
   });
+
+  // Download and optimize external images (USA, Europe) for local hosting
+  // These will be used with srcset while keeping external URLs as fallback
+  try {
+    const https = await import("node:https");
+    const http = await import("node:http");
+    
+    async function downloadImage(url, outPath) {
+      return new Promise((resolve, reject) => {
+        const protocol = url.startsWith("https") ? https : http;
+        protocol.get(url, (response) => {
+          if (response.statusCode !== 200) {
+            reject(new Error(`Failed to download ${url}: ${response.statusCode}`));
+            return;
+          }
+          const fileStream = fsSync.createWriteStream(outPath);
+          response.pipe(fileStream);
+          fileStream.on("finish", () => {
+            fileStream.close();
+            resolve();
+          });
+          fileStream.on("error", reject);
+        }).on("error", reject);
+      });
+    }
+
+    // Download USA image
+    const usaUrl = "https://www.gamsatreviewblog.com/content/images/2020/01/Gamsat-in-USA.jpg";
+    const usaTempPath = path.join(publicDir, "assets/images/usa/Gamsat-in-USA-temp.jpg");
+    await fs.mkdir(path.dirname(usaTempPath), { recursive: true });
+    await downloadImage(usaUrl, usaTempPath);
+    
+    // Convert to WebP and create responsive variants
+    await writeWebpVariant({
+      inPath: usaTempPath,
+      outPath: path.join(publicDir, "assets/images/usa/Gamsat-in-USA-256.webp"),
+      width: 256,
+      quality: 72,
+    });
+    await writeWebpVariant({
+      inPath: usaTempPath,
+      outPath: path.join(publicDir, "assets/images/usa/Gamsat-in-USA-512.webp"),
+      width: 512,
+      quality: 74,
+    });
+    await writeWebpVariant({
+      inPath: usaTempPath,
+      outPath: path.join(publicDir, "assets/images/usa/Gamsat-in-USA-1024.webp"),
+      width: 1024,
+      quality: 76,
+    });
+    await fs.unlink(usaTempPath).catch(() => {});
+
+    // Download Europe image
+    const euUrl = "https://media.restless.co.uk/uploads/2022/12/the-cheapest-countries-to-visit-in-europe.jpg";
+    const euTempPath = path.join(publicDir, "assets/images/europe/europe-temp.jpg");
+    await fs.mkdir(path.dirname(euTempPath), { recursive: true });
+    await downloadImage(euUrl, euTempPath);
+    
+    // Convert to WebP and create responsive variants
+    await writeWebpVariant({
+      inPath: euTempPath,
+      outPath: path.join(publicDir, "assets/images/europe/europe-256.webp"),
+      width: 256,
+      quality: 72,
+    });
+    await writeWebpVariant({
+      inPath: euTempPath,
+      outPath: path.join(publicDir, "assets/images/europe/europe-512.webp"),
+      width: 512,
+      quality: 74,
+    });
+    await writeWebpVariant({
+      inPath: euTempPath,
+      outPath: path.join(publicDir, "assets/images/europe/europe-1024.webp"),
+      width: 1024,
+      quality: 76,
+    });
+    await fs.unlink(euTempPath).catch(() => {});
+  } catch (err) {
+    console.warn("Could not download external images (network issue?):", err.message);
+    // Continue anyway - we'll use external URLs as fallback
+  }
 
   console.log("Image optimization complete.");
 }

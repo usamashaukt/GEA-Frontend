@@ -30,6 +30,7 @@ const Banner = () => {
         src="/assets/images/big-ben/hero-sec.webp"
         srcSet="/assets/images/big-ben/hero-sec-small.webp 800w,
                 /assets/images/big-ben/hero-sec-medium.webp 1200w,
+                /assets/images/big-ben/hero-sec-1335.webp 1335w,
                 /assets/images/big-ben/hero-sec-1366.webp 1366w,
                 /assets/images/big-ben/hero-sec.webp 1920w"
         sizes="100vw"

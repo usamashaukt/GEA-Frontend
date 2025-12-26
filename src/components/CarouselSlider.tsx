@@ -202,6 +202,10 @@ const CarouselSlider = () => {
         <div>
           <img
             src="/assets/images/uni-logos/images.webp"
+            srcSet="/assets/images/uni-logos/images-160.webp 160w,
+                    /assets/images/uni-logos/images-320.webp 320w,
+                    /assets/images/uni-logos/images.webp 1200w"
+            sizes="160px"
             className="img-fluid carousel-img"
             alt="University Partner"
             width="160"
@@ -213,6 +217,10 @@ const CarouselSlider = () => {
         <div>
           <img
             src="/assets/images/uni-logos/ulster.webp"
+            srcSet="/assets/images/uni-logos/ulster-160.webp 160w,
+                    /assets/images/uni-logos/ulster-320.webp 320w,
+                    /assets/images/uni-logos/ulster.webp 1200w"
+            sizes="160px"
             className="img-fluid carousel-img"
             alt="Ulster University"
             width="160"

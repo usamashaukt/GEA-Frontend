@@ -26,6 +26,26 @@ const getResponsiveImageProps = (src: string) => {
         ].join(", "),
         sizes: "(max-width: 768px) 100vw, (max-width: 992px) 50vw, 25vw",
       } as const;
+    case "https://www.gamsatreviewblog.com/content/images/2020/01/Gamsat-in-USA.jpg":
+      // Use local optimized WebP variants with external JPG as fallback
+      return {
+        srcSet: [
+          "/assets/images/usa/Gamsat-in-USA-256.webp 256w",
+          "/assets/images/usa/Gamsat-in-USA-512.webp 512w",
+          "/assets/images/usa/Gamsat-in-USA-1024.webp 1024w",
+        ].join(", "),
+        sizes: "(max-width: 768px) 100vw, (max-width: 992px) 50vw, 25vw",
+      } as const;
+    case "https://media.restless.co.uk/uploads/2022/12/the-cheapest-countries-to-visit-in-europe.jpg":
+      // Use local optimized WebP variants with external JPG as fallback
+      return {
+        srcSet: [
+          "/assets/images/europe/europe-256.webp 256w",
+          "/assets/images/europe/europe-512.webp 512w",
+          "/assets/images/europe/europe-1024.webp 1024w",
+        ].join(", "),
+        sizes: "(max-width: 768px) 100vw, (max-width: 992px) 50vw, 25vw",
+      } as const;
     default:
       return {} as const;
   }
