@@ -126,6 +126,9 @@
     align-items: center;
     gap: 0.4em;
     position: relative;
+    /* Prevent layout shift when dropdown initializes */
+    min-height: 1.5em;
+    contain: layout style;
 }
 .nav-link.dropdown-toggle::after {
     content: '';

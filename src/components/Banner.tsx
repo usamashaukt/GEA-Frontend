@@ -41,6 +41,7 @@ const Banner = () => {
         width="1920"
         height="1080"
         decoding="async"
+        style={{ aspectRatio: '16/9' }}
       />
       <div className="banner-overlay" />
       <div className="banner-content">

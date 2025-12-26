@@ -1,12 +1,15 @@
 .search-banner {
     position: relative;
-    height: 100%;
+    /* Prevent layout shift - reserve space immediately */
+    height: calc(100vh - 66px);
     min-height: calc(100vh - 66px);
+    max-height: calc(100vh - 66px);
     overflow: hidden;
     transition: .4s ease-in-out;
     z-index: 1;
-    /* Prevent layout shift - ensure consistent height */
     display: block;
+    /* Ensure banner reserves space before content loads */
+    contain: layout style paint;
 }
 
 .banner-background-image {
@@ -82,11 +85,21 @@
     /* Reserve vertical space */
     line-height: 1.2;
     min-height: 1.2em;
+    /* Reserve horizontal space for full text + cursor */
+    position: relative;
 }
 
 .typewriter-cursor {
     animation: blink 1s infinite;
     margin-left: 2px;
+    /* Prevent cursor from causing layout shift */
+    display: inline-block;
+    width: 2px;
+    min-width: 2px;
+    max-width: 2px;
+    /* Reserve space for cursor in the layout */
+    visibility: visible;
+    opacity: 1;
 }
 
 @keyframes blink {
@@ -120,6 +133,11 @@
 }
 
 @media screen and (max-width: 768px) {
+    .search-banner {
+        height: calc(100vh - 66px);
+        min-height: calc(100vh - 66px);
+        max-height: calc(100vh - 66px);
+    }
     .banner-background-image {
         object-position: center 110px;
     }
