@@ -29,7 +29,9 @@ const Nav = () => {
          
             <img
               width={"100px"}
-              src="../assets/images/hu-logo/hu-logo-bg.webp"
+              src="/assets/images/hu-logo/hu-logo-bg-medium.webp"
+              srcSet="/assets/images/hu-logo/hu-logo-bg-small.webp 100w, /assets/images/hu-logo/hu-logo-bg-medium.webp 150w, /assets/images/hu-logo/hu-logo-bg.webp 300w"
+              sizes="(max-width: 768px) 100px, 150px"
               alt="HU Logo"
               loading="lazy"
               decoding="async"

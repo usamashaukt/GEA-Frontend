@@ -11,6 +11,11 @@ const getResponsiveImageSrcSet = (imageName: string) => {
           ${basePath}/${imageName}.webp 320w`;
 };
 
+// Helper function to get medium-sized image as fallback
+const getMediumImage = (imageName: string) => {
+  return `/assets/images/uni-logos/${imageName}-medium.webp`;
+};
+
 const CarouselSlider = () => {
   const settings = {
     dots: false,
@@ -51,7 +56,7 @@ const CarouselSlider = () => {
       <Slider {...settings}>
         <div>
           <img
-            src="/assets/images/uni-logos/uws.webp"
+            src={getMediumImage("uws")}
             srcSet={getResponsiveImageSrcSet("uws")}
             sizes="(max-width: 480px) 80px, (max-width: 1024px) 160px, 320px"
             className="img-fluid carousel-img"
@@ -64,7 +69,7 @@ const CarouselSlider = () => {
         </div>
         <div>
           <img
-            src="/assets/images/uni-logos/Arden-University.webp"
+            src={getMediumImage("Arden-University")}
             srcSet={getResponsiveImageSrcSet("Arden-University")}
             sizes="(max-width: 480px) 80px, (max-width: 1024px) 160px, 320px"
             className="img-fluid carousel-img"
@@ -77,7 +82,7 @@ const CarouselSlider = () => {
         </div>
         <div>
           <img
-            src="/assets/images/uni-logos/bangor.webp"
+            src={getMediumImage("bangor")}
             srcSet={getResponsiveImageSrcSet("bangor")}
             sizes="(max-width: 480px) 80px, (max-width: 1024px) 160px, 320px"
             className="img-fluid carousel-img"
@@ -90,7 +95,7 @@ const CarouselSlider = () => {
         </div>
         <div>
           <img
-            src="/assets/images/uni-logos/bcu.webp"
+            src={getMediumImage("bcu")}
             srcSet={getResponsiveImageSrcSet("bcu")}
             sizes="(max-width: 480px) 80px, (max-width: 1024px) 160px, 320px"
             className="img-fluid carousel-img"
@@ -103,7 +108,7 @@ const CarouselSlider = () => {
         </div>
         <div>
           <img
-            src="/assets/images/uni-logos/Bedfordshire.webp"
+            src={getMediumImage("Bedfordshire")}
             srcSet={getResponsiveImageSrcSet("Bedfordshire")}
             sizes="(max-width: 480px) 80px, (max-width: 1024px) 160px, 320px"
             className="img-fluid carousel-img"
@@ -116,7 +121,7 @@ const CarouselSlider = () => {
         </div>
         <div>
           <img
-            src="/assets/images/uni-logos/BPP.webp"
+            src={getMediumImage("BPP")}
             srcSet={getResponsiveImageSrcSet("BPP")}
             sizes="(max-width: 480px) 80px, (max-width: 1024px) 160px, 320px"
             className="img-fluid carousel-img"
@@ -129,7 +134,7 @@ const CarouselSlider = () => {
         </div>
         <div>
           <img
-            src="/assets/images/uni-logos/LSBU.webp"
+            src={getMediumImage("LSBU")}
             srcSet={getResponsiveImageSrcSet("LSBU")}
             sizes="(max-width: 480px) 80px, (max-width: 1024px) 160px, 320px"
             className="img-fluid carousel-img"
@@ -142,7 +147,7 @@ const CarouselSlider = () => {
         </div>
         <div>
           <img
-            src="/assets/images/uni-logos/coventry.webp"
+            src={getMediumImage("coventry")}
             srcSet={getResponsiveImageSrcSet("coventry")}
             sizes="(max-width: 480px) 80px, (max-width: 1024px) 160px, 320px"
             className="img-fluid carousel-img"
@@ -155,7 +160,7 @@ const CarouselSlider = () => {
         </div>
         <div>
           <img
-            src="/assets/images/uni-logos/cuc.webp"
+            src={getMediumImage("cuc")}
             srcSet={getResponsiveImageSrcSet("cuc")}
             sizes="(max-width: 480px) 80px, (max-width: 1024px) 160px, 320px"
             className="img-fluid carousel-img"
@@ -168,7 +173,7 @@ const CarouselSlider = () => {
         </div>
         <div>
           <img
-            src="/assets/images/uni-logos/Gisma_Business_School_Logo_02.2022.svg.webp"
+            src={getMediumImage("Gisma_Business_School_Logo_02.2022.svg")}
             srcSet={getResponsiveImageSrcSet("Gisma_Business_School_Logo_02.2022.svg")}
             sizes="(max-width: 480px) 80px, (max-width: 1024px) 160px, 320px"
             className="img-fluid carousel-img"
@@ -181,7 +186,7 @@ const CarouselSlider = () => {
         </div>
         <div>
           <img
-            src="/assets/images/uni-logos/Heriot-watt.webp"
+            src={getMediumImage("Heriot-watt")}
             srcSet={getResponsiveImageSrcSet("Heriot-watt")}
             sizes="(max-width: 480px) 80px, (max-width: 1024px) 160px, 320px"
             className="img-fluid carousel-img"
@@ -194,7 +199,7 @@ const CarouselSlider = () => {
         </div>
         <div>
           <img
-            src="/assets/images/uni-logos/images.webp"
+            src={getMediumImage("images")}
             srcSet={getResponsiveImageSrcSet("images")}
             sizes="(max-width: 480px) 80px, (max-width: 1024px) 160px, 320px"
             className="img-fluid carousel-img"
@@ -207,7 +212,7 @@ const CarouselSlider = () => {
         </div>
         <div>
           <img
-            src="/assets/images/uni-logos/ulster.webp"
+            src={getMediumImage("ulster")}
             srcSet={getResponsiveImageSrcSet("ulster")}
             sizes="(max-width: 480px) 80px, (max-width: 1024px) 160px, 320px"
             className="img-fluid carousel-img"
@@ -220,7 +225,7 @@ const CarouselSlider = () => {
         </div>
         <div>
           <img
-            src="/assets/images/uni-logos/lincoln.webp"
+            src={getMediumImage("lincoln")}
             srcSet={getResponsiveImageSrcSet("lincoln")}
             sizes="(max-width: 480px) 80px, (max-width: 1024px) 160px, 320px"
             className="img-fluid carousel-img"
