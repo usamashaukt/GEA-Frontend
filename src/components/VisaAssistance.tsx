@@ -21,8 +21,9 @@ const VisaAssistance = () => {
   }, []);
 
   return (
-    <div className="container mb-4 mx-auto text-center">
-      <div className="row justify-content-center">
+    <div className="visa-assistance-section">
+      <div className="container mx-auto text-center">
+        <div className="row justify-content-center">
         {/* University Selection Assistance */}
         <div className="col-lg-3 col-md-6 mb-4">
           <div ref={el => (cardRefs.current[0] = el)} className="card border-primary h-100">
