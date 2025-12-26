@@ -42,8 +42,22 @@
   mix-blend-mode: color-burn;
 }
 
+/* Fix slick-list overflow issue */
+.slick-list {
+  overflow: hidden !important;
+  position: relative;
+  display: block;
+}
+
 /* Mobile Responsive Styles */
 @media screen and (max-width: 768px) {
+  /* Critical: Constrain slick-list width on mobile */
+  .slick-list {
+    width: 100% !important;
+    max-width: 100vw !important;
+    overflow: hidden !important;
+  }
+  
   .slick-track {
     padding: 30px 20px !important; /* Reduced padding for mobile */
   }
@@ -55,9 +69,24 @@
   .carousel-img {
     height: 80px !important; /* Smaller images on mobile */
   }
+  
+  /* Ensure container doesn't overflow */
+  .container {
+    max-width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    overflow: hidden !important;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  /* Critical: Constrain slick-list width on small phones */
+  .slick-list {
+    width: 100% !important;
+    max-width: 100vw !important;
+    overflow: hidden !important;
+  }
+  
   .slick-track {
     padding: 20px 10px !important; /* Even less padding for small phones */
   }
@@ -68,5 +97,13 @@
   
   .carousel-img {
     height: 70px !important;
+  }
+  
+  /* Ensure container doesn't overflow */
+  .container {
+    max-width: 100% !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    overflow: hidden !important;
   }
 }
