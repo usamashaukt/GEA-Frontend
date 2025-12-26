@@ -22,7 +22,11 @@ const Home = () => {
         />
       </Helmet>
       <Banner />
-      <CarouselSlider />
+      <LazyVisible fallback={<div style={{ minHeight: 400 }} />}>
+        <Suspense fallback={<div style={{ textAlign: "center", marginTop: "2rem" }}>Loading carousel…</div>}>
+          <CarouselSlider />
+        </Suspense>
+      </LazyVisible>
       <Destination />
       <Section1 />
       <Section2 />

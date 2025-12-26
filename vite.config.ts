@@ -7,14 +7,44 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'],
-          router: ['react-router-dom'],
-          bootstrap: ['bootstrap', 'react-bootstrap'],
-          icons: ['@fortawesome/fontawesome-svg-core', '@fortawesome/free-solid-svg-icons', '@fortawesome/free-brands-svg-icons', '@fortawesome/free-regular-svg-icons', 'react-icons'],
-          carousel: ['react-slick', 'slick-carousel'],
-          swiper: ['swiper'],
-          utils: ['jwt-decode', 'file-saver'],
+        manualChunks: (id) => {
+          // Core vendor chunks - critical for initial load
+          if (id.includes('node_modules')) {
+            // React core - highest priority
+            if (id.includes('react') || id.includes('react-dom')) {
+              return 'vendor';
+            }
+            // Router - needed early for navigation
+            if (id.includes('react-router')) {
+              return 'router';
+            }
+            // Bootstrap - can be deferred but needed for layout
+            if (id.includes('bootstrap') || id.includes('react-bootstrap')) {
+              return 'bootstrap';
+            }
+            // Icons - defer loading
+            if (id.includes('@fortawesome') || id.includes('react-icons')) {
+              return 'icons';
+            }
+            // Carousel - lazy loaded component
+            if (id.includes('react-slick') || id.includes('slick-carousel')) {
+              return 'carousel';
+            }
+            // Swiper - lazy loaded component
+            if (id.includes('swiper')) {
+              return 'swiper';
+            }
+            // Other utilities - defer
+            if (id.includes('jwt-decode') || id.includes('file-saver') || id.includes('react-select') || id.includes('react-transition-group')) {
+              return 'utils';
+            }
+            // Helmet - needed early
+            if (id.includes('react-helmet')) {
+              return 'helmet';
+            }
+            // Default vendor chunk for other node_modules
+            return 'vendor';
+          }
         },
       },
     },
