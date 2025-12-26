@@ -1,3 +1,8 @@
+.contact-card,
+.contact-card * {
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
 .card {
     border: none;
     border-radius: 8px;
@@ -11,11 +16,17 @@
 h2 {
     font-size: 24px;
     color: #333;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .form-label {
     font-weight: bold;
     color: #333;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.form-control {
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .form-control:focus {
@@ -26,6 +37,8 @@ h2 {
 .btn-danger {
     background-color: #FF5252;
     border: none;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 600;
 }
 
 .btn-danger:hover {
@@ -80,6 +93,7 @@ h2 {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .contact-details i {

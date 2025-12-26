@@ -7,7 +7,7 @@ const Section1 = () => {
       <div className="container welcome-sec mx-auto mt-3">
         <div className="row">
           <div className="col-lg-12 text-center margin-20">
-            <h1 className="welcome-line text-dark ">Unlock Your Future!</h1>{" "}
+            <h1 className="welcome-line">Unlock Your Future!</h1>{" "}
             <p>
               HU Consultants is a team of international education advisers based
               in the Haripur. We are honoured to represent the world’s best

@@ -5,7 +5,8 @@
 .welcome-line {
     font-weight: bold;
     font-size: 30px;
-   
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+    color: #B00020;
 }
 
 .welcome-sec p strong {
