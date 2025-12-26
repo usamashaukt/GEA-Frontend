@@ -224,7 +224,6 @@ const VisaAssistance = () => {
         </div>
       </div>
     </div>
-    </div>
   );
 };
 
