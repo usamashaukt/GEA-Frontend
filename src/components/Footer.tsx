@@ -11,9 +11,7 @@ const Footer: React.FC = () => {
         <div className={styles.left}>
           <img
             width={"100px"}
-            src="/assets/images/hu-logo/hu-logo-bg-medium.webp"
-            srcSet="/assets/images/hu-logo/hu-logo-bg-small.webp 100w, /assets/images/hu-logo/hu-logo-bg-medium.webp 150w, /assets/images/hu-logo/hu-logo-bg.webp 300w"
-            sizes="(max-width: 768px) 100px, 150px"
+            src="../assets/images/hu-logo/hu-logo-bg.webp"
             alt="hu-logo"
             className={styles.logo}
             loading="lazy"

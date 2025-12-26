@@ -6,35 +6,27 @@ import "./Destination.css";
 const destinations = [
   {
     name: "United Kingdom",
-    image: "/assets/images/big-ben/big-Ben-London.webp",
-    imageSmall: "/assets/images/big-ben/big-Ben-London-small.webp",
-    imageMedium: "/assets/images/big-ben/big-Ben-London-medium.webp",
-    path: "/uk",
-    isLocal: true,
+    image:
+      "/assets/images/big-ben/big-Ben-London.webp",
+    path: "/uk", // Add a path for redirection
   },
   {
     name: "Australia",
-    image: "/assets/images/Aus-bg/sydney-opera-house.webp",
-    imageSmall: "/assets/images/Aus-bg/sydney-opera-house-small.webp",
-    imageMedium: "/assets/images/Aus-bg/sydney-opera-house-medium.webp",
-    path: "/aus",
-    isLocal: true,
+    image:
+      "/assets/images/Aus-bg/sydney-opera-house.webp",
+    path: "/aus", // Add a path for redirection
   },
   {
     name: "USA",
-    image: "/assets/images/usa/usa.webp",
-    imageSmall: "/assets/images/usa/usa-small.webp",
-    imageMedium: "/assets/images/usa/usa-medium.webp",
-    path: "/usa",
-    isLocal: true,
+    image:
+      "https://www.gamsatreviewblog.com/content/images/2020/01/Gamsat-in-USA.jpg",
+    path: "/usa", // Add a path for redirection
   },
   {
     name: "Europe",
-    image: "/assets/images/Eu-bg/europe.webp",
-    imageSmall: "/assets/images/Eu-bg/europe-small.webp",
-    imageMedium: "/assets/images/Eu-bg/europe-medium.webp",
-    path: "/eu",
-    isLocal: true,
+    image:
+      "https://media.restless.co.uk/uploads/2022/12/the-cheapest-countries-to-visit-in-europe.jpg",
+    path: "/eu", // Add a path for redirection
   },
 ];
 
@@ -72,30 +64,14 @@ const Destinations = () => {
             <div
               ref={(el) => (cardRefs.current[index] = el)}
               className="card text-white shadow-lg border-0"
-              onClick={() => handleCardClick(destination.path)}
-              style={{ cursor: "pointer" }}
+              onClick={() => handleCardClick(destination.path)} // Add click handler
+              style={{ cursor: "pointer" }} // Add pointer cursor for better UX
             >
-              {destination.isLocal ? (
-                <img
-                  className="destination-img"
-                  src={destination.imageMedium}
-                  srcSet={`${destination.imageSmall} 231w, ${destination.imageMedium} 462w, ${destination.image} 924w`}
-                  sizes="(max-width: 576px) 231px, (max-width: 768px) 231px, 231px"
-                  alt={destination.name}
-                  loading="lazy"
-                  decoding="async"
-                  width="231"
-                  height="154"
-                />
-              ) : (
-                <Card.Img
-                  className="destination-img"
-                  src={destination.image}
-                  alt={destination.name}
-                  loading="lazy"
-                  decoding="async"
-                />
-              )}
+              <Card.Img
+                className="destination-img"
+                src={destination.image}
+                alt={destination.name}
+              />
               <Card.ImgOverlay className="d-flex justify-content-center align-items-center">
                 <Card.Title
                   className="destination-title"

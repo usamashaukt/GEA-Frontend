@@ -33,13 +33,8 @@ const VisaAssistance = () => {
               <img
                 className="card-img card-img-assistance mb-3"
                 height={"198"}
-                src="/assets/images/studentpics/student3-medium.webp"
-                srcSet="/assets/images/studentpics/student3-small.webp 197w, /assets/images/studentpics/student3-medium.webp 394w, /assets/images/studentpics/student3.webp 788w"
-                sizes="(max-width: 576px) 197px, 197px"
+                src="/assets/images/studentpics/student3.jpg"
                 alt=""
-                loading="lazy"
-                decoding="async"
-                width="197"
               />
               <p className="card-text mt-2">
                 Navigating through the vast array of universities worldwide can
@@ -61,13 +56,8 @@ const VisaAssistance = () => {
               <img
                 className="card-img card-img-assistance mb-3"
                 height={"198"}
-                src="/assets/images/studentpics/student3-medium.webp"
-                srcSet="/assets/images/studentpics/student3-small.webp 197w, /assets/images/studentpics/student3-medium.webp 394w, /assets/images/studentpics/student3.webp 788w"
-                sizes="(max-width: 576px) 197px, 197px"
+                src="/assets/images/studentpics/student3.jpg"
                 alt=""
-                loading="lazy"
-                decoding="async"
-                width="197"
               />
               <p className="card-text mt-2">
                 Crafting a compelling application is crucial for securing
@@ -89,13 +79,8 @@ const VisaAssistance = () => {
               <img
                 className="card-img card-img-assistance mb-3"
                 height={"198"}
-                src="/assets/images/studentpics/student3-medium.webp"
-                srcSet="/assets/images/studentpics/student3-small.webp 197w, /assets/images/studentpics/student3-medium.webp 394w, /assets/images/studentpics/student3.webp 788w"
-                sizes="(max-width: 576px) 197px, 197px"
+                src="/assets/images/studentpics/student3.jpg"
                 alt=""
-                loading="lazy"
-                decoding="async"
-                width="197"
               />
               <p className="card-text mt-2">
                 Understanding visa requirements and navigating immigration
@@ -117,13 +102,8 @@ const VisaAssistance = () => {
               <img
                 className="card-img card-img-assistance mb-3"
                 height={"198"}
-                src="/assets/images/studentpics/student3-medium.webp"
-                srcSet="/assets/images/studentpics/student3-small.webp 197w, /assets/images/studentpics/student3-medium.webp 394w, /assets/images/studentpics/student3.webp 788w"
-                sizes="(max-width: 576px) 197px, 197px"
+                src="/assets/images/studentpics/student3.jpg"
                 alt=""
-                loading="lazy"
-                decoding="async"
-                width="197"
               />
               <p className="card-text mt-2">
                 Financing your international education can be challenging, but
@@ -145,13 +125,8 @@ const VisaAssistance = () => {
               <img
                 className="card-img card-img-assistance mb-3"
                 height={"198"}
-                src="/assets/images/studentpics/student3-medium.webp"
-                srcSet="/assets/images/studentpics/student3-small.webp 197w, /assets/images/studentpics/student3-medium.webp 394w, /assets/images/studentpics/student3.webp 788w"
-                sizes="(max-width: 576px) 197px, 197px"
+                src="/assets/images/studentpics/student3.jpg"
                 alt=""
-                loading="lazy"
-                decoding="async"
-                width="197"
               />
               <p className="card-text mt-2">
                 Achieving the required scores in standardized tests is essential
@@ -173,13 +148,8 @@ const VisaAssistance = () => {
               <img
                 className="card-img card-img-assistance mb-3"
                 height={"198"}
-                src="/assets/images/studentpics/student3-medium.webp"
-                srcSet="/assets/images/studentpics/student3-small.webp 197w, /assets/images/studentpics/student3-medium.webp 394w, /assets/images/studentpics/student3.webp 788w"
-                sizes="(max-width: 576px) 197px, 197px"
+                src="/assets/images/studentpics/student3.jpg"
                 alt=""
-                loading="lazy"
-                decoding="async"
-                width="197"
               />
               <p className="card-text mt-2">
                 Preparing for life in a new country involves various logistical
