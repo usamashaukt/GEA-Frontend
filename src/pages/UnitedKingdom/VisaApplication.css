@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
-
 body, .uk-cont, .title, .card-london, .uk-cont h1, .uk-cont h2, .uk-cont p {
     font-family: 'Montserrat', Arial, sans-serif !important;
 }
