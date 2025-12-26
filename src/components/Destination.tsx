@@ -104,17 +104,26 @@ const Destinations = () => {
   };
 
   return (
-    <div className="my-5">
-      <h2 className="text-center mb-4">Destinations</h2>
+    <div className="destinations-section my-5">
+      <h2 className="text-center">Destinations</h2>
       <div className="container">
         <Row>
           {destinations.map((destination, index) => (
-            <Col key={index} md={3} className="mb-4">
+            <Col key={index} md={6} lg={3} className="mb-4">
               <div
                 ref={(el) => (cardRefs.current[index] = el)}
                 className="card text-white shadow-lg border-0"
-                onClick={() => handleCardClick(destination.path)} // Add click handler
-                style={{ cursor: "pointer" }} // Add pointer cursor for better UX
+                onClick={() => handleCardClick(destination.path)}
+                style={{ cursor: "pointer" }}
+                role="button"
+                tabIndex={0}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    handleCardClick(destination.path);
+                  }
+                }}
+                aria-label={`Navigate to ${destination.name} page`}
               >
                 <Card.Img
                   className="destination-img"
@@ -127,16 +136,7 @@ const Destinations = () => {
                   {...getResponsiveImageProps(destination.image)}
                 />
                 <Card.ImgOverlay className="d-flex justify-content-center align-items-center">
-                  <Card.Title
-                    className="destination-title"
-                    style={{
-                      fontSize: "2rem",
-                      fontWeight: "bold",
-                      backgroundColor: "rgba(0, 0, 0, 0.5)",
-                      padding: "0.5rem 1rem",
-                      borderRadius: "5px",
-                    }}
-                  >
+                  <Card.Title className="destination-title">
                     {destination.name}
                   </Card.Title>
                 </Card.ImgOverlay>
