@@ -1,18 +1,36 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import viteCompression from 'vite-plugin-compression'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    viteCompression({
+      algorithm: 'gzip',
+      ext: '.gz',
+      threshold: 1024, // Only compress files larger than 1KB
+      deleteOriginFile: false,
+    }),
+    viteCompression({
+      algorithm: 'brotliCompress',
+      ext: '.br',
+      threshold: 1024,
+      deleteOriginFile: false,
+    }),
+  ],
   build: {
     rollupOptions: {
       output: {
         manualChunks: (id) => {
           // Core vendor chunks - critical for initial load
           if (id.includes('node_modules')) {
-            // React core - highest priority
-            if (id.includes('react') || id.includes('react-dom')) {
-              return 'vendor';
+            // React core - separate react and react-dom for better caching
+            if (id.includes('react/') || id.includes('react/index')) {
+              return 'react-core';
+            }
+            if (id.includes('react-dom')) {
+              return 'react-dom';
             }
             // Router - needed early for navigation
             if (id.includes('react-router')) {
@@ -34,16 +52,14 @@ export default defineConfig({
             if (id.includes('swiper')) {
               return 'swiper';
             }
-            // Other utilities - defer
-            if (id.includes('jwt-decode') || id.includes('file-saver') || id.includes('react-select') || id.includes('react-transition-group')) {
-              return 'utils';
-            }
             // Helmet - needed early
             if (id.includes('react-helmet')) {
               return 'helmet';
             }
-            // Default vendor chunk for other node_modules
-            return 'vendor';
+            // Scheduler (used by React) - keep with react-core
+            if (id.includes('scheduler')) {
+              return 'react-core';
+            }
           }
         },
       },
@@ -54,11 +70,25 @@ export default defineConfig({
       compress: {
         drop_console: true,
         drop_debugger: true,
+        pure_funcs: ['console.log', 'console.info', 'console.debug'],
+        passes: 2,
+      },
+      mangle: {
+        safari10: true,
       },
     },
   },
   optimizeDeps: {
-    include: ['react', 'react-dom', 'react-router-dom'],
+    include: [
+      'react',
+      'react-dom',
+      'react-router-dom',
+      'react-helmet-async',
+    ],
     exclude: ['@fortawesome/fontawesome-svg-core'],
+  },
+  esbuild: {
+    legalComments: 'none',
+    treeShaking: true,
   },
 })

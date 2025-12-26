@@ -1,10 +1,10 @@
 import { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay, EffectFade } from "swiper/modules";
+// Import only core and required module styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
-import "swiper/css/autoplay";
 import "./Testimonial.css";
 
 const testimonials = [
