@@ -14,7 +14,7 @@ const WhatsApp: React.FC<WhatsAppProps> = ({ phoneNumber }) => {
   return (
     <div className="whatsapp-container" onClick={handleWhatsAppClick}>
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" // Example icon URL
+        src="/assets/images/WhatsApp.svg"
         alt="WhatsApp Icon"
         className="whatsapp-icon"
       />
