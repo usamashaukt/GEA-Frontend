@@ -1,9 +1,9 @@
 .search-banner {
     position: relative;
     /* Prevent layout shift - reserve space immediately */
-    height: calc(100vh - 66px);
-    min-height: calc(100vh - 66px);
-    max-height: calc(100vh - 66px);
+    height: calc(100vh - 110px);
+    min-height: calc(100vh - 110px);
+    max-height: calc(100vh - 110px);
     overflow: hidden;
     transition: .4s ease-in-out;
     z-index: 1;

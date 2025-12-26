@@ -1,9 +1,7 @@
-// import React from "react";
+
 import { useEffect, useState } from "react";
 import "./Banner.css";
-// import Button from "./Button";
-// import Search from "./Search";
-// interface Props {}
+
 
 const headlineText = "Unlock Your Future";
 
@@ -51,7 +49,7 @@ const Banner = () => {
             {!isTypingComplete && <span className="typewriter-cursor" aria-hidden="true">|</span>}
           </span>
         </h1>
-        <button className="hero-cta-uk">Start Your Journey</button>
+        <button className="banner-cta">Start Your Journey</button>
       </div>
     </div>
   );
