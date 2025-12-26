@@ -115,6 +115,7 @@
     padding: 0.9rem 2.5rem;
     font-size: 1.25rem;
     font-weight: 600;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
     cursor: pointer;
     box-shadow: 0 2px 12px rgba(0,0,0,0.15);
     transition: background 0.2s, transform 0.2s;
