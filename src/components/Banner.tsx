@@ -51,7 +51,7 @@ const Banner = () => {
             {!isTypingComplete && <span className="typewriter-cursor" aria-hidden="true">|</span>}
           </span>
         </h1>
-        <button className="banner-cta">Start Your Journey</button>
+        <button className="hero-cta-uk">Start Your Journey</button>
       </div>
     </div>
   );
