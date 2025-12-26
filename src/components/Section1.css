@@ -1,5 +1,5 @@
 .margin-20 {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .welcome-line {
@@ -19,5 +19,5 @@
 
 
 .welcome-sec {
-    min-height: 130px;
+    /* min-height removed to reduce spacing */
 }

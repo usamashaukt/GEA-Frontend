@@ -19,7 +19,7 @@
     border-radius: 8px;
     overflow: hidden;
     background: white;
-    margin: 20px 10px;
+    margin: 10px 5px;
     z-index: 10;
     transition: box-shadow 0.3s, transform 0.3s, opacity 0.6s, transform 0.6s;
     opacity: 0;
@@ -46,7 +46,7 @@
 
 
 .row {
-    padding: 20px;
+    padding: 10px;
 }
 
 

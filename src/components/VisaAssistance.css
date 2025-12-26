@@ -1,6 +1,6 @@
 /* Visa Assistance Section Container */
 .visa-assistance-section {
-    padding: 3rem 0;
+    padding: 2rem 0;
     background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
 }
 
@@ -8,8 +8,8 @@
 .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
+    gap: 15px;
+    padding: 15px;
 }
 
 /* Service Card Styling */
@@ -27,6 +27,7 @@
     will-change: opacity, transform;
     border: 2px solid transparent;
     height: 100%;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
 }
@@ -68,7 +69,7 @@
     border-radius: 0 !important;
     padding: 1.25rem 1rem !important;
     height: auto !important;
-    min-height: 80px;
+    /* min-height removed to reduce spacing */
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -202,7 +203,7 @@
     }
     
     .card-header {
-        min-height: 70px;
+        /* min-height removed to reduce spacing */
         padding: 1rem 0.75rem !important;
     }
     
@@ -235,7 +236,7 @@
     }
     
     .card-header {
-        min-height: 65px;
+        /* min-height removed to reduce spacing */
         padding: 0.875rem 0.5rem !important;
     }
     

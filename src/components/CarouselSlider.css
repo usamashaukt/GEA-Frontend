@@ -31,7 +31,7 @@
 
 .slick-track {
   display: flex;
-  padding: 99px;
+  padding: 40px 20px;
   flex-direction: row;
   align-items: center;
 }
@@ -59,7 +59,7 @@
   }
   
   .slick-track {
-    padding: 30px 20px !important; /* Reduced padding for mobile */
+    padding: 20px 15px !important; /* Reduced padding for mobile */
   }
   
   .slick-initialized .slick-slide {
@@ -88,7 +88,7 @@
   }
   
   .slick-track {
-    padding: 20px 10px !important; /* Even less padding for small phones */
+    padding: 15px 10px !important; /* Even less padding for small phones */
   }
   
   .slick-initialized .slick-slide {

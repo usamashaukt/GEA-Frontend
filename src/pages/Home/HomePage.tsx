@@ -22,24 +22,24 @@ const Home = () => {
         />
       </Helmet>
       <Banner />
-      <LazyVisible fallback={<div style={{ minHeight: 400 }} />}>
-        <Suspense fallback={<div style={{ textAlign: "center", marginTop: "2rem" }}>Loading carousel…</div>}>
+      <LazyVisible fallback={null}>
+        <Suspense fallback={<div style={{ textAlign: "center", marginTop: "1rem" }}>Loading carousel…</div>}>
       <CarouselSlider />
         </Suspense>
       </LazyVisible>
       <Destination />
       <Section1 />
       <Section2 />
-      <LazyVisible fallback={<div style={{ minHeight: 280 }} />}> 
-        <Suspense fallback={<div style={{ textAlign: "center", marginTop: "2rem" }}>Loading testimonials…</div>}>
+      <LazyVisible fallback={null}> 
+        <Suspense fallback={<div style={{ textAlign: "center", marginTop: "1rem" }}>Loading testimonials…</div>}>
           <Testimonial />
         </Suspense>
       </LazyVisible>
-      <LazyVisible fallback={<div style={{ minHeight: 450 }} />}>
+      <LazyVisible fallback={null}>
       <MapSection />
       </LazyVisible>
-      <LazyVisible fallback={<div style={{ minHeight: 120 }} />}> 
-        <Suspense fallback={<div style={{ textAlign: "center", marginTop: "2rem" }}>Loading logos…</div>}>
+      <LazyVisible fallback={null}> 
+        <Suspense fallback={<div style={{ textAlign: "center", marginTop: "1rem" }}>Loading logos…</div>}>
           
         </Suspense>
       </LazyVisible>

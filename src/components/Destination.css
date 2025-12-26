@@ -1,6 +1,6 @@
 /* Destination Section Container */
 .destinations-section {
-    padding: 3rem 0;
+    padding: 2rem 0;
     background: linear-gradient(to bottom, #ffffff 0%, #f8f9fa 100%);
 }
 
@@ -9,7 +9,7 @@
     font-size: 2.5rem;
     font-weight: 700;
     color: #1a1a2e;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     position: relative;
     text-align: center;
 }
@@ -37,7 +37,7 @@
     transform: translateY(40px) scale(0.98);
     will-change: opacity, transform;
     aspect-ratio: 280 / 185;
-    min-height: 185px;
+    /* min-height removed - aspect-ratio handles sizing */
     border: 2px solid transparent;
     background: #fff;
 }

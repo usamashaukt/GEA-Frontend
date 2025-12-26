@@ -2,7 +2,7 @@
 .slider-container {
     width: 80%;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 10px 0;
     background-color: #f8f8f8;
   }
   
@@ -18,7 +18,7 @@
     transform: translateY(40px) scale(0.98);
     transition: box-shadow 0.3s, transform 0.3s, opacity 0.6s, transform 0.6s;
     will-change: opacity, transform;
-    min-height: 254px;
+    /* min-height removed to reduce spacing */
   }
   
   .testimonial-card.visible {
