@@ -8,6 +8,9 @@
     opacity: 0;
     transform: translateY(40px) scale(0.98);
     will-change: opacity, transform;
+    /* Prevent layout shift - reserve space for card */
+    aspect-ratio: 280 / 185;
+    min-height: 185px;
 }
 
 .card.visible {

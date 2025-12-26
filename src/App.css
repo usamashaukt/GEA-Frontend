@@ -12,6 +12,10 @@ body {
     line-height: 1.42857143;
     color: #333;
     -webkit-font-smoothing: antialiased;
+    /* Prevent layout shift - reserve space */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 /* Define custom styles for the modal */

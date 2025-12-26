@@ -21,6 +21,17 @@
   <noscript>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   </noscript>
+  <style>
+    /* Prevent layout shift during font loading */
+    @font-face {
+      font-family: 'Montserrat';
+      font-display: swap;
+    }
+    /* Reserve space for body to prevent initial shift */
+    body {
+      min-height: 100vh;
+    }
+  </style>
  
   <!-- Preload hero images for different screen sizes -->
   <link rel="preload" as="image" href="/assets/images/big-ben/hero-sec-small.webp" media="(max-width: 800px)" fetchpriority="high" />

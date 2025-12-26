@@ -45,8 +45,10 @@ const Banner = () => {
       <div className="banner-overlay" />
       <div className="banner-content">
         <h1 className="typewriter-headline">
-          <span className="typewriter-text">{displayedText}</span>
-          {!isTypingComplete && <span className="typewriter-cursor">|</span>}
+          <span className="typewriter-text" aria-label={headlineText}>
+            {displayedText}
+            {!isTypingComplete && <span className="typewriter-cursor" aria-hidden="true">|</span>}
+          </span>
         </h1>
         <button className="banner-cta">Start Your Journey</button>
       </div>

@@ -39,6 +39,7 @@ const VisaAssistance = () => {
                 />
                 <img
                   className="card-img card-img-assistance mb-3"
+                  width={300}
                   height={198}
                   src="/assets/images/studentpics/student3.jpg"
                   alt="Student counselling support"

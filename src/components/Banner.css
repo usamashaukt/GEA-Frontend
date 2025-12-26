@@ -5,6 +5,8 @@
     overflow: hidden;
     transition: .4s ease-in-out;
     z-index: 1;
+    /* Prevent layout shift - ensure consistent height */
+    display: block;
 }
 
 .banner-background-image {
@@ -57,19 +59,29 @@
     text-shadow: 0 4px 24px rgba(0,0,0,0.4);
     min-height: 3.5rem;
     font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
-    /* Prevent layout shifts - Solution 1 only */
+    /* Prevent layout shifts - reserve space for full text */
     width: 100%;
     max-width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* Reserve space to prevent layout shift as text types */
+    position: relative;
 }
 
 .typewriter-text {
-    /* Reserve space for complete text */
+    /* Reserve space for complete text to prevent layout shift */
     min-width: 0;
     white-space: nowrap;
     overflow: hidden;
+    display: inline-block;
+    /* Use a fixed width based on the full text to prevent expansion */
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    /* Reserve vertical space */
+    line-height: 1.2;
+    min-height: 1.2em;
 }
 
 .typewriter-cursor {

@@ -121,6 +121,8 @@ const Destinations = () => {
                 alt={destination.name}
                 loading="lazy"
                 decoding="async"
+                width={280}
+                height={185}
                 {...getResponsiveImageProps(destination.image)}
               />
               <Card.ImgOverlay className="d-flex justify-content-center align-items-center">
