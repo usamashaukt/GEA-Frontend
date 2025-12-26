@@ -55,7 +55,7 @@ async function main() {
     inPath: path.join(publicDir, "assets/images/big-ben/hero-sec.webp"),
     outPath: path.join(publicDir, "assets/images/big-ben/hero-sec-1335.webp"),
     width: 1335,
-    quality: 75,
+    quality: 70,
   });
   await writeWebpVariant({
     inPath: path.join(publicDir, "assets/images/big-ben/hero-sec.webp"),
@@ -72,7 +72,7 @@ async function main() {
       "assets/images/Aus-bg/sydney-opera-house-256.webp"
     ),
     width: 256,
-    quality: 70,
+    quality: 65,
   });
   await writeWebpVariant({
     inPath: path.join(publicDir, "assets/images/Aus-bg/sydney-opera-house.webp"),
@@ -81,7 +81,7 @@ async function main() {
       "assets/images/Aus-bg/sydney-opera-house-512.webp"
     ),
     width: 512,
-    quality: 68,
+    quality: 62,
   });
   await writeWebpVariant({
     inPath: path.join(publicDir, "assets/images/Aus-bg/sydney-opera-house.webp"),
@@ -212,13 +212,13 @@ async function main() {
       inPath: usaTempPath,
       outPath: path.join(publicDir, "assets/images/usa/Gamsat-in-USA-256.webp"),
       width: 256,
-      quality: 72,
+      quality: 65,
     });
     await writeWebpVariant({
       inPath: usaTempPath,
       outPath: path.join(publicDir, "assets/images/usa/Gamsat-in-USA-512.webp"),
       width: 512,
-      quality: 74,
+      quality: 62,
     });
     await writeWebpVariant({
       inPath: usaTempPath,
@@ -239,13 +239,13 @@ async function main() {
       inPath: euTempPath,
       outPath: path.join(publicDir, "assets/images/europe/europe-256.webp"),
       width: 256,
-      quality: 72,
+      quality: 65,
     });
     await writeWebpVariant({
       inPath: euTempPath,
       outPath: path.join(publicDir, "assets/images/europe/europe-512.webp"),
       width: 512,
-      quality: 74,
+      quality: 62,
     });
     await writeWebpVariant({
       inPath: euTempPath,

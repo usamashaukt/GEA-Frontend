@@ -33,7 +33,7 @@ const Banner = () => {
                 /assets/images/big-ben/hero-sec-1335.webp 1335w,
                 /assets/images/big-ben/hero-sec-1366.webp 1366w,
                 /assets/images/big-ben/hero-sec.webp 1920w"
-        sizes="100vw"
+        sizes="(max-width: 800px) 100vw, (max-width: 1366px) 100vw, 1335px"
         alt="Hero background"
         className="banner-background-image"
         loading="eager"
