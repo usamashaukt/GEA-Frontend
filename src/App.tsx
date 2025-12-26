@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import WhatsApp from "./components/WhatsApp";
+import Spinner from "./components/Spinner";
 
 const Home = lazy(() => import("./pages/Home/HomePage"));
 const VisaApplication = lazy(() => import("./pages/UnitedKingdom/VisaApplication"));
@@ -16,7 +17,7 @@ function App() {
     <>
       <div>
         <Nav />
-        <Suspense fallback={<div style={{textAlign: 'center', marginTop: '3rem'}}>Loading...</div>}>
+        <Suspense fallback={<Spinner text="Loading page..." />}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/aus" element={<Australia />} />
