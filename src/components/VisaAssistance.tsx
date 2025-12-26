@@ -23,7 +23,7 @@ const VisaAssistance = () => {
   return (
     <div className="visa-assistance-section">
       <div className="container mx-auto text-center">
-        <div className="row justify-content-center">
+      <div className="row justify-content-center">
         {/* University Selection Assistance */}
         <div className="col-lg-3 col-md-6 mb-4">
           <div ref={el => (cardRefs.current[0] = el)} className="card border-primary h-100">
@@ -219,6 +219,7 @@ const VisaAssistance = () => {
                 sessions to provide students with essential information, tips,
                 and resources for a smooth transition to their host country.
               </p>
+            </div>
             </div>
           </div>
         </div>
