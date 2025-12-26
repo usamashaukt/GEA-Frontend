@@ -31,7 +31,9 @@ const Home = () => {
           <Testimonial />
         </Suspense>
       </LazyVisible>
-      <MapSection />
+      <LazyVisible fallback={<div style={{ minHeight: 450 }} />}>
+        <MapSection />
+      </LazyVisible>
       <LazyVisible fallback={<div style={{ minHeight: 120 }} />}> 
         <Suspense fallback={<div style={{ textAlign: "center", marginTop: "2rem" }}>Loading logos…</div>}>
           
