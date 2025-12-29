@@ -34,29 +34,21 @@ export default defineConfig({
         manualChunks: (id) => {
           // Core vendor chunks - critical for initial load
           if (id.includes('node_modules')) {
-            // Keep React and React-DOM together to avoid internals issues
-            // This is critical - they must be in the same chunk
-            if (id.includes('/react/') || id.includes('/react-dom/') || id.includes('/scheduler/')) {
-              return 'react-vendor';
-            }
-            // React-dependent libraries must be in react-vendor to ensure React loads first
+            // Put EVERYTHING that has 'react' in the path into react-vendor
+            // This ensures all React and React-dependent libraries load together
             if (
-              id.includes('react-router') ||
-              id.includes('react-helmet') ||
-              id.includes('react-bootstrap') ||
-              id.includes('react-select') ||
-              id.includes('react-icons') ||
-              id.includes('react-transition-group') ||
-              id.includes('@fortawesome/react-fontawesome') ||
-              id.includes('react-slick')  // Carousel depends on React.PureComponent
+              id.includes('/react') ||
+              id.includes('\\react') ||
+              id.includes('/scheduler/') ||
+              id.includes('\\scheduler\\')
             ) {
               return 'react-vendor';
             }
-            // Slick carousel styles (non-React dependency)
+            // Slick carousel (non-React dependency)
             if (id.includes('slick-carousel')) {
               return 'carousel';
             }
-            // Other vendor code (non-React dependencies)
+            // Everything else goes to vendor
             return 'vendor';
           }
         },
