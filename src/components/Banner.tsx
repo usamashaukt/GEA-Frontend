@@ -35,7 +35,7 @@ const Banner = () => {
         alt="Hero background"
         className="banner-background-image"
         loading="eager"
-        fetchPriority="high"
+        fetchpriority="high"
         width="1920"
         height="1080"
         decoding="async"
