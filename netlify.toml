@@ -32,4 +32,5 @@
   # newer/older hashed assets, causing runtime crashes (e.g. React/ReactDOM mismatch).
   for = "/*"
   [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
+    Cache-Control = "no-store, max-age=0, must-revalidate"
+    Pragma = "no-cache"
