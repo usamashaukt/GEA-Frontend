@@ -47,12 +47,13 @@ export default defineConfig({
               id.includes('react-select') ||
               id.includes('react-icons') ||
               id.includes('react-transition-group') ||
-              id.includes('@fortawesome/react-fontawesome')
+              id.includes('@fortawesome/react-fontawesome') ||
+              id.includes('react-slick')  // Carousel depends on React.PureComponent
             ) {
               return 'react-vendor';
             }
-            // Carousel - lazy loaded component
-            if (id.includes('react-slick') || id.includes('slick-carousel')) {
+            // Slick carousel styles (non-React dependency)
+            if (id.includes('slick-carousel')) {
               return 'carousel';
             }
             // Other vendor code (non-React dependencies)
