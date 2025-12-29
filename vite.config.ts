@@ -31,34 +31,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: (id) => {
-          // Core vendor chunks - critical for initial load
-          if (id.includes('node_modules')) {
-            // Put EVERYTHING that has 'react' in the path into react-vendor
-            // This ensures all React and React-dependent libraries load together
-            if (
-              id.includes('/react') ||
-              id.includes('\\react') ||
-              id.includes('/scheduler/') ||
-              id.includes('\\scheduler\\')
-            ) {
-              return 'react-vendor';
-            }
-            // Slick carousel (non-React dependency)
-            if (id.includes('slick-carousel')) {
-              return 'carousel';
-            }
-            // Everything else goes to vendor
-            return 'vendor';
-          }
-        },
-        // Ensure react-vendor loads before other chunks
-        chunkFileNames: (chunkInfo) => {
-          if (chunkInfo.name === 'react-vendor') {
-            return 'assets/react-vendor-[hash].js';
-          }
-          return 'assets/[name]-[hash].js';
-        },
+        // Let Vite automatically handle chunking
+        // This prevents React loading order issues
+        manualChunks: undefined,
       },
     },
     chunkSizeWarningLimit: 1000,
