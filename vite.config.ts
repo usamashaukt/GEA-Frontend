@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import viteCompression from 'vite-plugin-compression'
+import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -19,47 +20,35 @@ export default defineConfig({
       deleteOriginFile: false,
     }),
   ],
+  resolve: {
+    alias: {
+      // Force a single React instance to prevent version mismatch errors
+      'react': path.resolve(__dirname, './node_modules/react'),
+      'react-dom': path.resolve(__dirname, './node_modules/react-dom'),
+    },
+    dedupe: ['react', 'react-dom'],
+  },
   build: {
     rollupOptions: {
       output: {
         manualChunks: (id) => {
           // Core vendor chunks - critical for initial load
           if (id.includes('node_modules')) {
-            // React core - separate react and react-dom for better caching
-            if (id.includes('react/') || id.includes('react/index')) {
-              return 'react-core';
-            }
-            if (id.includes('react-dom')) {
-              return 'react-dom';
+            // Keep React and React-DOM together to avoid internals issues
+            // This is critical - they must be in the same chunk
+            if (id.includes('/react/') || id.includes('/react-dom/') || id.includes('/scheduler/')) {
+              return 'react-vendor';
             }
             // Router - needed early for navigation
             if (id.includes('react-router')) {
               return 'router';
             }
-            // React-Bootstrap components (minimal)
-            if (id.includes('react-bootstrap')) {
-              return 'bootstrap';
-            }
-            // Icons - defer loading
-            if (id.includes('@fortawesome') || id.includes('react-icons')) {
-              return 'icons';
-            }
             // Carousel - lazy loaded component
             if (id.includes('react-slick') || id.includes('slick-carousel')) {
               return 'carousel';
             }
-            // Swiper - lazy loaded component
-            if (id.includes('swiper')) {
-              return 'swiper';
-            }
-            // Helmet - needed early
-            if (id.includes('react-helmet')) {
-              return 'helmet';
-            }
-            // Scheduler (used by React) - keep with react-core
-            if (id.includes('scheduler')) {
-              return 'react-core';
-            }
+            // Other vendor code
+            return 'vendor';
           }
         },
       },
@@ -86,6 +75,7 @@ export default defineConfig({
       'react-helmet-async',
     ],
     exclude: ['@fortawesome/fontawesome-svg-core'],
+    force: true, // Force re-optimization
   },
   esbuild: {
     legalComments: 'none',
