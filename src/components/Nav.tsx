@@ -12,6 +12,7 @@ const Nav = () => {
   // Defer Bootstrap JS loading until idle to keep initial bundle lean
   useEffect(() => {
     const loadBootstrap = () => {
+      // @ts-expect-error - Bootstrap bundle doesn't have TypeScript definitions
       import("bootstrap/dist/js/bootstrap.bundle.min").catch(() => {});
     };
     if ("requestIdleCallback" in window) {
