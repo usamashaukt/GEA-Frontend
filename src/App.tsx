@@ -25,11 +25,24 @@ function App() {
       }, 800);
     };
 
-    if (document.readyState === 'complete') {
+    // Check if document is already loaded
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
       handleLoad();
     } else {
-      window.addEventListener('load', handleLoad);
-      return () => window.removeEventListener('load', handleLoad);
+      // Fallback: ensure loading state clears even if load event doesn't fire
+      const fallbackTimer = setTimeout(() => {
+        setIsInitialLoading(false);
+      }, 2000);
+      
+      window.addEventListener('load', () => {
+        clearTimeout(fallbackTimer);
+        handleLoad();
+      });
+      
+      return () => {
+        clearTimeout(fallbackTimer);
+        window.removeEventListener('load', handleLoad);
+      };
     }
   }, []);
 
