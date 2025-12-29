@@ -39,17 +39,32 @@ export default defineConfig({
             if (id.includes('/react/') || id.includes('/react-dom/') || id.includes('/scheduler/')) {
               return 'react-vendor';
             }
-            // Router - needed early for navigation
-            if (id.includes('react-router')) {
-              return 'router';
+            // React-dependent libraries must be in react-vendor to ensure React loads first
+            if (
+              id.includes('react-router') ||
+              id.includes('react-helmet') ||
+              id.includes('react-bootstrap') ||
+              id.includes('react-select') ||
+              id.includes('react-icons') ||
+              id.includes('react-transition-group') ||
+              id.includes('@fortawesome/react-fontawesome')
+            ) {
+              return 'react-vendor';
             }
             // Carousel - lazy loaded component
             if (id.includes('react-slick') || id.includes('slick-carousel')) {
               return 'carousel';
             }
-            // Other vendor code
+            // Other vendor code (non-React dependencies)
             return 'vendor';
           }
+        },
+        // Ensure react-vendor loads before other chunks
+        chunkFileNames: (chunkInfo) => {
+          if (chunkInfo.name === 'react-vendor') {
+            return 'assets/react-vendor-[hash].js';
+          }
+          return 'assets/[name]-[hash].js';
         },
       },
     },

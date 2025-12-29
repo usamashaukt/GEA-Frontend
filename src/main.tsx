@@ -1,10 +1,13 @@
-import App from "./App.tsx";
-import "./styles/bootstrap-minimal.css";
-import "./App.css"
+// Import React first to ensure it's available before any other code runs
 import * as React from "react";
 import { createRoot } from "react-dom/client";
+// Import React-dependent libraries after React
 import { BrowserRouter } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
+// Import app code
+import App from "./App.tsx";
+import "./styles/bootstrap-minimal.css";
+import "./App.css";
 
 // Error boundary component
 class ErrorBoundary extends React.Component<
