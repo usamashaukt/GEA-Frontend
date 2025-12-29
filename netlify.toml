@@ -27,6 +27,9 @@
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
-  for = "/*.html"
+  # SPA routes (/, /uk, /aus, etc.) are served by index.html via redirects.
+  # Ensure HTML is not cached, otherwise users may get stale HTML pointing to
+  # newer/older hashed assets, causing runtime crashes (e.g. React/ReactDOM mismatch).
+  for = "/*"
   [headers.values]
-    Cache-Control = "public, max-age=3600, must-revalidate"
+    Cache-Control = "public, max-age=0, must-revalidate"
