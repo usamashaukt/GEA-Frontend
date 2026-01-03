@@ -42,9 +42,30 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        // Let Vite automatically handle chunking
-        // This prevents React loading order issues
-        manualChunks: undefined,
+        // Optimize chunk splitting for better performance
+        manualChunks: (id) => {
+          // Separate vendor chunks
+          if (id.includes('node_modules')) {
+            if (id.includes('react') || id.includes('react-dom')) {
+              return 'react-vendor';
+            }
+            if (id.includes('motion')) {
+              return 'motion-vendor';
+            }
+            if (id.includes('lucide-react')) {
+              return 'icons-vendor';
+            }
+            if (id.includes('react-slick') || id.includes('slick-carousel')) {
+              return 'carousel-vendor';
+            }
+            // Other vendor libraries
+            return 'vendor';
+          }
+        },
+        // Optimize chunk file names
+        chunkFileNames: 'assets/js/[name]-[hash].js',
+        entryFileNames: 'assets/js/[name]-[hash].js',
+        assetFileNames: 'assets/[ext]/[name]-[hash].[ext]',
       },
     },
     chunkSizeWarningLimit: 1000,
@@ -60,6 +81,10 @@ export default defineConfig({
         safari10: true,
       },
     },
+    // Enable source maps for production debugging (optional, can disable for smaller bundle)
+    sourcemap: false,
+    // Optimize asset inlining threshold
+    assetsInlineLimit: 4096,
   },
   optimizeDeps: {
     include: [
