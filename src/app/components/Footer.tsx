@@ -15,12 +15,6 @@ export function Footer() {
     { name: 'Europe', href: '#countries' },
   ];
 
-  const services = [
-    { name: 'University Selection', href: '#services' },
-    { name: 'Visa Guidance', href: '#services' },
-    { name: 'SOP Writing', href: '#services' },
-    { name: 'Scholarship Assistance', href: '#services' },
-  ];
 
   return (
     <footer className="bg-[#16213e] border-t-2 border-[#B00020]">

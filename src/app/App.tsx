@@ -3,6 +3,7 @@ import { Hero } from './components/Hero';
 import { Countries } from './components/Countries';
 import { Services } from './components/Services';
 import { WhyUs } from './components/WhyUs';
+import { UniversitySlider } from './components/UniversitySlider';
 import { Process } from './components/Process';
 import { Contact } from './components/Contact';
 import { CTA } from './components/CTA';
@@ -17,6 +18,7 @@ export default function App() {
       <Countries />
       <Services />
       <WhyUs />
+      <UniversitySlider />
       <Process />
       <Contact />
       <CTA />

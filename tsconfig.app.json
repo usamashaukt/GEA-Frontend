@@ -23,5 +23,10 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": [
+    "src/components_OLD_BACKUP",
+    "src/pages_OLD_BACKUP",
+    "node_modules"
+  ]
 }
