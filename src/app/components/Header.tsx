@@ -6,43 +6,61 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'Countries', href: '#countries' },
-    { name: 'Services', href: '#services' },
-    { name: 'Why Us', href: '#why-us' },
-    { name: 'Process', href: '#process' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Home', id: 'home' },
+    { name: 'Countries', id: 'countries' },
+    { name: 'Services', id: 'services' },
+    { name: 'Why Us', id: 'why-us' },
+    { name: 'Process', id: 'process' },
+    { name: 'Contact', id: 'contact' },
   ];
+
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      const headerOffset = 80; // Account for fixed header
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
+    }
+    setIsMenuOpen(false);
+  };
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#1a1a2e]/95 backdrop-blur-sm border-b border-[#B00020]/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <a href="#home" className="flex items-center space-x-2">
+          <button
+            onClick={() => scrollToSection('home')}
+            className="flex items-center space-x-2 cursor-pointer"
+          >
             <div className="text-2xl font-bold">
               <span className="text-white">HU</span>
               <span className="text-[#B00020]"> Consultants</span>
             </div>
-          </a>
+          </button>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
-              <a
+              <button
                 key={link.name}
-                href={link.href}
-                className="text-[#c7c7d9] hover:text-[#B00020] transition-colors duration-300"
+                onClick={() => scrollToSection(link.id)}
+                className="text-[#c7c7d9] hover:text-[#B00020] transition-colors duration-300 cursor-pointer"
               >
                 {link.name}
-              </a>
+              </button>
             ))}
-            <a
-              href="#contact"
-              className="px-6 py-2 bg-[#B00020] text-white rounded-lg hover:bg-[#8e0019] transition-colors duration-300"
+            <button
+              onClick={() => scrollToSection('contact')}
+              className="px-6 py-2 bg-[#B00020] text-white rounded-lg hover:bg-[#8e0019] transition-colors duration-300 cursor-pointer"
             >
               Apply Now
-            </a>
+            </button>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -67,22 +85,20 @@ export function Header() {
           >
             <nav className="px-4 py-4 space-y-4">
               {navLinks.map((link) => (
-                <a
+                <button
                   key={link.name}
-                  href={link.href}
-                  onClick={() => setIsMenuOpen(false)}
-                  className="block text-[#c7c7d9] hover:text-[#B00020] transition-colors duration-300"
+                  onClick={() => scrollToSection(link.id)}
+                  className="block w-full text-left text-[#c7c7d9] hover:text-[#B00020] transition-colors duration-300 cursor-pointer"
                 >
                   {link.name}
-                </a>
+                </button>
               ))}
-              <a
-                href="#contact"
-                onClick={() => setIsMenuOpen(false)}
-                className="block px-6 py-2 bg-[#B00020] text-white rounded-lg text-center hover:bg-[#8e0019] transition-colors duration-300"
+              <button
+                onClick={() => scrollToSection('contact')}
+                className="block w-full px-6 py-2 bg-[#B00020] text-white rounded-lg text-center hover:bg-[#8e0019] transition-colors duration-300 cursor-pointer"
               >
                 Apply Now
-              </a>
+              </button>
             </nav>
           </motion.div>
         )}

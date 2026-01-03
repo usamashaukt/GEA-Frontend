@@ -2,18 +2,32 @@ import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'luc
 
 export function Footer() {
   const quickLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'Services', href: '#services' },
-    { name: 'About Us', href: '#why-us' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Home', id: 'home' },
+    { name: 'Services', id: 'services' },
+    { name: 'About Us', id: 'why-us' },
+    { name: 'Contact', id: 'contact' },
   ];
 
   const countries = [
-    { name: 'United Kingdom', href: '#countries' },
-    { name: 'United States', href: '#countries' },
-    { name: 'Canada', href: '#countries' },
-    { name: 'Europe', href: '#countries' },
+    { name: 'United Kingdom', id: 'countries' },
+    { name: 'United States', id: 'countries' },
+    { name: 'Canada', id: 'countries' },
+    { name: 'Europe', id: 'countries' },
   ];
+
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      const headerOffset = 80; // Account for fixed header
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
+    }
+  };
 
 
   return (
@@ -67,12 +81,12 @@ export function Footer() {
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="text-[#c7c7d9] hover:text-[#B00020] transition-colors duration-300"
+                  <button
+                    onClick={() => scrollToSection(link.id)}
+                    className="text-[#c7c7d9] hover:text-[#B00020] transition-colors duration-300 cursor-pointer"
                   >
                     {link.name}
-                  </a>
+                  </button>
                 </li>
               ))}
             </ul>
@@ -84,12 +98,12 @@ export function Footer() {
             <ul className="space-y-2">
               {countries.map((country) => (
                 <li key={country.name}>
-                  <a
-                    href={country.href}
-                    className="text-[#c7c7d9] hover:text-[#B00020] transition-colors duration-300"
+                  <button
+                    onClick={() => scrollToSection(country.id)}
+                    className="text-[#c7c7d9] hover:text-[#B00020] transition-colors duration-300 cursor-pointer"
                   >
                     {country.name}
-                  </a>
+                  </button>
                 </li>
               ))}
             </ul>
