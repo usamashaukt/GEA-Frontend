@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 import viteCompression from 'vite-plugin-compression'
 import { fileURLToPath, URL } from 'node:url'
 
@@ -7,6 +8,7 @@ import { fileURLToPath, URL } from 'node:url'
 export default defineConfig({
   plugins: [
     react(),
+    tailwindcss(),
     viteCompression({
       algorithm: 'gzip',
       ext: '.gz',
@@ -20,6 +22,15 @@ export default defineConfig({
       deleteOriginFile: false,
     }),
   ],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:5000',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ''),
+      },
+    },
+  },
   resolve: {
     alias: {
       // Force a single React instance to prevent version mismatch errors
@@ -54,10 +65,9 @@ export default defineConfig({
     include: [
       'react',
       'react-dom',
-      'react-router-dom',
-      'react-helmet-async',
+      'motion',
+      'lucide-react',
     ],
-    exclude: ['@fortawesome/fontawesome-svg-core'],
     force: true, // Force re-optimization
   },
   esbuild: {
