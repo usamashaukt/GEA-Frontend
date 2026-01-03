@@ -63,7 +63,7 @@ export function UniversitySlider() {
   };
 
   return (
-    <section className="py-20 bg-[#16213e]">
+    <section className="py-20 bg-[#16213e] overflow-x-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -185,6 +185,16 @@ export function UniversitySlider() {
         .university-slider-container .slick-prev:hover:before,
         .university-slider-container .slick-next:hover:before {
           opacity: 1;
+        }
+
+        @media (min-width: 1400px) {
+          .university-slider-container .slick-prev {
+            left: -15px;
+          }
+
+          .university-slider-container .slick-next {
+            right: -15px;
+          }
         }
 
         @media (max-width: 1024px) {

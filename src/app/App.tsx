@@ -33,7 +33,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#1a1a2e]">
+    <div className="min-h-screen bg-[#1a1a2e] overflow-x-hidden">
       <Header />
       <Hero />
       <Countries />
