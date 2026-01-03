@@ -22,7 +22,7 @@ const universities = [
 
 export function UniversitySlider() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 5,
@@ -160,20 +160,6 @@ export function UniversitySlider() {
       </div>
 
       <style>{`
-        .university-slider-container .slick-dots {
-          bottom: -50px;
-        }
-
-        .university-slider-container .slick-dots li button:before {
-          color: #c7c7d9;
-          opacity: 0.5;
-        }
-
-        .university-slider-container .slick-dots li.slick-active button:before {
-          color: #B00020;
-          opacity: 1;
-        }
-
         .university-slider-container .slick-prev,
         .university-slider-container .slick-next {
           width: 40px;
