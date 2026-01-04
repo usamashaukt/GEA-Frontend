@@ -162,56 +162,7 @@ export function UniversitySlider() {
       <style>{`
         .university-slider-container .slick-prev,
         .university-slider-container .slick-next {
-          width: 40px;
-          height: 40px;
-          z-index: 10;
-        }
-
-        .university-slider-container .slick-prev {
-          left: -50px;
-        }
-
-        .university-slider-container .slick-next {
-          right: -50px;
-        }
-
-        .university-slider-container .slick-prev:before,
-        .university-slider-container .slick-next:before {
-          font-size: 40px;
-          color: #B00020;
-          opacity: 0.75;
-        }
-
-        .university-slider-container .slick-prev:hover:before,
-        .university-slider-container .slick-next:hover:before {
-          opacity: 1;
-        }
-
-        @media (min-width: 1400px) {
-          .university-slider-container .slick-prev {
-            left: -15px;
-          }
-
-          .university-slider-container .slick-next {
-            right: -15px;
-          }
-        }
-
-        @media (max-width: 1024px) {
-          .university-slider-container .slick-prev {
-            left: -30px;
-          }
-
-          .university-slider-container .slick-next {
-            right: -30px;
-          }
-        }
-
-        @media (max-width: 768px) {
-          .university-slider-container .slick-prev,
-          .university-slider-container .slick-next {
-            display: none !important;
-          }
+          display: none !important;
         }
       `}</style>
     </section>
